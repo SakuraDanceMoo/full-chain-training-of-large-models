@@ -1,0 +1,13 @@
+{
+  "directory": "09_encoder_decoder",
+  "title": "已有 Encoder-Decoder 基础",
+  "status": "inherited",
+  "goal": "归档已有 Seq2Seq、注意力、Transformer、BERT 学习代码和历史曲线。",
+  "next_stage": "01_tokenizer",
+  "acceptance_files": [
+    "scripts/seq2seq.py",
+    "scripts/bert.py",
+    "data/raw/eng_fra_songs.txt",
+    "curves/transformer_loss.png"
+  ]
+}

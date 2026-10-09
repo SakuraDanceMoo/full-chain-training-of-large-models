@@ -1,0 +1,5 @@
+# Install into a dedicated environment; choose a matching CUDA torch build if needed.
+torch==2.8.0
+matplotlib==3.11.2
+sentencepiece==0.2.2
+numpy==2.4.6

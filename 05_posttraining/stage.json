@@ -1,0 +1,14 @@
+{
+  "directory": "05_posttraining",
+  "title": "后训练与对齐",
+  "status": "planned",
+  "goal": "固定同一基座与评测，对照 SFT/DPO/RLVR、LoRA/QLoRA/Adapter。",
+  "next_stage": "06_agent",
+  "acceptance_files": [
+    "scripts/train_sft.py",
+    "scripts/train_dpo.py",
+    "scripts/train_rlvr.py",
+    "logs/evaluation_metrics.csv",
+    "curves/alignment_comparison.png"
+  ]
+}

@@ -1,0 +1,9 @@
+corpus: D:\AgentProject2026\Full-chain Training of Large Models\01_tokenizer\data\raw\eng_fra_songs.txt
+sentences: 1132
+vocab size: 512
+merge rules: 180
+tokens: ['B', 'ea', 'u', 't', 'y ', 'and ', 'a ', 'b', 'ea', 't .']
+ids: [2, 268, 370, 311, 310, 353, 389, 344, 292, 370, 490, 3]
+decoded: Beauty and a beat .
+lossless: True
+saved vocabulary: D:\AgentProject2026\Full-chain Training of Large Models\01_tokenizer\models\bpe_full_corpus_512.json

@@ -1,0 +1,13 @@
+{
+  "directory": "01_tokenizer",
+  "title": "Tokenizer",
+  "status": "implemented",
+  "goal": "训练 BPE，与官方 SentencePiece Unigram 对照，保证原文可逆。",
+  "next_stage": "02_gpt",
+  "acceptance_files": [
+    "scripts/tokenizer.py",
+    "scripts/evaluate_tokenizers.py",
+    "logs/experiment_manifest.json",
+    "curves/tokenizer_compression_curve.png"
+  ]
+}

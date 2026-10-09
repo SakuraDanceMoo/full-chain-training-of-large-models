@@ -1,0 +1,96 @@
+{
+  "tracked_file_count_before_this_receipt": 132,
+  "checks": [
+    {
+      "path": "01_tokenizer/curves/tokenizer_compression_curve.png",
+      "sha256": "0b98608b62944637599b758395a11d553b1836a512dc76930baca79974a6335b",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "01_tokenizer/data/raw/eng_fra_songs.txt",
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "01_tokenizer/models/unigram_1024.model",
+      "sha256": "be4aeddf1cbf86c2bc3cc85fd001481a1bc243c333dd76845c312af650ebb3da",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "01_tokenizer/models/unigram_384.model",
+      "sha256": "0d8b6baa26a862d1d87546b1b3babf957378160267cb806116b55edced6d77f2",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "01_tokenizer/models/unigram_512.model",
+      "sha256": "d4d9dd4e8c50a710ecaf5680db17dc4fa353e1b1314ede8802bd69c6c44684cd",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "01_tokenizer/models/unigram_640.model",
+      "sha256": "9af1eaa493bd5d25dfe3233db5e9664d99482351c6d21879bb9dbcfbe071fb20",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "01_tokenizer/models/unigram_768.model",
+      "sha256": "ffed35f0f67d685d2a03997580ecf11ffa75c29ffd44fb7b9c2e7b824677291f",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "02_gpt/data/raw/README.md",
+      "sha256": "707534fc46cde39e3b9571f72994f9dd54412f8101b15fd8dfa8a8a979f1fc93",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "03_pretraining/data/raw/README.md",
+      "sha256": "707534fc46cde39e3b9571f72994f9dd54412f8101b15fd8dfa8a8a979f1fc93",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "04_systems_scaling/data/raw/README.md",
+      "sha256": "707534fc46cde39e3b9571f72994f9dd54412f8101b15fd8dfa8a8a979f1fc93",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "05_posttraining/data/raw/README.md",
+      "sha256": "707534fc46cde39e3b9571f72994f9dd54412f8101b15fd8dfa8a8a979f1fc93",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "06_agent/data/raw/README.md",
+      "sha256": "707534fc46cde39e3b9571f72994f9dd54412f8101b15fd8dfa8a8a979f1fc93",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "09_encoder_decoder/curves/attention_loss.png",
+      "sha256": "7f93cfcb75bcd382014dea9de426f015ab102eed816ead1a618c2804279cbb70",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "09_encoder_decoder/curves/seq2seq_loss.png",
+      "sha256": "63b74ce7d53d9d2ad976d3c344f240886c629b08417a91f540ef948c84d6e5cb",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "09_encoder_decoder/curves/transformer_loss.png",
+      "sha256": "7eeb3855366c4488b667e2e1422936c14582db04c1993d5145c852a2eacd9cf1",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "09_encoder_decoder/data/raw/eng_fra.txt",
+      "sha256": "f3c1b18e6109f52a2840bc4c48dbbb3c20ab35af77551e4a83987dc08678205f",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "09_encoder_decoder/data/raw/eng_fra_songs.txt",
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
+      "index_preserves_original_bytes": true
+    },
+    {
+      "path": "docs/learning_roadmap.png",
+      "sha256": "09a8c6a125a1da3dc307ea315d1ac2f98a17378cd41e9797737613aef5a2635d",
+      "index_preserves_original_bytes": true
+    }
+  ],
+  "all_passed": true
+}

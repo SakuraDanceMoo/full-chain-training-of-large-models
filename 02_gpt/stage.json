@@ -1,0 +1,12 @@
+{
+  "directory": "02_gpt",
+  "title": "Decoder-only 与 Mini-GPT",
+  "status": "planned",
+  "goal": "实现因果掩码、next-token loss、采样与 KV Cache；小语料上验证 loss 下降。",
+  "next_stage": "03_pretraining",
+  "acceptance_files": [
+    "scripts/minigpt.py",
+    "logs/training_metrics.csv",
+    "curves/training_loss.png"
+  ]
+}

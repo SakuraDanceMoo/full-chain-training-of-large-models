@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-10-09T22:51:37.372193+08:00",
+  "finished_at": "2026-10-09T22:52:03.276390+08:00",
+  "timezone": "Asia/Hong_Kong",
+  "steps": [
+    {
+      "command": "python 01_tokenizer/scripts/test_tokenizer.py",
+      "exit_code": 0,
+      "log": "01_tokenizer/logs/test_run.log"
+    },
+    {
+      "command": "python 01_tokenizer/scripts/demo.py",
+      "exit_code": 0,
+      "log": "01_tokenizer/logs/demo_run.log"
+    },
+    {
+      "command": "python 01_tokenizer/scripts/evaluate_tokenizers.py",
+      "exit_code": 0,
+      "log": "01_tokenizer/logs/evaluation_run.log"
+    }
+  ],
+  "passed": true
+}

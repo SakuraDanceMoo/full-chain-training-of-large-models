@@ -1,0 +1,12 @@
+566 pairs, 904 training / 228 held-out sentences
+bpe: requested=384, actual=384, held_out chars/token=1.5404
+sentencepiece_unigram: requested=384, actual=384, held_out chars/token=1.4539
+bpe: requested=512, actual=512, held_out chars/token=1.9874
+sentencepiece_unigram: requested=512, actual=512, held_out chars/token=1.8056
+bpe: requested=640, actual=640, held_out chars/token=2.2615
+sentencepiece_unigram: requested=640, actual=640, held_out chars/token=1.9610
+bpe: requested=768, actual=768, held_out chars/token=2.4440
+sentencepiece_unigram: requested=768, actual=768, held_out chars/token=2.0727
+bpe: requested=1024, actual=1024, held_out chars/token=2.7042
+sentencepiece_unigram: requested=1024, actual=1024, held_out chars/token=2.2356
+Saved models, frequency logs, curves, and report to D:\AgentProject2026\Full-chain Training of Large Models\01_tokenizer

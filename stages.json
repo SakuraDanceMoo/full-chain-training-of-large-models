@@ -1,0 +1,94 @@
+[
+  {
+    "directory": "01_tokenizer",
+    "title": "Tokenizer",
+    "status": "implemented",
+    "goal": "训练 BPE，与官方 SentencePiece Unigram 对照，保证原文可逆。",
+    "next_stage": "02_gpt",
+    "acceptance_files": [
+      "scripts/tokenizer.py",
+      "scripts/evaluate_tokenizers.py",
+      "logs/experiment_manifest.json",
+      "curves/tokenizer_compression_curve.png"
+    ]
+  },
+  {
+    "directory": "02_gpt",
+    "title": "Decoder-only 与 Mini-GPT",
+    "status": "planned",
+    "goal": "实现因果掩码、next-token loss、采样与 KV Cache；小语料上验证 loss 下降。",
+    "next_stage": "03_pretraining",
+    "acceptance_files": [
+      "scripts/minigpt.py",
+      "logs/training_metrics.csv",
+      "curves/training_loss.png"
+    ]
+  },
+  {
+    "directory": "03_pretraining",
+    "title": "0.1B 端到端预训练",
+    "status": "planned",
+    "goal": "完成数据清洗、混合精度/梯度累积、checkpoint、PPL 与复现配置。",
+    "next_stage": "04_systems_scaling",
+    "acceptance_files": [
+      "scripts/train.py",
+      "scripts/evaluate.py",
+      "logs/training_metrics.csv",
+      "curves/training_loss.png"
+    ]
+  },
+  {
+    "directory": "04_systems_scaling",
+    "title": "系统优化与 Scaling Law",
+    "status": "planned",
+    "goal": "实现 Triton 注意力正确性/性能对照，多卡训练与 L(N)/L(D) 拟合。",
+    "next_stage": "05_posttraining",
+    "acceptance_files": [
+      "scripts/attention_kernel.py",
+      "scripts/benchmark.py",
+      "scripts/fit_scaling.py",
+      "logs/benchmark_metrics.csv",
+      "curves/scaling_law.png"
+    ]
+  },
+  {
+    "directory": "05_posttraining",
+    "title": "后训练与对齐",
+    "status": "planned",
+    "goal": "固定同一基座与评测，对照 SFT/DPO/RLVR、LoRA/QLoRA/Adapter。",
+    "next_stage": "06_agent",
+    "acceptance_files": [
+      "scripts/train_sft.py",
+      "scripts/train_dpo.py",
+      "scripts/train_rlvr.py",
+      "logs/evaluation_metrics.csv",
+      "curves/alignment_comparison.png"
+    ]
+  },
+  {
+    "directory": "06_agent",
+    "title": "长程 Agent 与自我评估",
+    "status": "planned",
+    "goal": "建立可验证任务环境与 harness，记录工具轨迹、反思及任务成功率。",
+    "next_stage": null,
+    "acceptance_files": [
+      "scripts/agent.py",
+      "scripts/evaluate.py",
+      "logs/trajectories.jsonl",
+      "curves/success_rate.png"
+    ]
+  },
+  {
+    "directory": "09_encoder_decoder",
+    "title": "已有 Encoder-Decoder 基础",
+    "status": "inherited",
+    "goal": "归档已有 Seq2Seq、注意力、Transformer、BERT 学习代码和历史曲线。",
+    "next_stage": "01_tokenizer",
+    "acceptance_files": [
+      "scripts/seq2seq.py",
+      "scripts/bert.py",
+      "data/raw/eng_fra_songs.txt",
+      "curves/transformer_loss.png"
+    ]
+  }
+]

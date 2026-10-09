@@ -1,0 +1,133 @@
+{
+  "repository_structure_and_hash_checks_passed": true,
+  "stages": [
+    {
+      "stage": "01_tokenizer",
+      "declared_status": "implemented",
+      "layout_ok": true,
+      "missing_layout": [],
+      "missing_acceptance_artifacts": [],
+      "artifact_gate_passed": true
+    },
+    {
+      "stage": "02_gpt",
+      "declared_status": "planned",
+      "layout_ok": true,
+      "missing_layout": [],
+      "missing_acceptance_artifacts": [
+        "scripts/minigpt.py",
+        "logs/training_metrics.csv",
+        "curves/training_loss.png"
+      ],
+      "artifact_gate_passed": false
+    },
+    {
+      "stage": "03_pretraining",
+      "declared_status": "planned",
+      "layout_ok": true,
+      "missing_layout": [],
+      "missing_acceptance_artifacts": [
+        "scripts/train.py",
+        "scripts/evaluate.py",
+        "logs/training_metrics.csv",
+        "curves/training_loss.png"
+      ],
+      "artifact_gate_passed": false
+    },
+    {
+      "stage": "04_systems_scaling",
+      "declared_status": "planned",
+      "layout_ok": true,
+      "missing_layout": [],
+      "missing_acceptance_artifacts": [
+        "scripts/attention_kernel.py",
+        "scripts/benchmark.py",
+        "scripts/fit_scaling.py",
+        "logs/benchmark_metrics.csv",
+        "curves/scaling_law.png"
+      ],
+      "artifact_gate_passed": false
+    },
+    {
+      "stage": "05_posttraining",
+      "declared_status": "planned",
+      "layout_ok": true,
+      "missing_layout": [],
+      "missing_acceptance_artifacts": [
+        "scripts/train_sft.py",
+        "scripts/train_dpo.py",
+        "scripts/train_rlvr.py",
+        "logs/evaluation_metrics.csv",
+        "curves/alignment_comparison.png"
+      ],
+      "artifact_gate_passed": false
+    },
+    {
+      "stage": "06_agent",
+      "declared_status": "planned",
+      "layout_ok": true,
+      "missing_layout": [],
+      "missing_acceptance_artifacts": [
+        "scripts/agent.py",
+        "scripts/evaluate.py",
+        "logs/trajectories.jsonl",
+        "curves/success_rate.png"
+      ],
+      "artifact_gate_passed": false
+    },
+    {
+      "stage": "09_encoder_decoder",
+      "declared_status": "inherited",
+      "layout_ok": true,
+      "missing_layout": [],
+      "missing_acceptance_artifacts": [],
+      "artifact_gate_passed": true
+    }
+  ],
+  "python_syntax_checked": [
+    "__init__.py",
+    "01_tokenizer/__init__.py",
+    "01_tokenizer/scripts/check_stage.py",
+    "01_tokenizer/scripts/corpus.py",
+    "01_tokenizer/scripts/demo.py",
+    "01_tokenizer/scripts/evaluate_tokenizers.py",
+    "01_tokenizer/scripts/sentencepiece_tokenizer.py",
+    "01_tokenizer/scripts/test_tokenizer.py",
+    "01_tokenizer/scripts/tokenizer.py",
+    "01_tokenizer/scripts/__init__.py",
+    "02_gpt/scripts/check_stage.py",
+    "03_pretraining/scripts/check_stage.py",
+    "04_systems_scaling/scripts/check_stage.py",
+    "05_posttraining/scripts/check_stage.py",
+    "06_agent/scripts/check_stage.py",
+    "09_encoder_decoder/scripts/attention_mechanism.py",
+    "09_encoder_decoder/scripts/bert.py",
+    "09_encoder_decoder/scripts/check_stage.py",
+    "09_encoder_decoder/scripts/encoder_decoder.py",
+    "09_encoder_decoder/scripts/machine_translation.py",
+    "09_encoder_decoder/scripts/seq2seq.py",
+    "09_encoder_decoder/scripts/transformer.py",
+    "09_encoder_decoder/scripts/__init__.py",
+    "scripts/run_stage1.py",
+    "scripts/verify_foundation.py",
+    "scripts/verify_repository.py"
+  ],
+  "raw_data_hash_checks": [
+    {
+      "path": "01_tokenizer/data/raw/eng_fra_songs.txt",
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
+      "matches_manifest": true
+    },
+    {
+      "path": "09_encoder_decoder/data/raw/eng_fra.txt",
+      "sha256": "f3c1b18e6109f52a2840bc4c48dbbb3c20ab35af77551e4a83987dc08678205f",
+      "matches_manifest": true
+    },
+    {
+      "path": "09_encoder_decoder/data/raw/eng_fra_songs.txt",
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
+      "matches_manifest": true
+    }
+  ],
+  "note": "Planned stages have explicit missing deliverables; layout readiness is not experiment completion."
+}

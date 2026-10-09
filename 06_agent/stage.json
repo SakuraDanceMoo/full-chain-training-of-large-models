@@ -1,0 +1,13 @@
+{
+  "directory": "06_agent",
+  "title": "长程 Agent 与自我评估",
+  "status": "planned",
+  "goal": "建立可验证任务环境与 harness，记录工具轨迹、反思及任务成功率。",
+  "next_stage": null,
+  "acceptance_files": [
+    "scripts/agent.py",
+    "scripts/evaluate.py",
+    "logs/trajectories.jsonl",
+    "curves/success_rate.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "directory": "04_systems_scaling",
+  "title": "系统优化与 Scaling Law",
+  "status": "planned",
+  "goal": "实现 Triton 注意力正确性/性能对照，多卡训练与 L(N)/L(D) 拟合。",
+  "next_stage": "05_posttraining",
+  "acceptance_files": [
+    "scripts/attention_kernel.py",
+    "scripts/benchmark.py",
+    "scripts/fit_scaling.py",
+    "logs/benchmark_metrics.csv",
+    "curves/scaling_law.png"
+  ]
+}

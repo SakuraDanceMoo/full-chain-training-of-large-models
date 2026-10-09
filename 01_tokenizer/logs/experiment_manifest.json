@@ -1,0 +1,20 @@
+{
+  "corpus": "01_tokenizer/data/raw/eng_fra_songs.txt",
+  "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
+  "pairs": 566,
+  "seed": 42,
+  "training_sentences": 904,
+  "split_method": "group aligned pairs connected by exact repeated sentences, then 80/20",
+  "exact_sentence_overlap": 0,
+  "held_out_sentences": 228,
+  "vocab_sizes": [
+    384,
+    512,
+    640,
+    768,
+    1024
+  ],
+  "metric": "sum Unicode code points / sum encoded tokens, without BOS/EOS",
+  "sentencepiece_version": "0.2.2",
+  "raw_corpus_unchanged": true
+}

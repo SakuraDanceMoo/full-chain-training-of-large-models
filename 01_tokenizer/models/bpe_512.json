@@ -1,0 +1,2773 @@
+{
+  "format_version": 2,
+  "target_vocab_size": 512,
+  "special_tokens": [
+    "<pad>",
+    "<unk>",
+    "<bos>",
+    "<eos>"
+  ],
+  "alphabet": [
+    " ",
+    "!",
+    "'",
+    ",",
+    "-",
+    ".",
+    "?",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "Y",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "À",
+    "Ç",
+    "É",
+    "à",
+    "â",
+    "ç",
+    "è",
+    "é",
+    "ê",
+    "ë",
+    "î",
+    "ô",
+    "ù",
+    "û",
+    "œ"
+  ],
+  "vocab": {
+    "0": "<pad>",
+    "1": "<unk>",
+    "2": "<bos>",
+    "3": "<eos>",
+    "4": "<0x00>",
+    "5": "<0x01>",
+    "6": "<0x02>",
+    "7": "<0x03>",
+    "8": "<0x04>",
+    "9": "<0x05>",
+    "10": "<0x06>",
+    "11": "<0x07>",
+    "12": "<0x08>",
+    "13": "<0x09>",
+    "14": "<0x0A>",
+    "15": "<0x0B>",
+    "16": "<0x0C>",
+    "17": "<0x0D>",
+    "18": "<0x0E>",
+    "19": "<0x0F>",
+    "20": "<0x10>",
+    "21": "<0x11>",
+    "22": "<0x12>",
+    "23": "<0x13>",
+    "24": "<0x14>",
+    "25": "<0x15>",
+    "26": "<0x16>",
+    "27": "<0x17>",
+    "28": "<0x18>",
+    "29": "<0x19>",
+    "30": "<0x1A>",
+    "31": "<0x1B>",
+    "32": "<0x1C>",
+    "33": "<0x1D>",
+    "34": "<0x1E>",
+    "35": "<0x1F>",
+    "36": "<0x20>",
+    "37": "<0x21>",
+    "38": "<0x22>",
+    "39": "<0x23>",
+    "40": "<0x24>",
+    "41": "<0x25>",
+    "42": "<0x26>",
+    "43": "<0x27>",
+    "44": "<0x28>",
+    "45": "<0x29>",
+    "46": "<0x2A>",
+    "47": "<0x2B>",
+    "48": "<0x2C>",
+    "49": "<0x2D>",
+    "50": "<0x2E>",
+    "51": "<0x2F>",
+    "52": "<0x30>",
+    "53": "<0x31>",
+    "54": "<0x32>",
+    "55": "<0x33>",
+    "56": "<0x34>",
+    "57": "<0x35>",
+    "58": "<0x36>",
+    "59": "<0x37>",
+    "60": "<0x38>",
+    "61": "<0x39>",
+    "62": "<0x3A>",
+    "63": "<0x3B>",
+    "64": "<0x3C>",
+    "65": "<0x3D>",
+    "66": "<0x3E>",
+    "67": "<0x3F>",
+    "68": "<0x40>",
+    "69": "<0x41>",
+    "70": "<0x42>",
+    "71": "<0x43>",
+    "72": "<0x44>",
+    "73": "<0x45>",
+    "74": "<0x46>",
+    "75": "<0x47>",
+    "76": "<0x48>",
+    "77": "<0x49>",
+    "78": "<0x4A>",
+    "79": "<0x4B>",
+    "80": "<0x4C>",
+    "81": "<0x4D>",
+    "82": "<0x4E>",
+    "83": "<0x4F>",
+    "84": "<0x50>",
+    "85": "<0x51>",
+    "86": "<0x52>",
+    "87": "<0x53>",
+    "88": "<0x54>",
+    "89": "<0x55>",
+    "90": "<0x56>",
+    "91": "<0x57>",
+    "92": "<0x58>",
+    "93": "<0x59>",
+    "94": "<0x5A>",
+    "95": "<0x5B>",
+    "96": "<0x5C>",
+    "97": "<0x5D>",
+    "98": "<0x5E>",
+    "99": "<0x5F>",
+    "100": "<0x60>",
+    "101": "<0x61>",
+    "102": "<0x62>",
+    "103": "<0x63>",
+    "104": "<0x64>",
+    "105": "<0x65>",
+    "106": "<0x66>",
+    "107": "<0x67>",
+    "108": "<0x68>",
+    "109": "<0x69>",
+    "110": "<0x6A>",
+    "111": "<0x6B>",
+    "112": "<0x6C>",
+    "113": "<0x6D>",
+    "114": "<0x6E>",
+    "115": "<0x6F>",
+    "116": "<0x70>",
+    "117": "<0x71>",
+    "118": "<0x72>",
+    "119": "<0x73>",
+    "120": "<0x74>",
+    "121": "<0x75>",
+    "122": "<0x76>",
+    "123": "<0x77>",
+    "124": "<0x78>",
+    "125": "<0x79>",
+    "126": "<0x7A>",
+    "127": "<0x7B>",
+    "128": "<0x7C>",
+    "129": "<0x7D>",
+    "130": "<0x7E>",
+    "131": "<0x7F>",
+    "132": "<0x80>",
+    "133": "<0x81>",
+    "134": "<0x82>",
+    "135": "<0x83>",
+    "136": "<0x84>",
+    "137": "<0x85>",
+    "138": "<0x86>",
+    "139": "<0x87>",
+    "140": "<0x88>",
+    "141": "<0x89>",
+    "142": "<0x8A>",
+    "143": "<0x8B>",
+    "144": "<0x8C>",
+    "145": "<0x8D>",
+    "146": "<0x8E>",
+    "147": "<0x8F>",
+    "148": "<0x90>",
+    "149": "<0x91>",
+    "150": "<0x92>",
+    "151": "<0x93>",
+    "152": "<0x94>",
+    "153": "<0x95>",
+    "154": "<0x96>",
+    "155": "<0x97>",
+    "156": "<0x98>",
+    "157": "<0x99>",
+    "158": "<0x9A>",
+    "159": "<0x9B>",
+    "160": "<0x9C>",
+    "161": "<0x9D>",
+    "162": "<0x9E>",
+    "163": "<0x9F>",
+    "164": "<0xA0>",
+    "165": "<0xA1>",
+    "166": "<0xA2>",
+    "167": "<0xA3>",
+    "168": "<0xA4>",
+    "169": "<0xA5>",
+    "170": "<0xA6>",
+    "171": "<0xA7>",
+    "172": "<0xA8>",
+    "173": "<0xA9>",
+    "174": "<0xAA>",
+    "175": "<0xAB>",
+    "176": "<0xAC>",
+    "177": "<0xAD>",
+    "178": "<0xAE>",
+    "179": "<0xAF>",
+    "180": "<0xB0>",
+    "181": "<0xB1>",
+    "182": "<0xB2>",
+    "183": "<0xB3>",
+    "184": "<0xB4>",
+    "185": "<0xB5>",
+    "186": "<0xB6>",
+    "187": "<0xB7>",
+    "188": "<0xB8>",
+    "189": "<0xB9>",
+    "190": "<0xBA>",
+    "191": "<0xBB>",
+    "192": "<0xBC>",
+    "193": "<0xBD>",
+    "194": "<0xBE>",
+    "195": "<0xBF>",
+    "196": "<0xC0>",
+    "197": "<0xC1>",
+    "198": "<0xC2>",
+    "199": "<0xC3>",
+    "200": "<0xC4>",
+    "201": "<0xC5>",
+    "202": "<0xC6>",
+    "203": "<0xC7>",
+    "204": "<0xC8>",
+    "205": "<0xC9>",
+    "206": "<0xCA>",
+    "207": "<0xCB>",
+    "208": "<0xCC>",
+    "209": "<0xCD>",
+    "210": "<0xCE>",
+    "211": "<0xCF>",
+    "212": "<0xD0>",
+    "213": "<0xD1>",
+    "214": "<0xD2>",
+    "215": "<0xD3>",
+    "216": "<0xD4>",
+    "217": "<0xD5>",
+    "218": "<0xD6>",
+    "219": "<0xD7>",
+    "220": "<0xD8>",
+    "221": "<0xD9>",
+    "222": "<0xDA>",
+    "223": "<0xDB>",
+    "224": "<0xDC>",
+    "225": "<0xDD>",
+    "226": "<0xDE>",
+    "227": "<0xDF>",
+    "228": "<0xE0>",
+    "229": "<0xE1>",
+    "230": "<0xE2>",
+    "231": "<0xE3>",
+    "232": "<0xE4>",
+    "233": "<0xE5>",
+    "234": "<0xE6>",
+    "235": "<0xE7>",
+    "236": "<0xE8>",
+    "237": "<0xE9>",
+    "238": "<0xEA>",
+    "239": "<0xEB>",
+    "240": "<0xEC>",
+    "241": "<0xED>",
+    "242": "<0xEE>",
+    "243": "<0xEF>",
+    "244": "<0xF0>",
+    "245": "<0xF1>",
+    "246": "<0xF2>",
+    "247": "<0xF3>",
+    "248": "<0xF4>",
+    "249": "<0xF5>",
+    "250": "<0xF6>",
+    "251": "<0xF7>",
+    "252": "<0xF8>",
+    "253": "<0xF9>",
+    "254": "<0xFA>",
+    "255": "<0xFB>",
+    "256": "<0xFC>",
+    "257": "<0xFD>",
+    "258": "<0xFE>",
+    "259": "<0xFF>",
+    "260": " ",
+    "261": "!",
+    "262": "'",
+    "263": ",",
+    "264": "-",
+    "265": ".",
+    "266": "?",
+    "267": "A",
+    "268": "B",
+    "269": "C",
+    "270": "D",
+    "271": "E",
+    "272": "F",
+    "273": "G",
+    "274": "H",
+    "275": "I",
+    "276": "J",
+    "277": "L",
+    "278": "M",
+    "279": "N",
+    "280": "O",
+    "281": "P",
+    "282": "Q",
+    "283": "R",
+    "284": "S",
+    "285": "T",
+    "286": "U",
+    "287": "V",
+    "288": "W",
+    "289": "Y",
+    "290": "a",
+    "291": "b",
+    "292": "c",
+    "293": "d",
+    "294": "e",
+    "295": "f",
+    "296": "g",
+    "297": "h",
+    "298": "i",
+    "299": "j",
+    "300": "k",
+    "301": "l",
+    "302": "m",
+    "303": "n",
+    "304": "o",
+    "305": "p",
+    "306": "q",
+    "307": "r",
+    "308": "s",
+    "309": "t",
+    "310": "u",
+    "311": "v",
+    "312": "w",
+    "313": "x",
+    "314": "y",
+    "315": "z",
+    "316": "À",
+    "317": "Ç",
+    "318": "É",
+    "319": "à",
+    "320": "â",
+    "321": "ç",
+    "322": "è",
+    "323": "é",
+    "324": "ê",
+    "325": "ë",
+    "326": "î",
+    "327": "ô",
+    "328": "ù",
+    "329": "û",
+    "330": "œ",
+    "331": "e ",
+    "332": "s ",
+    "333": "t ",
+    "334": "ou",
+    "335": "r ",
+    "336": "n ",
+    "337": "ai",
+    "338": "d ",
+    "339": "th",
+    "340": ", ",
+    "341": "an",
+    "342": "a ",
+    "343": "' ",
+    "344": " .",
+    "345": "I ",
+    "346": "en",
+    "347": "you",
+    "348": "es ",
+    "349": "re ",
+    "350": "ll",
+    "351": "qu",
+    "352": "y ",
+    "353": "in",
+    "354": "me ",
+    "355": "on",
+    "356": "oi",
+    "357": "u ",
+    "358": "o ",
+    "359": "er ",
+    "360": "e t",
+    "361": "on ",
+    "362": "eu",
+    "363": "ar",
+    "364": "you ",
+    "365": "ch",
+    "366": "e s",
+    "367": "as ",
+    "368": "ing",
+    "369": "es",
+    "370": "er",
+    "371": "ve ",
+    "372": "ais ",
+    "373": "de ",
+    "374": "ea",
+    "375": "the ",
+    "376": "om",
+    "377": "is ",
+    "378": "our ",
+    "379": "en ",
+    "380": "que ",
+    "381": "or",
+    "382": "ll ",
+    "383": "ing ",
+    "384": "am",
+    "385": "el",
+    "386": "ti",
+    "387": "et ",
+    "388": "ai ",
+    "389": "e .",
+    "390": "and ",
+    "391": "em",
+    "392": "I '",
+    "393": "ow",
+    "394": "je ",
+    "395": "it ",
+    "396": "to ",
+    "397": "li",
+    "398": "te ",
+    "399": "ri",
+    "400": "eux",
+    "401": "ed ",
+    "402": "us",
+    "403": "s .",
+    "404": "lo",
+    "405": "pas ",
+    "406": "ant ",
+    "407": "à ",
+    "408": "le ",
+    "409": "ce ",
+    "410": "eux ",
+    "411": "ent ",
+    "412": "ne ",
+    "413": "at ",
+    "414": "in ",
+    "415": "ca",
+    "416": "' ai ",
+    "417": "wi",
+    "418": "Je ",
+    "419": "un ",
+    "420": "f ",
+    "421": "ais",
+    "422": "é ",
+    "423": "i ",
+    "424": "tt",
+    "425": "se ",
+    "426": "me .",
+    "427": "or ",
+    "428": "love ",
+    "429": "av",
+    "430": "ma",
+    "431": "ous ",
+    "432": "la ",
+    "433": "est ",
+    "434": "ay",
+    "435": "your ",
+    "436": "ow ",
+    "437": "ev",
+    "438": "tu ",
+    "439": "pl",
+    "440": "l ",
+    "441": "he",
+    "442": "end",
+    "443": "vi",
+    "444": "our",
+    "445": "oi ",
+    "446": "ke ",
+    "447": "'t ",
+    "448": "e su",
+    "449": "my ",
+    "450": "m ",
+    "451": "les ",
+    "452": "tr",
+    "453": "oi .",
+    "454": "nd ",
+    "455": "dan",
+    "456": "ld ",
+    "457": "er .",
+    "458": "h ",
+    "459": "tou",
+    "460": "par",
+    "461": "that ",
+    "462": "r .",
+    "463": "pour ",
+    "464": "be",
+    "465": "I 'm ",
+    "466": "of ",
+    "467": "jus",
+    "468": "e tu ",
+    "469": "d' ",
+    "470": "re .",
+    "471": "rea",
+    "472": "ha",
+    "473": "di",
+    "474": "wh",
+    "475": "st",
+    "476": "no",
+    "477": "na ",
+    "478": "fai",
+    "479": "Et ",
+    "480": "And ",
+    "481": "e suis ",
+    "482": "dans ",
+    "483": "de t",
+    "484": "can ",
+    "485": "com",
+    "486": "que tu ",
+    "487": "ill",
+    "488": "for ",
+    "489": "' est ",
+    "490": "you .",
+    "491": "ut ",
+    "492": "lais",
+    "493": "l' ",
+    "494": "ain ",
+    "495": "ay ",
+    "496": "th ",
+    "497": "pr",
+    "498": "fe",
+    "499": "es .",
+    "500": "aim",
+    "501": "ac",
+    "502": "ou ",
+    "503": "kn",
+    "504": "au",
+    "505": "une ",
+    "506": "thing ",
+    "507": "ons ",
+    "508": "al",
+    "509": "que j",
+    "510": "go",
+    "511": "'s "
+  },
+  "merges": [
+    [
+      "e",
+      " "
+    ],
+    [
+      "s",
+      " "
+    ],
+    [
+      "t",
+      " "
+    ],
+    [
+      "o",
+      "u"
+    ],
+    [
+      "r",
+      " "
+    ],
+    [
+      "n",
+      " "
+    ],
+    [
+      "a",
+      "i"
+    ],
+    [
+      "d",
+      " "
+    ],
+    [
+      "t",
+      "h"
+    ],
+    [
+      ",",
+      " "
+    ],
+    [
+      "a",
+      "n"
+    ],
+    [
+      "a",
+      " "
+    ],
+    [
+      "'",
+      " "
+    ],
+    [
+      " ",
+      "."
+    ],
+    [
+      "I",
+      " "
+    ],
+    [
+      "e",
+      "n"
+    ],
+    [
+      "y",
+      "ou"
+    ],
+    [
+      "e",
+      "s "
+    ],
+    [
+      "r",
+      "e "
+    ],
+    [
+      "l",
+      "l"
+    ],
+    [
+      "q",
+      "u"
+    ],
+    [
+      "y",
+      " "
+    ],
+    [
+      "i",
+      "n"
+    ],
+    [
+      "m",
+      "e "
+    ],
+    [
+      "o",
+      "n"
+    ],
+    [
+      "o",
+      "i"
+    ],
+    [
+      "u",
+      " "
+    ],
+    [
+      "o",
+      " "
+    ],
+    [
+      "e",
+      "r "
+    ],
+    [
+      "e ",
+      "t"
+    ],
+    [
+      "o",
+      "n "
+    ],
+    [
+      "e",
+      "u"
+    ],
+    [
+      "a",
+      "r"
+    ],
+    [
+      "you",
+      " "
+    ],
+    [
+      "c",
+      "h"
+    ],
+    [
+      "e ",
+      "s"
+    ],
+    [
+      "a",
+      "s "
+    ],
+    [
+      "in",
+      "g"
+    ],
+    [
+      "e",
+      "s"
+    ],
+    [
+      "e",
+      "r"
+    ],
+    [
+      "v",
+      "e "
+    ],
+    [
+      "ai",
+      "s "
+    ],
+    [
+      "d",
+      "e "
+    ],
+    [
+      "e",
+      "a"
+    ],
+    [
+      "th",
+      "e "
+    ],
+    [
+      "o",
+      "m"
+    ],
+    [
+      "i",
+      "s "
+    ],
+    [
+      "ou",
+      "r "
+    ],
+    [
+      "e",
+      "n "
+    ],
+    [
+      "qu",
+      "e "
+    ],
+    [
+      "o",
+      "r"
+    ],
+    [
+      "ll",
+      " "
+    ],
+    [
+      "ing",
+      " "
+    ],
+    [
+      "a",
+      "m"
+    ],
+    [
+      "e",
+      "l"
+    ],
+    [
+      "t",
+      "i"
+    ],
+    [
+      "e",
+      "t "
+    ],
+    [
+      "ai",
+      " "
+    ],
+    [
+      "e ",
+      "."
+    ],
+    [
+      "an",
+      "d "
+    ],
+    [
+      "e",
+      "m"
+    ],
+    [
+      "I ",
+      "'"
+    ],
+    [
+      "o",
+      "w"
+    ],
+    [
+      "j",
+      "e "
+    ],
+    [
+      "i",
+      "t "
+    ],
+    [
+      "t",
+      "o "
+    ],
+    [
+      "l",
+      "i"
+    ],
+    [
+      "t",
+      "e "
+    ],
+    [
+      "r",
+      "i"
+    ],
+    [
+      "eu",
+      "x"
+    ],
+    [
+      "e",
+      "d "
+    ],
+    [
+      "u",
+      "s"
+    ],
+    [
+      "s ",
+      "."
+    ],
+    [
+      "l",
+      "o"
+    ],
+    [
+      "p",
+      "as "
+    ],
+    [
+      "an",
+      "t "
+    ],
+    [
+      "à",
+      " "
+    ],
+    [
+      "l",
+      "e "
+    ],
+    [
+      "c",
+      "e "
+    ],
+    [
+      "eux",
+      " "
+    ],
+    [
+      "en",
+      "t "
+    ],
+    [
+      "n",
+      "e "
+    ],
+    [
+      "a",
+      "t "
+    ],
+    [
+      "i",
+      "n "
+    ],
+    [
+      "c",
+      "a"
+    ],
+    [
+      "' ",
+      "ai "
+    ],
+    [
+      "w",
+      "i"
+    ],
+    [
+      "J",
+      "e "
+    ],
+    [
+      "u",
+      "n "
+    ],
+    [
+      "f",
+      " "
+    ],
+    [
+      "ai",
+      "s"
+    ],
+    [
+      "é",
+      " "
+    ],
+    [
+      "i",
+      " "
+    ],
+    [
+      "t",
+      "t"
+    ],
+    [
+      "s",
+      "e "
+    ],
+    [
+      "me ",
+      "."
+    ],
+    [
+      "o",
+      "r "
+    ],
+    [
+      "lo",
+      "ve "
+    ],
+    [
+      "a",
+      "v"
+    ],
+    [
+      "m",
+      "a"
+    ],
+    [
+      "ou",
+      "s "
+    ],
+    [
+      "l",
+      "a "
+    ],
+    [
+      "es",
+      "t "
+    ],
+    [
+      "a",
+      "y"
+    ],
+    [
+      "you",
+      "r "
+    ],
+    [
+      "ow",
+      " "
+    ],
+    [
+      "e",
+      "v"
+    ],
+    [
+      "t",
+      "u "
+    ],
+    [
+      "p",
+      "l"
+    ],
+    [
+      "l",
+      " "
+    ],
+    [
+      "h",
+      "e"
+    ],
+    [
+      "en",
+      "d"
+    ],
+    [
+      "v",
+      "i"
+    ],
+    [
+      "ou",
+      "r"
+    ],
+    [
+      "oi",
+      " "
+    ],
+    [
+      "k",
+      "e "
+    ],
+    [
+      "'",
+      "t "
+    ],
+    [
+      "e s",
+      "u"
+    ],
+    [
+      "m",
+      "y "
+    ],
+    [
+      "m",
+      " "
+    ],
+    [
+      "l",
+      "es "
+    ],
+    [
+      "t",
+      "r"
+    ],
+    [
+      "oi",
+      " ."
+    ],
+    [
+      "n",
+      "d "
+    ],
+    [
+      "d",
+      "an"
+    ],
+    [
+      "l",
+      "d "
+    ],
+    [
+      "er ",
+      "."
+    ],
+    [
+      "h",
+      " "
+    ],
+    [
+      "t",
+      "ou"
+    ],
+    [
+      "p",
+      "ar"
+    ],
+    [
+      "th",
+      "at "
+    ],
+    [
+      "r ",
+      "."
+    ],
+    [
+      "p",
+      "our "
+    ],
+    [
+      "b",
+      "e"
+    ],
+    [
+      "I '",
+      "m "
+    ],
+    [
+      "o",
+      "f "
+    ],
+    [
+      "j",
+      "us"
+    ],
+    [
+      "e t",
+      "u "
+    ],
+    [
+      "d",
+      "' "
+    ],
+    [
+      "re ",
+      "."
+    ],
+    [
+      "r",
+      "ea"
+    ],
+    [
+      "h",
+      "a"
+    ],
+    [
+      "d",
+      "i"
+    ],
+    [
+      "w",
+      "h"
+    ],
+    [
+      "s",
+      "t"
+    ],
+    [
+      "n",
+      "o"
+    ],
+    [
+      "n",
+      "a "
+    ],
+    [
+      "f",
+      "ai"
+    ],
+    [
+      "E",
+      "t "
+    ],
+    [
+      "A",
+      "nd "
+    ],
+    [
+      "e su",
+      "is "
+    ],
+    [
+      "dan",
+      "s "
+    ],
+    [
+      "d",
+      "e t"
+    ],
+    [
+      "ca",
+      "n "
+    ],
+    [
+      "c",
+      "om"
+    ],
+    [
+      "qu",
+      "e tu "
+    ],
+    [
+      "i",
+      "ll"
+    ],
+    [
+      "f",
+      "or "
+    ],
+    [
+      "' ",
+      "est "
+    ],
+    [
+      "you",
+      " ."
+    ],
+    [
+      "u",
+      "t "
+    ],
+    [
+      "l",
+      "ais"
+    ],
+    [
+      "l",
+      "' "
+    ],
+    [
+      "ai",
+      "n "
+    ],
+    [
+      "a",
+      "y "
+    ],
+    [
+      "th",
+      " "
+    ],
+    [
+      "p",
+      "r"
+    ],
+    [
+      "f",
+      "e"
+    ],
+    [
+      "es ",
+      "."
+    ],
+    [
+      "ai",
+      "m"
+    ],
+    [
+      "a",
+      "c"
+    ],
+    [
+      "ou",
+      " "
+    ],
+    [
+      "k",
+      "n"
+    ],
+    [
+      "a",
+      "u"
+    ],
+    [
+      "u",
+      "ne "
+    ],
+    [
+      "th",
+      "ing "
+    ],
+    [
+      "on",
+      "s "
+    ],
+    [
+      "a",
+      "l"
+    ],
+    [
+      "que ",
+      "j"
+    ],
+    [
+      "g",
+      "o"
+    ],
+    [
+      "'",
+      "s "
+    ]
+  ],
+  "merge_history": [
+    {
+      "step": 1,
+      "left": "e",
+      "right": " ",
+      "pair_frequency": 1959,
+      "merged_token": "e ",
+      "vocab_size": 332
+    },
+    {
+      "step": 2,
+      "left": "s",
+      "right": " ",
+      "pair_frequency": 986,
+      "merged_token": "s ",
+      "vocab_size": 333
+    },
+    {
+      "step": 3,
+      "left": "t",
+      "right": " ",
+      "pair_frequency": 749,
+      "merged_token": "t ",
+      "vocab_size": 334
+    },
+    {
+      "step": 4,
+      "left": "o",
+      "right": "u",
+      "pair_frequency": 669,
+      "merged_token": "ou",
+      "vocab_size": 335
+    },
+    {
+      "step": 5,
+      "left": "r",
+      "right": " ",
+      "pair_frequency": 522,
+      "merged_token": "r ",
+      "vocab_size": 336
+    },
+    {
+      "step": 6,
+      "left": "n",
+      "right": " ",
+      "pair_frequency": 508,
+      "merged_token": "n ",
+      "vocab_size": 337
+    },
+    {
+      "step": 7,
+      "left": "a",
+      "right": "i",
+      "pair_frequency": 428,
+      "merged_token": "ai",
+      "vocab_size": 338
+    },
+    {
+      "step": 8,
+      "left": "d",
+      "right": " ",
+      "pair_frequency": 318,
+      "merged_token": "d ",
+      "vocab_size": 339
+    },
+    {
+      "step": 9,
+      "left": "t",
+      "right": "h",
+      "pair_frequency": 305,
+      "merged_token": "th",
+      "vocab_size": 340
+    },
+    {
+      "step": 10,
+      "left": ",",
+      "right": " ",
+      "pair_frequency": 288,
+      "merged_token": ", ",
+      "vocab_size": 341
+    },
+    {
+      "step": 11,
+      "left": "a",
+      "right": "n",
+      "pair_frequency": 283,
+      "merged_token": "an",
+      "vocab_size": 342
+    },
+    {
+      "step": 12,
+      "left": "a",
+      "right": " ",
+      "pair_frequency": 275,
+      "merged_token": "a ",
+      "vocab_size": 343
+    },
+    {
+      "step": 13,
+      "left": "'",
+      "right": " ",
+      "pair_frequency": 273,
+      "merged_token": "' ",
+      "vocab_size": 344
+    },
+    {
+      "step": 14,
+      "left": " ",
+      "right": ".",
+      "pair_frequency": 266,
+      "merged_token": " .",
+      "vocab_size": 345
+    },
+    {
+      "step": 15,
+      "left": "I",
+      "right": " ",
+      "pair_frequency": 258,
+      "merged_token": "I ",
+      "vocab_size": 346
+    },
+    {
+      "step": 16,
+      "left": "e",
+      "right": "n",
+      "pair_frequency": 249,
+      "merged_token": "en",
+      "vocab_size": 347
+    },
+    {
+      "step": 17,
+      "left": "y",
+      "right": "ou",
+      "pair_frequency": 229,
+      "merged_token": "you",
+      "vocab_size": 348
+    },
+    {
+      "step": 18,
+      "left": "e",
+      "right": "s ",
+      "pair_frequency": 217,
+      "merged_token": "es ",
+      "vocab_size": 349
+    },
+    {
+      "step": 19,
+      "left": "r",
+      "right": "e ",
+      "pair_frequency": 215,
+      "merged_token": "re ",
+      "vocab_size": 350
+    },
+    {
+      "step": 20,
+      "left": "l",
+      "right": "l",
+      "pair_frequency": 213,
+      "merged_token": "ll",
+      "vocab_size": 351
+    },
+    {
+      "step": 21,
+      "left": "q",
+      "right": "u",
+      "pair_frequency": 206,
+      "merged_token": "qu",
+      "vocab_size": 352
+    },
+    {
+      "step": 22,
+      "left": "y",
+      "right": " ",
+      "pair_frequency": 202,
+      "merged_token": "y ",
+      "vocab_size": 353
+    },
+    {
+      "step": 23,
+      "left": "i",
+      "right": "n",
+      "pair_frequency": 201,
+      "merged_token": "in",
+      "vocab_size": 354
+    },
+    {
+      "step": 24,
+      "left": "m",
+      "right": "e ",
+      "pair_frequency": 200,
+      "merged_token": "me ",
+      "vocab_size": 355
+    },
+    {
+      "step": 25,
+      "left": "o",
+      "right": "n",
+      "pair_frequency": 198,
+      "merged_token": "on",
+      "vocab_size": 356
+    },
+    {
+      "step": 26,
+      "left": "o",
+      "right": "i",
+      "pair_frequency": 190,
+      "merged_token": "oi",
+      "vocab_size": 357
+    },
+    {
+      "step": 27,
+      "left": "u",
+      "right": " ",
+      "pair_frequency": 181,
+      "merged_token": "u ",
+      "vocab_size": 358
+    },
+    {
+      "step": 28,
+      "left": "o",
+      "right": " ",
+      "pair_frequency": 181,
+      "merged_token": "o ",
+      "vocab_size": 359
+    },
+    {
+      "step": 29,
+      "left": "e",
+      "right": "r ",
+      "pair_frequency": 180,
+      "merged_token": "er ",
+      "vocab_size": 360
+    },
+    {
+      "step": 30,
+      "left": "e ",
+      "right": "t",
+      "pair_frequency": 161,
+      "merged_token": "e t",
+      "vocab_size": 361
+    },
+    {
+      "step": 31,
+      "left": "o",
+      "right": "n ",
+      "pair_frequency": 159,
+      "merged_token": "on ",
+      "vocab_size": 362
+    },
+    {
+      "step": 32,
+      "left": "e",
+      "right": "u",
+      "pair_frequency": 151,
+      "merged_token": "eu",
+      "vocab_size": 363
+    },
+    {
+      "step": 33,
+      "left": "a",
+      "right": "r",
+      "pair_frequency": 147,
+      "merged_token": "ar",
+      "vocab_size": 364
+    },
+    {
+      "step": 34,
+      "left": "you",
+      "right": " ",
+      "pair_frequency": 146,
+      "merged_token": "you ",
+      "vocab_size": 365
+    },
+    {
+      "step": 35,
+      "left": "c",
+      "right": "h",
+      "pair_frequency": 131,
+      "merged_token": "ch",
+      "vocab_size": 366
+    },
+    {
+      "step": 36,
+      "left": "e ",
+      "right": "s",
+      "pair_frequency": 129,
+      "merged_token": "e s",
+      "vocab_size": 367
+    },
+    {
+      "step": 37,
+      "left": "a",
+      "right": "s ",
+      "pair_frequency": 127,
+      "merged_token": "as ",
+      "vocab_size": 368
+    },
+    {
+      "step": 38,
+      "left": "in",
+      "right": "g",
+      "pair_frequency": 123,
+      "merged_token": "ing",
+      "vocab_size": 369
+    },
+    {
+      "step": 39,
+      "left": "e",
+      "right": "s",
+      "pair_frequency": 118,
+      "merged_token": "es",
+      "vocab_size": 370
+    },
+    {
+      "step": 40,
+      "left": "e",
+      "right": "r",
+      "pair_frequency": 118,
+      "merged_token": "er",
+      "vocab_size": 371
+    },
+    {
+      "step": 41,
+      "left": "v",
+      "right": "e ",
+      "pair_frequency": 112,
+      "merged_token": "ve ",
+      "vocab_size": 372
+    },
+    {
+      "step": 42,
+      "left": "ai",
+      "right": "s ",
+      "pair_frequency": 112,
+      "merged_token": "ais ",
+      "vocab_size": 373
+    },
+    {
+      "step": 43,
+      "left": "d",
+      "right": "e ",
+      "pair_frequency": 108,
+      "merged_token": "de ",
+      "vocab_size": 374
+    },
+    {
+      "step": 44,
+      "left": "e",
+      "right": "a",
+      "pair_frequency": 107,
+      "merged_token": "ea",
+      "vocab_size": 375
+    },
+    {
+      "step": 45,
+      "left": "th",
+      "right": "e ",
+      "pair_frequency": 106,
+      "merged_token": "the ",
+      "vocab_size": 376
+    },
+    {
+      "step": 46,
+      "left": "o",
+      "right": "m",
+      "pair_frequency": 105,
+      "merged_token": "om",
+      "vocab_size": 377
+    },
+    {
+      "step": 47,
+      "left": "i",
+      "right": "s ",
+      "pair_frequency": 104,
+      "merged_token": "is ",
+      "vocab_size": 378
+    },
+    {
+      "step": 48,
+      "left": "ou",
+      "right": "r ",
+      "pair_frequency": 96,
+      "merged_token": "our ",
+      "vocab_size": 379
+    },
+    {
+      "step": 49,
+      "left": "e",
+      "right": "n ",
+      "pair_frequency": 96,
+      "merged_token": "en ",
+      "vocab_size": 380
+    },
+    {
+      "step": 50,
+      "left": "qu",
+      "right": "e ",
+      "pair_frequency": 93,
+      "merged_token": "que ",
+      "vocab_size": 381
+    },
+    {
+      "step": 51,
+      "left": "o",
+      "right": "r",
+      "pair_frequency": 93,
+      "merged_token": "or",
+      "vocab_size": 382
+    },
+    {
+      "step": 52,
+      "left": "ll",
+      "right": " ",
+      "pair_frequency": 93,
+      "merged_token": "ll ",
+      "vocab_size": 383
+    },
+    {
+      "step": 53,
+      "left": "ing",
+      "right": " ",
+      "pair_frequency": 93,
+      "merged_token": "ing ",
+      "vocab_size": 384
+    },
+    {
+      "step": 54,
+      "left": "a",
+      "right": "m",
+      "pair_frequency": 91,
+      "merged_token": "am",
+      "vocab_size": 385
+    },
+    {
+      "step": 55,
+      "left": "e",
+      "right": "l",
+      "pair_frequency": 90,
+      "merged_token": "el",
+      "vocab_size": 386
+    },
+    {
+      "step": 56,
+      "left": "t",
+      "right": "i",
+      "pair_frequency": 89,
+      "merged_token": "ti",
+      "vocab_size": 387
+    },
+    {
+      "step": 57,
+      "left": "e",
+      "right": "t ",
+      "pair_frequency": 89,
+      "merged_token": "et ",
+      "vocab_size": 388
+    },
+    {
+      "step": 58,
+      "left": "ai",
+      "right": " ",
+      "pair_frequency": 89,
+      "merged_token": "ai ",
+      "vocab_size": 389
+    },
+    {
+      "step": 59,
+      "left": "e ",
+      "right": ".",
+      "pair_frequency": 85,
+      "merged_token": "e .",
+      "vocab_size": 390
+    },
+    {
+      "step": 60,
+      "left": "an",
+      "right": "d ",
+      "pair_frequency": 83,
+      "merged_token": "and ",
+      "vocab_size": 391
+    },
+    {
+      "step": 61,
+      "left": "e",
+      "right": "m",
+      "pair_frequency": 82,
+      "merged_token": "em",
+      "vocab_size": 392
+    },
+    {
+      "step": 62,
+      "left": "I ",
+      "right": "'",
+      "pair_frequency": 81,
+      "merged_token": "I '",
+      "vocab_size": 393
+    },
+    {
+      "step": 63,
+      "left": "o",
+      "right": "w",
+      "pair_frequency": 80,
+      "merged_token": "ow",
+      "vocab_size": 394
+    },
+    {
+      "step": 64,
+      "left": "j",
+      "right": "e ",
+      "pair_frequency": 79,
+      "merged_token": "je ",
+      "vocab_size": 395
+    },
+    {
+      "step": 65,
+      "left": "i",
+      "right": "t ",
+      "pair_frequency": 77,
+      "merged_token": "it ",
+      "vocab_size": 396
+    },
+    {
+      "step": 66,
+      "left": "t",
+      "right": "o ",
+      "pair_frequency": 76,
+      "merged_token": "to ",
+      "vocab_size": 397
+    },
+    {
+      "step": 67,
+      "left": "l",
+      "right": "i",
+      "pair_frequency": 76,
+      "merged_token": "li",
+      "vocab_size": 398
+    },
+    {
+      "step": 68,
+      "left": "t",
+      "right": "e ",
+      "pair_frequency": 74,
+      "merged_token": "te ",
+      "vocab_size": 399
+    },
+    {
+      "step": 69,
+      "left": "r",
+      "right": "i",
+      "pair_frequency": 74,
+      "merged_token": "ri",
+      "vocab_size": 400
+    },
+    {
+      "step": 70,
+      "left": "eu",
+      "right": "x",
+      "pair_frequency": 73,
+      "merged_token": "eux",
+      "vocab_size": 401
+    },
+    {
+      "step": 71,
+      "left": "e",
+      "right": "d ",
+      "pair_frequency": 73,
+      "merged_token": "ed ",
+      "vocab_size": 402
+    },
+    {
+      "step": 72,
+      "left": "u",
+      "right": "s",
+      "pair_frequency": 72,
+      "merged_token": "us",
+      "vocab_size": 403
+    },
+    {
+      "step": 73,
+      "left": "s ",
+      "right": ".",
+      "pair_frequency": 70,
+      "merged_token": "s .",
+      "vocab_size": 404
+    },
+    {
+      "step": 74,
+      "left": "l",
+      "right": "o",
+      "pair_frequency": 70,
+      "merged_token": "lo",
+      "vocab_size": 405
+    },
+    {
+      "step": 75,
+      "left": "p",
+      "right": "as ",
+      "pair_frequency": 69,
+      "merged_token": "pas ",
+      "vocab_size": 406
+    },
+    {
+      "step": 76,
+      "left": "an",
+      "right": "t ",
+      "pair_frequency": 69,
+      "merged_token": "ant ",
+      "vocab_size": 407
+    },
+    {
+      "step": 77,
+      "left": "à",
+      "right": " ",
+      "pair_frequency": 68,
+      "merged_token": "à ",
+      "vocab_size": 408
+    },
+    {
+      "step": 78,
+      "left": "l",
+      "right": "e ",
+      "pair_frequency": 65,
+      "merged_token": "le ",
+      "vocab_size": 409
+    },
+    {
+      "step": 79,
+      "left": "c",
+      "right": "e ",
+      "pair_frequency": 65,
+      "merged_token": "ce ",
+      "vocab_size": 410
+    },
+    {
+      "step": 80,
+      "left": "eux",
+      "right": " ",
+      "pair_frequency": 64,
+      "merged_token": "eux ",
+      "vocab_size": 411
+    },
+    {
+      "step": 81,
+      "left": "en",
+      "right": "t ",
+      "pair_frequency": 64,
+      "merged_token": "ent ",
+      "vocab_size": 412
+    },
+    {
+      "step": 82,
+      "left": "n",
+      "right": "e ",
+      "pair_frequency": 63,
+      "merged_token": "ne ",
+      "vocab_size": 413
+    },
+    {
+      "step": 83,
+      "left": "a",
+      "right": "t ",
+      "pair_frequency": 63,
+      "merged_token": "at ",
+      "vocab_size": 414
+    },
+    {
+      "step": 84,
+      "left": "i",
+      "right": "n ",
+      "pair_frequency": 61,
+      "merged_token": "in ",
+      "vocab_size": 415
+    },
+    {
+      "step": 85,
+      "left": "c",
+      "right": "a",
+      "pair_frequency": 61,
+      "merged_token": "ca",
+      "vocab_size": 416
+    },
+    {
+      "step": 86,
+      "left": "' ",
+      "right": "ai ",
+      "pair_frequency": 61,
+      "merged_token": "' ai ",
+      "vocab_size": 417
+    },
+    {
+      "step": 87,
+      "left": "w",
+      "right": "i",
+      "pair_frequency": 59,
+      "merged_token": "wi",
+      "vocab_size": 418
+    },
+    {
+      "step": 88,
+      "left": "J",
+      "right": "e ",
+      "pair_frequency": 59,
+      "merged_token": "Je ",
+      "vocab_size": 419
+    },
+    {
+      "step": 89,
+      "left": "u",
+      "right": "n ",
+      "pair_frequency": 58,
+      "merged_token": "un ",
+      "vocab_size": 420
+    },
+    {
+      "step": 90,
+      "left": "f",
+      "right": " ",
+      "pair_frequency": 58,
+      "merged_token": "f ",
+      "vocab_size": 421
+    },
+    {
+      "step": 91,
+      "left": "ai",
+      "right": "s",
+      "pair_frequency": 58,
+      "merged_token": "ais",
+      "vocab_size": 422
+    },
+    {
+      "step": 92,
+      "left": "é",
+      "right": " ",
+      "pair_frequency": 57,
+      "merged_token": "é ",
+      "vocab_size": 423
+    },
+    {
+      "step": 93,
+      "left": "i",
+      "right": " ",
+      "pair_frequency": 57,
+      "merged_token": "i ",
+      "vocab_size": 424
+    },
+    {
+      "step": 94,
+      "left": "t",
+      "right": "t",
+      "pair_frequency": 55,
+      "merged_token": "tt",
+      "vocab_size": 425
+    },
+    {
+      "step": 95,
+      "left": "s",
+      "right": "e ",
+      "pair_frequency": 55,
+      "merged_token": "se ",
+      "vocab_size": 426
+    },
+    {
+      "step": 96,
+      "left": "me ",
+      "right": ".",
+      "pair_frequency": 55,
+      "merged_token": "me .",
+      "vocab_size": 427
+    },
+    {
+      "step": 97,
+      "left": "o",
+      "right": "r ",
+      "pair_frequency": 54,
+      "merged_token": "or ",
+      "vocab_size": 428
+    },
+    {
+      "step": 98,
+      "left": "lo",
+      "right": "ve ",
+      "pair_frequency": 54,
+      "merged_token": "love ",
+      "vocab_size": 429
+    },
+    {
+      "step": 99,
+      "left": "a",
+      "right": "v",
+      "pair_frequency": 53,
+      "merged_token": "av",
+      "vocab_size": 430
+    },
+    {
+      "step": 100,
+      "left": "m",
+      "right": "a",
+      "pair_frequency": 52,
+      "merged_token": "ma",
+      "vocab_size": 431
+    },
+    {
+      "step": 101,
+      "left": "ou",
+      "right": "s ",
+      "pair_frequency": 51,
+      "merged_token": "ous ",
+      "vocab_size": 432
+    },
+    {
+      "step": 102,
+      "left": "l",
+      "right": "a ",
+      "pair_frequency": 51,
+      "merged_token": "la ",
+      "vocab_size": 433
+    },
+    {
+      "step": 103,
+      "left": "es",
+      "right": "t ",
+      "pair_frequency": 51,
+      "merged_token": "est ",
+      "vocab_size": 434
+    },
+    {
+      "step": 104,
+      "left": "a",
+      "right": "y",
+      "pair_frequency": 51,
+      "merged_token": "ay",
+      "vocab_size": 435
+    },
+    {
+      "step": 105,
+      "left": "you",
+      "right": "r ",
+      "pair_frequency": 49,
+      "merged_token": "your ",
+      "vocab_size": 436
+    },
+    {
+      "step": 106,
+      "left": "ow",
+      "right": " ",
+      "pair_frequency": 49,
+      "merged_token": "ow ",
+      "vocab_size": 437
+    },
+    {
+      "step": 107,
+      "left": "e",
+      "right": "v",
+      "pair_frequency": 49,
+      "merged_token": "ev",
+      "vocab_size": 438
+    },
+    {
+      "step": 108,
+      "left": "t",
+      "right": "u ",
+      "pair_frequency": 48,
+      "merged_token": "tu ",
+      "vocab_size": 439
+    },
+    {
+      "step": 109,
+      "left": "p",
+      "right": "l",
+      "pair_frequency": 48,
+      "merged_token": "pl",
+      "vocab_size": 440
+    },
+    {
+      "step": 110,
+      "left": "l",
+      "right": " ",
+      "pair_frequency": 48,
+      "merged_token": "l ",
+      "vocab_size": 441
+    },
+    {
+      "step": 111,
+      "left": "h",
+      "right": "e",
+      "pair_frequency": 48,
+      "merged_token": "he",
+      "vocab_size": 442
+    },
+    {
+      "step": 112,
+      "left": "en",
+      "right": "d",
+      "pair_frequency": 48,
+      "merged_token": "end",
+      "vocab_size": 443
+    },
+    {
+      "step": 113,
+      "left": "v",
+      "right": "i",
+      "pair_frequency": 47,
+      "merged_token": "vi",
+      "vocab_size": 444
+    },
+    {
+      "step": 114,
+      "left": "ou",
+      "right": "r",
+      "pair_frequency": 47,
+      "merged_token": "our",
+      "vocab_size": 445
+    },
+    {
+      "step": 115,
+      "left": "oi",
+      "right": " ",
+      "pair_frequency": 47,
+      "merged_token": "oi ",
+      "vocab_size": 446
+    },
+    {
+      "step": 116,
+      "left": "k",
+      "right": "e ",
+      "pair_frequency": 47,
+      "merged_token": "ke ",
+      "vocab_size": 447
+    },
+    {
+      "step": 117,
+      "left": "'",
+      "right": "t ",
+      "pair_frequency": 47,
+      "merged_token": "'t ",
+      "vocab_size": 448
+    },
+    {
+      "step": 118,
+      "left": "e s",
+      "right": "u",
+      "pair_frequency": 46,
+      "merged_token": "e su",
+      "vocab_size": 449
+    },
+    {
+      "step": 119,
+      "left": "m",
+      "right": "y ",
+      "pair_frequency": 45,
+      "merged_token": "my ",
+      "vocab_size": 450
+    },
+    {
+      "step": 120,
+      "left": "m",
+      "right": " ",
+      "pair_frequency": 45,
+      "merged_token": "m ",
+      "vocab_size": 451
+    },
+    {
+      "step": 121,
+      "left": "l",
+      "right": "es ",
+      "pair_frequency": 45,
+      "merged_token": "les ",
+      "vocab_size": 452
+    },
+    {
+      "step": 122,
+      "left": "t",
+      "right": "r",
+      "pair_frequency": 44,
+      "merged_token": "tr",
+      "vocab_size": 453
+    },
+    {
+      "step": 123,
+      "left": "oi",
+      "right": " .",
+      "pair_frequency": 44,
+      "merged_token": "oi .",
+      "vocab_size": 454
+    },
+    {
+      "step": 124,
+      "left": "n",
+      "right": "d ",
+      "pair_frequency": 44,
+      "merged_token": "nd ",
+      "vocab_size": 455
+    },
+    {
+      "step": 125,
+      "left": "d",
+      "right": "an",
+      "pair_frequency": 44,
+      "merged_token": "dan",
+      "vocab_size": 456
+    },
+    {
+      "step": 126,
+      "left": "l",
+      "right": "d ",
+      "pair_frequency": 43,
+      "merged_token": "ld ",
+      "vocab_size": 457
+    },
+    {
+      "step": 127,
+      "left": "er ",
+      "right": ".",
+      "pair_frequency": 43,
+      "merged_token": "er .",
+      "vocab_size": 458
+    },
+    {
+      "step": 128,
+      "left": "h",
+      "right": " ",
+      "pair_frequency": 42,
+      "merged_token": "h ",
+      "vocab_size": 459
+    },
+    {
+      "step": 129,
+      "left": "t",
+      "right": "ou",
+      "pair_frequency": 41,
+      "merged_token": "tou",
+      "vocab_size": 460
+    },
+    {
+      "step": 130,
+      "left": "p",
+      "right": "ar",
+      "pair_frequency": 41,
+      "merged_token": "par",
+      "vocab_size": 461
+    },
+    {
+      "step": 131,
+      "left": "th",
+      "right": "at ",
+      "pair_frequency": 40,
+      "merged_token": "that ",
+      "vocab_size": 462
+    },
+    {
+      "step": 132,
+      "left": "r ",
+      "right": ".",
+      "pair_frequency": 40,
+      "merged_token": "r .",
+      "vocab_size": 463
+    },
+    {
+      "step": 133,
+      "left": "p",
+      "right": "our ",
+      "pair_frequency": 40,
+      "merged_token": "pour ",
+      "vocab_size": 464
+    },
+    {
+      "step": 134,
+      "left": "b",
+      "right": "e",
+      "pair_frequency": 40,
+      "merged_token": "be",
+      "vocab_size": 465
+    },
+    {
+      "step": 135,
+      "left": "I '",
+      "right": "m ",
+      "pair_frequency": 40,
+      "merged_token": "I 'm ",
+      "vocab_size": 466
+    },
+    {
+      "step": 136,
+      "left": "o",
+      "right": "f ",
+      "pair_frequency": 39,
+      "merged_token": "of ",
+      "vocab_size": 467
+    },
+    {
+      "step": 137,
+      "left": "j",
+      "right": "us",
+      "pair_frequency": 39,
+      "merged_token": "jus",
+      "vocab_size": 468
+    },
+    {
+      "step": 138,
+      "left": "e t",
+      "right": "u ",
+      "pair_frequency": 39,
+      "merged_token": "e tu ",
+      "vocab_size": 469
+    },
+    {
+      "step": 139,
+      "left": "d",
+      "right": "' ",
+      "pair_frequency": 39,
+      "merged_token": "d' ",
+      "vocab_size": 470
+    },
+    {
+      "step": 140,
+      "left": "re ",
+      "right": ".",
+      "pair_frequency": 38,
+      "merged_token": "re .",
+      "vocab_size": 471
+    },
+    {
+      "step": 141,
+      "left": "r",
+      "right": "ea",
+      "pair_frequency": 38,
+      "merged_token": "rea",
+      "vocab_size": 472
+    },
+    {
+      "step": 142,
+      "left": "h",
+      "right": "a",
+      "pair_frequency": 38,
+      "merged_token": "ha",
+      "vocab_size": 473
+    },
+    {
+      "step": 143,
+      "left": "d",
+      "right": "i",
+      "pair_frequency": 38,
+      "merged_token": "di",
+      "vocab_size": 474
+    },
+    {
+      "step": 144,
+      "left": "w",
+      "right": "h",
+      "pair_frequency": 37,
+      "merged_token": "wh",
+      "vocab_size": 475
+    },
+    {
+      "step": 145,
+      "left": "s",
+      "right": "t",
+      "pair_frequency": 36,
+      "merged_token": "st",
+      "vocab_size": 476
+    },
+    {
+      "step": 146,
+      "left": "n",
+      "right": "o",
+      "pair_frequency": 36,
+      "merged_token": "no",
+      "vocab_size": 477
+    },
+    {
+      "step": 147,
+      "left": "n",
+      "right": "a ",
+      "pair_frequency": 36,
+      "merged_token": "na ",
+      "vocab_size": 478
+    },
+    {
+      "step": 148,
+      "left": "f",
+      "right": "ai",
+      "pair_frequency": 36,
+      "merged_token": "fai",
+      "vocab_size": 479
+    },
+    {
+      "step": 149,
+      "left": "E",
+      "right": "t ",
+      "pair_frequency": 36,
+      "merged_token": "Et ",
+      "vocab_size": 480
+    },
+    {
+      "step": 150,
+      "left": "A",
+      "right": "nd ",
+      "pair_frequency": 36,
+      "merged_token": "And ",
+      "vocab_size": 481
+    },
+    {
+      "step": 151,
+      "left": "e su",
+      "right": "is ",
+      "pair_frequency": 35,
+      "merged_token": "e suis ",
+      "vocab_size": 482
+    },
+    {
+      "step": 152,
+      "left": "dan",
+      "right": "s ",
+      "pair_frequency": 35,
+      "merged_token": "dans ",
+      "vocab_size": 483
+    },
+    {
+      "step": 153,
+      "left": "d",
+      "right": "e t",
+      "pair_frequency": 35,
+      "merged_token": "de t",
+      "vocab_size": 484
+    },
+    {
+      "step": 154,
+      "left": "ca",
+      "right": "n ",
+      "pair_frequency": 35,
+      "merged_token": "can ",
+      "vocab_size": 485
+    },
+    {
+      "step": 155,
+      "left": "c",
+      "right": "om",
+      "pair_frequency": 35,
+      "merged_token": "com",
+      "vocab_size": 486
+    },
+    {
+      "step": 156,
+      "left": "qu",
+      "right": "e tu ",
+      "pair_frequency": 34,
+      "merged_token": "que tu ",
+      "vocab_size": 487
+    },
+    {
+      "step": 157,
+      "left": "i",
+      "right": "ll",
+      "pair_frequency": 34,
+      "merged_token": "ill",
+      "vocab_size": 488
+    },
+    {
+      "step": 158,
+      "left": "f",
+      "right": "or ",
+      "pair_frequency": 34,
+      "merged_token": "for ",
+      "vocab_size": 489
+    },
+    {
+      "step": 159,
+      "left": "' ",
+      "right": "est ",
+      "pair_frequency": 34,
+      "merged_token": "' est ",
+      "vocab_size": 490
+    },
+    {
+      "step": 160,
+      "left": "you",
+      "right": " .",
+      "pair_frequency": 33,
+      "merged_token": "you .",
+      "vocab_size": 491
+    },
+    {
+      "step": 161,
+      "left": "u",
+      "right": "t ",
+      "pair_frequency": 33,
+      "merged_token": "ut ",
+      "vocab_size": 492
+    },
+    {
+      "step": 162,
+      "left": "l",
+      "right": "ais",
+      "pair_frequency": 33,
+      "merged_token": "lais",
+      "vocab_size": 493
+    },
+    {
+      "step": 163,
+      "left": "l",
+      "right": "' ",
+      "pair_frequency": 33,
+      "merged_token": "l' ",
+      "vocab_size": 494
+    },
+    {
+      "step": 164,
+      "left": "ai",
+      "right": "n ",
+      "pair_frequency": 33,
+      "merged_token": "ain ",
+      "vocab_size": 495
+    },
+    {
+      "step": 165,
+      "left": "a",
+      "right": "y ",
+      "pair_frequency": 33,
+      "merged_token": "ay ",
+      "vocab_size": 496
+    },
+    {
+      "step": 166,
+      "left": "th",
+      "right": " ",
+      "pair_frequency": 32,
+      "merged_token": "th ",
+      "vocab_size": 497
+    },
+    {
+      "step": 167,
+      "left": "p",
+      "right": "r",
+      "pair_frequency": 32,
+      "merged_token": "pr",
+      "vocab_size": 498
+    },
+    {
+      "step": 168,
+      "left": "f",
+      "right": "e",
+      "pair_frequency": 31,
+      "merged_token": "fe",
+      "vocab_size": 499
+    },
+    {
+      "step": 169,
+      "left": "es ",
+      "right": ".",
+      "pair_frequency": 31,
+      "merged_token": "es .",
+      "vocab_size": 500
+    },
+    {
+      "step": 170,
+      "left": "ai",
+      "right": "m",
+      "pair_frequency": 31,
+      "merged_token": "aim",
+      "vocab_size": 501
+    },
+    {
+      "step": 171,
+      "left": "a",
+      "right": "c",
+      "pair_frequency": 31,
+      "merged_token": "ac",
+      "vocab_size": 502
+    },
+    {
+      "step": 172,
+      "left": "ou",
+      "right": " ",
+      "pair_frequency": 30,
+      "merged_token": "ou ",
+      "vocab_size": 503
+    },
+    {
+      "step": 173,
+      "left": "k",
+      "right": "n",
+      "pair_frequency": 30,
+      "merged_token": "kn",
+      "vocab_size": 504
+    },
+    {
+      "step": 174,
+      "left": "a",
+      "right": "u",
+      "pair_frequency": 30,
+      "merged_token": "au",
+      "vocab_size": 505
+    },
+    {
+      "step": 175,
+      "left": "u",
+      "right": "ne ",
+      "pair_frequency": 29,
+      "merged_token": "une ",
+      "vocab_size": 506
+    },
+    {
+      "step": 176,
+      "left": "th",
+      "right": "ing ",
+      "pair_frequency": 29,
+      "merged_token": "thing ",
+      "vocab_size": 507
+    },
+    {
+      "step": 177,
+      "left": "on",
+      "right": "s ",
+      "pair_frequency": 29,
+      "merged_token": "ons ",
+      "vocab_size": 508
+    },
+    {
+      "step": 178,
+      "left": "a",
+      "right": "l",
+      "pair_frequency": 29,
+      "merged_token": "al",
+      "vocab_size": 509
+    },
+    {
+      "step": 179,
+      "left": "que ",
+      "right": "j",
+      "pair_frequency": 28,
+      "merged_token": "que j",
+      "vocab_size": 510
+    },
+    {
+      "step": 180,
+      "left": "g",
+      "right": "o",
+      "pair_frequency": 28,
+      "merged_token": "go",
+      "vocab_size": 511
+    },
+    {
+      "step": 181,
+      "left": "'",
+      "right": "s ",
+      "pair_frequency": 28,
+      "merged_token": "'s ",
+      "vocab_size": 512
+    }
+  ]
+}

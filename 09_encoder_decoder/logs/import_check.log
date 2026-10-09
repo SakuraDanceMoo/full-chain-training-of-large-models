@@ -1,0 +1,22 @@
+############ 机器翻译数据集 ############
+Imported machine_translation
+############ 编码器-解码器 ############
+Imported encoder_decoder
+############ 注意力机制 ############
+############ 注意力分数 ############
+############ 分数的两种计算方法 ############
+############ 使用注意力的seq2seq ############
+Imported attention_mechanism
+############ Transformer和RNN ############
+############ 自注意力机制 ############
+############ 位置编码 ############
+############ Transformer架构 ############
+Imported transformer
+############ BERT ############
+############ 预训练任务 ############
+Imported bert
+############ seq2seq ############
+############ BLEU ############
+############ 实现seq2seq的编码器-解码器 ############
+Imported seq2seq
+Foundation imports and corpus path passed; training not started.

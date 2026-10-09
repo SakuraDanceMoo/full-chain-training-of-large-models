@@ -1,0 +1,149 @@
+I am a student .	Je suis étudiant .
+She is a teacher .	Elle est enseignante .
+He is happy .	Il est heureux .
+They are friends .	Ils sont amis .
+We love music .	Nous aimons la musique .
+You speak English .	Tu parles anglais .
+The cat is black .	Le chat est noir .
+The dog is white .	Le chien est blanc .
+I have a book .	J' ai un livre .
+She has a pen .	Elle a un stylo .
+He reads a newspaper .	Il lit un journal .
+We eat bread .	Nous mangeons du pain .
+They drink water .	Ils boivent de l' eau .
+The sun is bright .	Le soleil est brillant .
+The moon is beautiful .	La lune est belle .
+I like coffee .	J' aime le café .
+She likes tea .	Elle aime le thé .
+He goes to school .	Il va à l' école .
+We live in Paris .	Nous habitons à Paris .
+They work in London .	Ils travaillent à Londres .
+The flower is red .	La fleur est rouge .
+The sky is blue .	Le ciel est bleu .
+I see a bird .	Je vois un oiseau .
+She hears music .	Elle entend la musique .
+He eats an apple .	Il mange une pomme .
+We drink milk .	Nous buvons du lait .
+They play football .	Ils jouent au football .
+The baby is sleeping .	Le bébé dort .
+The man is tall .	L' homme est grand .
+The woman is kind .	La femme est gentille .
+I want water .	Je veux de l' eau .
+She wants food .	Elle veut de la nourriture .
+He can swim .	Il sait nager .
+We can dance .	Nous savons danser .
+They must go .	Ils doivent partir .
+I will come .	Je viendrai .
+She will sing .	Elle chantera .
+He should study .	Il devrait étudier .
+We need help .	Nous avons besoin d' aide .
+They like chocolate .	Ils aiment le chocolat .
+The book is interesting .	Le livre est intéressant .
+The movie was boring .	Le film était ennuyeux .
+I am tired .	Je suis fatigué .
+She is beautiful .	Elle est belle .
+He is strong .	Il est fort .
+We are ready .	Nous sommes prêts .
+They are late .	Ils sont en retard .
+The food is delicious .	La nourriture est délicieuse .
+The water is cold .	L' eau est froide .
+I love you .	Je t' aime .
+What is your name ?	Quel est votre nom ?
+My name is John .	Je m' appelle John .
+How are you ?	Comment allez-vous ?
+I am fine , thank you .	Je vais bien , merci .
+Where do you live ?	Où habitez-vous ?
+I live in New York .	J' habite à New York .
+What time is it ?	Quelle heure est-il ?
+It is three o' clock .	Il est trois heures .
+Can you help me ?	Pouvez-vous m' aider ?
+I do not understand .	Je ne comprends pas .
+Please speak slowly .	Parlez lentement , s' il vous plaît .
+How much does it cost ?	Combien ça coûte ?
+It is too expensive .	C' est trop cher .
+I would like a coffee .	Je voudrais un café .
+Where is the bathroom ?	Où sont les toilettes ?
+Turn left at the corner .	Tournez à gauche au coin .
+Go straight ahead .	Allez tout droit .
+The restaurant is here .	Le restaurant est ici .
+I am looking for a hotel .	Je cherche un hôtel .
+Do you have a room ?	Avez-vous une chambre ?
+How many people ?	Combien de personnes ?
+We have two children .	Nous avons deux enfants .
+What is your job ?	Quel est votre métier ?
+I am a doctor .	Je suis médecin .
+She works in a hospital .	Elle travaille dans un hôpital .
+He is an engineer .	Il est ingénieur .
+We start at nine o' clock .	Nous commençons à neuf heures .
+The meeting is tomorrow .	La réunion est demain .
+Can I pay by card ?	Puis-je payer par carte ?
+I need a taxi .	J' ai besoin d' un taxi .
+Take me to the station .	Emmenez-moi à la gare .
+The train is late .	Le train est en retard .
+Where can I buy tickets ?	Où puis-je acheter des billets ?
+I have a reservation .	J' ai une réservation .
+What is the wifi password ?	Quel est le mot de passe wifi ?
+My phone is broken .	Mon téléphone est cassé .
+I lost my passport .	J' ai perdu mon passeport .
+Call the police .	Appelez la police .
+I need a doctor .	J' ai besoin d' un médecin .
+It is an emergency .	C' est une urgence .
+I am allergic to peanuts .	Je suis allergique aux cacahuètes .
+Do you speak French ?	Parlez-vous français ?
+I am learning French .	J' apprends le français .
+Can you repeat that ?	Pouvez-vous répéter ?
+What does this mean ?	Que signifie ceci ?
+Have a nice day .	Bonne journée .
+Good morning .	Bonjour .
+Good evening .	Bonsoir .
+Good night .	Bonne nuit .
+See you later .	À plus tard .
+I am sorry .	Je suis désolé .
+Excuse me .	Excusez-moi .
+Thank you very much .	Merci beaucoup .
+You are welcome .	De rien .
+Happy birthday .	Joyeux anniversaire .
+Merry Christmas .	Joyeux Noël .
+Happy New Year .	Bonne année .
+The weather is nice today .	Il fait beau aujourd'hui .
+It is raining outside .	Il pleut dehors .
+It is very cold .	Il fait très froid .
+I like summer .	J' aime l' été .
+Winter is coming .	L' hiver arrive .
+Spring is beautiful .	Le printemps est beau .
+Autumn leaves are falling .	Les feuilles d' automne tombent .
+The mountains are high .	Les montagnes sont hautes .
+The river is long .	La rivière est longue .
+I love the ocean .	J' aime l' océan .
+Let us go to the beach .	Allons à la plage .
+Swimming is fun .	Nager est amusant .
+I like to read books .	J' aime lire des livres .
+She writes poetry .	Elle écrit de la poésie .
+He paints pictures .	Il peint des tableaux .
+Music makes me happy .	La musique me rend heureux .
+I play the guitar .	Je joue de la guitare .
+She plays the piano .	Elle joue du piano .
+We sing together .	Nous chantons ensemble .
+Dancing is my passion .	La danse est ma passion .
+I enjoy cooking .	J' aime cuisiner .
+This meal is delicious .	Ce repas est délicieux .
+I am a vegetarian .	Je suis végétarien .
+No meat please .	Pas de viande s' il vous plaît .
+Breakfast is ready .	Le petit déjeuner est prêt .
+Dinner is served .	Le dîner est servi .
+I am hungry .	J' ai faim .
+I am thirsty .	J' ai soif .
+More water please .	Plus d' eau s' il vous plaît .
+The check please .	L' addition s' il vous plaît .
+Keep the change .	Gardez la monnaie .
+I will come back .	Je reviendrai .
+Do not forget me .	Ne m' oubliez pas .
+I miss you .	Tu me manques .
+Write to me soon .	Écrivez-moi bientôt .
+I had a dream .	J' ai fait un rêve .
+Dreams come true .	Les rêves deviennent réalité .
+Never give up .	N' abandonnez jamais .
+Believe in yourself .	Croyez en vous .
+Everything is possible .	Tout est possible .
+Time flies .	Le temps passe vite .
+Life is beautiful .	La vie est belle .

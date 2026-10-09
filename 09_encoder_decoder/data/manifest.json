@@ -1,0 +1,16 @@
+{
+  "source": "inherited local English/French corpus",
+  "source_provenance": "not recorded",
+  "files": [
+    {
+      "path": "data/raw/eng_fra.txt",
+      "bytes": 6256,
+      "sha256": "f3c1b18e6109f52a2840bc4c48dbbb3c20ab35af77551e4a83987dc08678205f"
+    },
+    {
+      "path": "data/raw/eng_fra_songs.txt",
+      "bytes": 50450,
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3"
+    }
+  ]
+}

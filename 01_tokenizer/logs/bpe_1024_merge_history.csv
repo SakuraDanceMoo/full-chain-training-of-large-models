@@ -1,0 +1,694 @@
+step,left,right,pair_frequency,merged_token,vocab_size
+1,e, ,1959,e ,332
+2,s, ,986,s ,333
+3,t, ,749,t ,334
+4,o,u,669,ou,335
+5,r, ,522,r ,336
+6,n, ,508,n ,337
+7,a,i,428,ai,338
+8,d, ,318,d ,339
+9,t,h,305,th,340
+10,",", ,288,", ",341
+11,a,n,283,an,342
+12,a, ,275,a ,343
+13,', ,273,' ,344
+14, ,.,266, .,345
+15,I, ,258,I ,346
+16,e,n,249,en,347
+17,y,ou,229,you,348
+18,e,s ,217,es ,349
+19,r,e ,215,re ,350
+20,l,l,213,ll,351
+21,q,u,206,qu,352
+22,y, ,202,y ,353
+23,i,n,201,in,354
+24,m,e ,200,me ,355
+25,o,n,198,on,356
+26,o,i,190,oi,357
+27,u, ,181,u ,358
+28,o, ,181,o ,359
+29,e,r ,180,er ,360
+30,e ,t,161,e t,361
+31,o,n ,159,on ,362
+32,e,u,151,eu,363
+33,a,r,147,ar,364
+34,you, ,146,you ,365
+35,c,h,131,ch,366
+36,e ,s,129,e s,367
+37,a,s ,127,as ,368
+38,in,g,123,ing,369
+39,e,s,118,es,370
+40,e,r,118,er,371
+41,v,e ,112,ve ,372
+42,ai,s ,112,ais ,373
+43,d,e ,108,de ,374
+44,e,a,107,ea,375
+45,th,e ,106,the ,376
+46,o,m,105,om,377
+47,i,s ,104,is ,378
+48,ou,r ,96,our ,379
+49,e,n ,96,en ,380
+50,qu,e ,93,que ,381
+51,o,r,93,or,382
+52,ll, ,93,ll ,383
+53,ing, ,93,ing ,384
+54,a,m,91,am,385
+55,e,l,90,el,386
+56,t,i,89,ti,387
+57,e,t ,89,et ,388
+58,ai, ,89,ai ,389
+59,e ,.,85,e .,390
+60,an,d ,83,and ,391
+61,e,m,82,em,392
+62,I ,',81,I ',393
+63,o,w,80,ow,394
+64,j,e ,79,je ,395
+65,i,t ,77,it ,396
+66,t,o ,76,to ,397
+67,l,i,76,li,398
+68,t,e ,74,te ,399
+69,r,i,74,ri,400
+70,eu,x,73,eux,401
+71,e,d ,73,ed ,402
+72,u,s,72,us,403
+73,s ,.,70,s .,404
+74,l,o,70,lo,405
+75,p,as ,69,pas ,406
+76,an,t ,69,ant ,407
+77,à, ,68,à ,408
+78,l,e ,65,le ,409
+79,c,e ,65,ce ,410
+80,eux, ,64,eux ,411
+81,en,t ,64,ent ,412
+82,n,e ,63,ne ,413
+83,a,t ,63,at ,414
+84,i,n ,61,in ,415
+85,c,a,61,ca,416
+86,' ,ai ,61,' ai ,417
+87,w,i,59,wi,418
+88,J,e ,59,Je ,419
+89,u,n ,58,un ,420
+90,f, ,58,f ,421
+91,ai,s,58,ais,422
+92,é, ,57,é ,423
+93,i, ,57,i ,424
+94,t,t,55,tt,425
+95,s,e ,55,se ,426
+96,me ,.,55,me .,427
+97,o,r ,54,or ,428
+98,lo,ve ,54,love ,429
+99,a,v,53,av,430
+100,m,a,52,ma,431
+101,ou,s ,51,ous ,432
+102,l,a ,51,la ,433
+103,es,t ,51,est ,434
+104,a,y,51,ay,435
+105,you,r ,49,your ,436
+106,ow, ,49,ow ,437
+107,e,v,49,ev,438
+108,t,u ,48,tu ,439
+109,p,l,48,pl,440
+110,l, ,48,l ,441
+111,h,e,48,he,442
+112,en,d,48,end,443
+113,v,i,47,vi,444
+114,ou,r,47,our,445
+115,oi, ,47,oi ,446
+116,k,e ,47,ke ,447
+117,',t ,47,'t ,448
+118,e s,u,46,e su,449
+119,m,y ,45,my ,450
+120,m, ,45,m ,451
+121,l,es ,45,les ,452
+122,t,r,44,tr,453
+123,oi, .,44,oi .,454
+124,n,d ,44,nd ,455
+125,d,an,44,dan,456
+126,l,d ,43,ld ,457
+127,er ,.,43,er .,458
+128,h, ,42,h ,459
+129,t,ou,41,tou,460
+130,p,ar,41,par,461
+131,th,at ,40,that ,462
+132,r ,.,40,r .,463
+133,p,our ,40,pour ,464
+134,b,e,40,be,465
+135,I ',m ,40,I 'm ,466
+136,o,f ,39,of ,467
+137,j,us,39,jus,468
+138,e t,u ,39,e tu ,469
+139,d,' ,39,d' ,470
+140,re ,.,38,re .,471
+141,r,ea,38,rea,472
+142,h,a,38,ha,473
+143,d,i,38,di,474
+144,w,h,37,wh,475
+145,s,t,36,st,476
+146,n,o,36,no,477
+147,n,a ,36,na ,478
+148,f,ai,36,fai,479
+149,E,t ,36,Et ,480
+150,A,nd ,36,And ,481
+151,e su,is ,35,e suis ,482
+152,dan,s ,35,dans ,483
+153,d,e t,35,de t,484
+154,ca,n ,35,can ,485
+155,c,om,35,com,486
+156,qu,e tu ,34,que tu ,487
+157,i,ll,34,ill,488
+158,f,or ,34,for ,489
+159,' ,est ,34,' est ,490
+160,you, .,33,you .,491
+161,u,t ,33,ut ,492
+162,l,ais,33,lais,493
+163,l,' ,33,l' ,494
+164,ai,n ,33,ain ,495
+165,a,y ,33,ay ,496
+166,th, ,32,th ,497
+167,p,r,32,pr,498
+168,f,e,31,fe,499
+169,es ,.,31,es .,500
+170,ai,m,31,aim,501
+171,a,c,31,ac,502
+172,ou, ,30,ou ,503
+173,k,n,30,kn,504
+174,a,u,30,au,505
+175,u,ne ,29,une ,506
+176,th,ing ,29,thing ,507
+177,on,s ,29,ons ,508
+178,a,l,29,al,509
+179,que ,j,28,que j,510
+180,g,o,28,go,511
+181,',s ,28,'s ,512
+182,l,et ,27,let ,513
+183,am,our ,27,amour ,514
+184,a,g,27,ag,515
+185,wi,th ,26,with ,516
+186,t ,.,26,t .,517
+187,c,on,26,con,518
+188,b,e ,26,be ,519
+189,Y,ou ,26,You ,520
+190,T,u ,26,Tu ,521
+191,T,h,26,Th,522
+192,p, ,25,p ,523
+193,ou,v,25,ouv,524
+194,on ,'t ,25,on 't ,525
+195,m,on ,25,mon ,526
+196,m,on,25,mon,527
+197,m,oi .,25,moi .,528
+198,u,i,24,ui,529
+199,n,ous ,24,nous ,530
+200,n,' ,24,n' ,531
+201,d,es ,24,des ,532
+202,a,ll ,24,all ,533
+203,v,eux ,23,veux ,534
+204,s,h,23,sh,535
+205,n,e,23,ne,536
+206,g,h,23,gh,537
+207,c,o,23,co,538
+208,a ,m,23,a m,539
+209,a,s,23,as,540
+210,w,ay,22,way,541
+211,t,en,22,ten,542
+212,que ,je ,22,que je ,543
+213,oi,s ,22,ois ,544
+214,oi,n ,22,oin ,545
+215,l,e,22,le,546
+216,he,re ,22,here ,547
+217,fe,el,22,feel,548
+218,a,ll,22,all,549
+219,wi,ll ,21,will ,550
+220,qu,' ,21,qu' ,551
+221,p,or,21,por,552
+222,p,eux ,21,peux ,553
+223,lais,s,21,laiss,554
+224,er,ai ,21,erai ,555
+225,ch,o,21,cho,556
+226,ch,an,21,chan,557
+227,J,' ai ,21,J' ai ,558
+228,I ,w,21,I w,559
+229,é, .,20,é .,560
+230,s,u,20,su,561
+231,r,e,20,re,562
+232,ou,t ,20,out ,563
+233,om,e,20,ome,564
+234,o ,", ",20,"o , ",565
+235,no,t ,20,not ,566
+236,m,oi ,20,moi ,567
+237,m,es ,20,mes ,568
+238,i,de ,20,ide ,569
+239,he,ar,20,hear,570
+240,eu,r,20,eur,571
+241,e t,' ,20,e t' ,572
+242,I ',ve ,20,I 've ,573
+243,you ,',19,you ',574
+244,ti,r ,19,tir ,575
+245,s,on ,19,son ,576
+246,r,em,19,rem,577
+247,ou,ld ,19,ould ,578
+248,i,m,19,im,579
+249,i,en ,19,ien ,580
+250,es,oin ,19,esoin ,581
+251,ent ,.,19,ent .,582
+252,e ,", ",19,"e , ",583
+253,b,esoin ,19,besoin ,584
+254,ain ,.,19,ain .,585
+255,é,t,18,ét,586
+256,tou,t ,18,tout ,587
+257,t,re ,18,tre ,588
+258,s,e,18,se,589
+259,ou,l,18,oul,590
+260,kn,ow ,18,know ,591
+261,i,l ,18,il ,592
+262,e,u ,18,eu ,593
+263,d,on 't ,18,don 't ,594
+264,b,er ,18,ber ,595
+265,M,ais ,18,Mais ,596
+266,B,ut ,18,But ,597
+267,w,e ,17,we ,598
+268,th,e,17,the,599
+269,t,s ,17,ts ,600
+270,s,i ,17,si ,601
+271,s,en,17,sen,602
+272,p,p,17,pp,603
+273,on,e ,17,one ,604
+274,o,k,17,ok,605
+275,ne,ed ,17,need ,606
+276,ma,ke ,17,make ,607
+277,ll,e ,17,lle ,608
+278,in ,love ,17,in love ,609
+279,i,r,17,ir,610
+280,f,r,17,fr,611
+281,d,é,17,dé,612
+282,c,i,17,ci,613
+283,c, ,17,c ,614
+284,b,o,17,bo,615
+285,ai,n,17,ain,616
+286,a,ke ,17,ake ,617
+287,Q,u,17,Qu,618
+288,I ',ll ,17,I 'll ,619
+289,y, .,16,y .,620
+290,t,oi ,16,toi ,621
+291,s,es ,16,ses ,622
+292,om, ,16,om ,623
+293,o, .,16,o .,624
+294,na ,na ,16,na na ,625
+295,m,e,16,me,626
+296,m,' ,16,m' ,627
+297,jus,t ,16,just ,628
+298,j,our,16,jour,629
+299,im,por,16,impor,630
+300,fai,re ,16,faire ,631
+301,ev,er ,16,ever ,632
+302,em,p,16,emp,633
+303,c,r,16,cr,634
+304,ais ,.,16,ais .,635
+305,a,re ,16,are ,636
+306,I ,can ,16,I can ,637
+307,à ,la ,15,à la ,638
+308,w,or,15,wor,639
+309,v,r,15,vr,640
+310,the ,d,15,the d,641
+311,s,ome,15,some,642
+312,qu,i ,15,qui ,643
+313,qu,el,15,quel,644
+314,on ,", ",15,"on , ",645
+315,oi,r ,15,oir ,646
+316,l, .,15,l .,647
+317,j,' ai ,15,j' ai ,648
+318,in,d ,15,ind ,649
+319,es,t,15,est,650
+320,d,on,15,don,651
+321,c,ar,15,car,652
+322,a,r ,15,ar ,653
+323,a,b,15,ab,654
+324,œ,u,14,œu,655
+325,you ',re ,14,you 're ,656
+326,un ,p,14,un p,657
+327,u,s ,14,us ,658
+328,ten,ant ,14,tenant ,659
+329,p,i,14,pi,660
+330,ow, .,14,ow .,661
+331,ing, .,14,ing .,662
+332,in love ,with ,14,in love with ,663
+333,in,u,14,inu,664
+334,h,o,14,ho,665
+335,g,o ,14,go ,666
+336,e,p,14,ep,667
+337,com,me ,14,comme ,668
+338,chan,g,14,chang,669
+339,c,œu,14,cœu,670
+340,c,' est ,14,c' est ,671
+341,be,en ,14,been ,672
+342,am,our,14,amour,673
+343,ain,tenant ,14,aintenant ,674
+344,a,li,14,ali,675
+345,O,h ,14,Oh ,676
+346,J,e suis ,14,Je suis ,677
+347,your ,h,13,your h,678
+348,v,er,13,ver,679
+349,tou,jour,13,toujour,680
+350,th,is ,13,this ,681
+351,t,on ,13,ton ,682
+352,t,es ,13,tes ,683
+353,pr,o,13,pro,684
+354,p,our,13,pour,685
+355,jus,te ,13,juste ,686
+356,h,i,13,hi,687
+357,g, ,13,g ,688
+358,feel, ,13,feel ,689
+359,ev,er,13,ever,690
+360,e,c ,13,ec ,691
+361,b,r,13,br,692
+362,b,ea,13,bea,693
+363,amour ,.,13,amour .,694
+364,ai,t ,13,ait ,695
+365,é,ri,12,éri,696
+366,you ,can ,12,you can ,697
+367,y ,a ,12,y a ,698
+368,y ,", ",12,"y , ",699
+369,way, .,12,way .,700
+370,vr,aim,12,vraim,701
+371,the,re ,12,there ,702
+372,t,inu,12,tinu,703
+373,s,ide ,12,side ,704
+374,ou,vi,12,ouvi,705
+375,or,s ,12,ors ,706
+376,n,' ai ,12,n' ai ,707
+377,m,i,12,mi,708
+378,li,tt,12,litt,709
+379,li,f,12,lif,710
+380,lais,se ,12,laisse ,711
+381,l,e s,12,le s,712
+382,k, ,12,k ,713
+383,j,ou,12,jou,714
+384,it ,b,12,it b,715
+385,g,ar,12,gar,716
+386,f,f,12,ff,717
+387,er ,", ",12,"er , ",718
+388,end,s ,12,ends ,719
+389,en,s,12,ens,720
+390,em,ber ,12,ember ,721
+391,e t,e ,12,e te ,722
+392,c,ould ,12,could ,723
+393,av,ec ,12,avec ,724
+394,a ,", ",12,"a , ",725
+395,A,ll,12,All,726
+396,your h,and ,11,your hand ,727
+397,y ,ma,11,y ma,728
+398,wh,en ,11,when ,729
+399,vraim,ent ,11,vraiment ,730
+400,t,a m,11,ta m,731
+401,rea,ll,11,reall,732
+402,r,ais,11,rais,733
+403,qu,and ,11,quand ,734
+404,pl,ay,11,play,735
+405,peux ,pas ,11,peux pas ,736
+406,p,er,11,per,737
+407,oi,r .,11,oir .,738
+408,ne ,peux pas ,11,ne peux pas ,739
+409,n,o ,11,no ,740
+410,m,a ,11,ma ,741
+411,l,ea,11,lea,742
+412,ill,e ,11,ille ,743
+413,ha,d ,11,had ,744
+414,gh,t ,11,ght ,745
+415,f,or,11,for,746
+416,f,o,11,fo,747
+417,eu,r ,11,eur ,748
+418,end,r,11,endr,749
+419,en,t,11,ent,750
+420,en,s ,11,ens ,751
+421,el,u,11,elu,752
+422,e t' ,aim,11,e t' aim,753
+423,d,u ,11,du ,754
+424,d,e s,11,de s,755
+425,be,tt,11,bett,756
+426,b,ut ,11,but ,757
+427,ant ,to ,11,ant to ,758
+428,a,u ,11,au ,759
+429,I ,don 't ,11,I don 't ,760
+430,é,l,10,él,761
+431,él,ui,10,élui,762
+432,ç,a ,10,ça ,763
+433,wh,at ,10,what ,764
+434,un p,eu ,10,un peu ,765
+435,t,oi .,10,toi .,766
+436,t,an,10,tan,767
+437,s,on,10,son,768
+438,rea,son ,10,reason ,769
+439,rea,m,10,ream,770
+440,rais,on ,10,raison ,771
+441,par,ti,10,parti,772
+442,p,o,10,po,773
+443,on,d,10,ond,774
+444,n,u,10,nu,775
+445,n,e s,10,ne s,776
+446,m,o,10,mo,777
+447,l' ,as ,10,l' as ,778
+448,l,on,10,lon,779
+449,j,a,10,ja,780
+450,impor,tan,10,importan,781
+451,i,r ,10,ir ,782
+452,i,l,10,il,783
+453,h ,", ",10,"h , ",784
+454,fr,om ,10,from ,785
+455,elu,ja,10,eluja,786
+456,ed ,it ,10,ed it ,787
+457,ed ,.,10,ed .,788
+458,e t' aim,erai ,10,e t' aimerai ,789
+459,e,t,10,et,790
+460,d' ,importan,10,d' importan,791
+461,cœu,r ,10,cœur ,792
+462,con,tinu,10,continu,793
+463,com,m,10,comm,794
+464,bo,d,10,bod,795
+465,b,l,10,bl,796
+466,av,ais ,10,avais ,797
+467,an,na ,10,anna ,798
+468,all,eluja,10,alleluja,799
+469,ali,le,10,alile,800
+470,ai,d ,10,aid ,801
+471,a,n ,10,an ,802
+472,a,ce ,10,ace ,803
+473,W,h,10,Wh,804
+474,P,our ,10,Pour ,805
+475,N,o,10,No,806
+476,I can ,'t ,10,I can 't ,807
+477,H,alleluja,10,Halleluja,808
+478,G,alile,10,Galile,809
+479,C,' est ,10,C' est ,810
+480,All,élui,10,Allélui,811
+481,", ",laisse ,10,", laisse ",812
+482,è,re ,9,ère ,813
+483,your hand ,.,9,your hand .,814
+484,y ma,tt,9,y matt,815
+485,y,th,9,yth,816
+486,wor,ld ,9,world ,817
+487,wi,s,9,wis,818
+488,way,s ,9,ways ,819
+489,w,e,9,we,820
+490,vraiment ,d' importan,9,vraiment d' importan,821
+491,to ,the ,9,to the ,822
+492,ti,m,9,tim,823
+493,that ,I ,9,that I ,824
+494,ta m,ain .,9,ta main .,825
+495,t,é .,9,té .,826
+496,t,ake ,9,take ,827
+497,s ,of ,9,s of ,828
+498,s ,", ",9,"s , ",829
+499,reall,y matt,9,really matt,830
+500,que ,nous ,9,que nous ,831
+501,ow,n ,9,own ,832
+502,n' ,a ,9,n' a ,833
+503,n ,'t ,9,n 't ,834
+504,n,i,9,ni,835
+505,mon,de ,9,monde ,836
+506,me,ill,9,meill,837
+507,m,ais ,9,mais ,838
+508,li,ke ,9,like ,839
+509,l,ors ,9,lors ,840
+510,k,ing ,9,king ,841
+511,j,am,9,jam,842
+512,ing ,in ,9,ing in ,843
+513,ing,s ,9,ings ,844
+514,i,c,9,ic,845
+515,ic,i ,9,ici ,846
+516,ha,ve ,9,have ,847
+517,fai,re .,9,faire .,848
+518,f,ac,9,fac,849
+519,eux ,de t,9,eux de t,850
+520,er,ais ,9,erais ,851
+521,e,ll,9,ell,852
+522,di,s,9,dis,853
+523,dans ,les ,9,dans les ,854
+524,d,o ,9,do ,855
+525,cho,ses ,9,choses ,856
+526,ch,er ,9,cher ,857
+527,c,es ,9,ces ,858
+528,b,ien ,9,bien ,859
+529,ay, .,9,ay .,860
+530,amour,eux de t,9,amoureux de t,861
+531,al,ways ,9,always ,862
+532,a ,litt,9,a litt,863
+533,a,us,9,aus,864
+534,Th,at ,9,That ,865
+535,T,o ,9,To ,866
+536,R,ien ,9,Rien ,867
+537,P,ar,9,Par,868
+538,No,thing ,9,Nothing ,869
+539,N,ous ,9,Nous ,870
+540,Je ,veux ,9,Je veux ,871
+541,I 've ,been ,9,I 've been ,872
+542,A,lors ,9,Alors ,873
+543,-,moi ,9,-moi ,874
+544,", ",je ,9,", je ",875
+545,ù, ,8,ù ,876
+546,ê,v,8,êv,877
+547,ê,tre ,8,être ,878
+548,y ,J,8,y J,879
+549,y J,u,8,y Ju,880
+550,y Ju,de ,8,y Jude ,881
+551,v,en,8,ven,882
+552,u,n,8,un,883
+553,toujour,s .,8,toujours .,884
+554,ti,mes ,8,times ,885
+555,ti,ll ,8,till ,886
+556,th,ings ,8,things ,887
+557,t,ch,8,tch,888
+558,side ,of ,8,side of ,889
+559,sen,tir ,8,sentir ,890
+560,s,eu,8,seu,891
+561,s,ay ,8,say ,892
+562,ri,en ,8,rien ,893
+563,rem,ember ,8,remember ,894
+564,really matt,er,8,really matter,895
+565,r,é,8,ré,896
+566,que j,e suis ,8,que je suis ,897
+567,qu' ,un ,8,qu' un ,898
+568,pro,f,8,prof,899
+569,prof,ond,8,profond,900
+570,profond,eur,8,profondeur,901
+571,play,ed it ,8,played it ,902
+572,parti,r .,8,partir .,903
+573,oul,ant ,8,oulant ,904
+574,ou,nd ,8,ound ,905
+575,ou,g,8,oug,906
+576,"o , ",Galile,8,"o , Galile",907
+577,o,ù ,8,où ,908
+578,o,ll,8,oll,909
+579,n,ever ,8,never ,910
+580,n,e suis ,8,ne suis ,911
+581,me ,s,8,me s,912
+582,let ,it b,8,let it b,913
+583,let it b,e .,8,let it be .,914
+584,lea,ve ,8,leave ,915
+585,l' as ,jou,8,l' as jou,916
+586,l,y ,8,ly ,917
+587,l,u,8,lu,918
+588,jus,qu' ,8,jusqu' ,919
+589,is ,.,8,is .,920
+590,in ,my ,8,in my ,921
+591,i,le ,8,ile ,922
+592,i,f ,8,if ,923
+593,hear,t ,8,heart ,924
+594,h,el,8,hel,925
+595,go,t ,8,got ,926
+596,g,et ,8,get ,927
+597,f,ri,8,fri,928
+598,f,ois ,8,fois ,929
+599,ep, .,8,ep .,930
+600,el,i,8,eli,931
+601,ea,r ,8,ear ,932
+602,e t,o ,8,e to ,933
+603,di,re ,8,dire ,934
+604,dans les ,profondeur,8,dans les profondeur,935
+605,d ,.,8,d .,936
+606,d,it ,8,dit ,937
+607,comm,en,8,commen,938
+608,co,me ,8,come ,939
+609,cho,se ,8,chose ,940
+610,ch,a,8,cha,941
+611,c,ri,8,cri,942
+612,be,fo,8,befo,943
+613,b,é,8,bé,944
+614,av,ant ,8,avant ,945
+615,a,way .,8,away .,946
+616,Wh,en ,8,When ,947
+617,W,e ,8,We ,948
+618,Qu,and ,8,Quand ,949
+619,I 'm ,not ,8,I 'm not ,950
+620,I ,will ,8,I will ,951
+621,I ,s,8,I s,952
+622,I,l ,8,Il ,953
+623,A,n,8,An,954
+624,", laisse ",faire .,8,", laisse faire .",955
+625,", ",tu ,8,", tu ",956
+626,ê,cher ,7,êcher ,957
+627,you ,played it ,7,you played it ,958
+628,w,ay ,7,way ,959
+629,w, ,7,w ,960
+630,vraiment d' importan,ce ,7,vraiment d' importance ,961
+631,vi,e ,7,vie ,962
+632,v,re ,7,vre ,963
+633,v,ais ,7,vais ,964
+634,ui,s,7,uis,965
+635,u,r,7,ur,966
+636,tr,ouv,7,trouv,967
+637,the d,e,7,the de,968
+638,the de,ep .,7,the deep .,969
+639,t,é ,7,té ,970
+640,t,e .,7,te .,971
+641,sh,e ,7,she ,972
+642,se,e ,7,see ,973
+643,s,é ,7,sé ,974
+644,s,o ,7,so ,975
+645,s,i,7,si,976
+646,s,ag,7,sag,977
+647,s,a,7,sa,978
+648,rem,ent ,7,rement ,979
+649,r,êv,7,rêv,980
+650,r,yth,7,ryth,981
+651,r,y ,7,ry ,982
+652,r,end,7,rend,983
+653,quel,qu' un ,7,quelqu' un ,984
+654,que ,chose ,7,que chose ,985
+655,pl,us ,7,plus ,986
+656,pas ,besoin ,7,pas besoin ,987
+657,par,tir ,7,partir ,988
+658,oulant ,dans les profondeur,7,oulant dans les profondeur,989
+659,oulant dans les profondeur,s .,7,oulant dans les profondeurs .,990
+660,ou,ch,7,ouch,991
+661,on,s .,7,ons .,992
+662,on,e .,7,one .,993
+663,oll,ing in ,7,olling in ,994
+664,olling in ,the deep .,7,olling in the deep .,995
+665,no,thing ,7,nothing ,996
+666,ne peux pas ,m' ,7,ne peux pas m' ,997
+667,ne peux pas m' ,emp,7,ne peux pas m' emp,998
+668,ne peux pas m' emp,êcher ,7,ne peux pas m' empêcher ,999
+669,mon,tr,7,montr,1000
+670,m,us,7,mus,1001
+671,m,aintenant ,7,maintenant ,1002
+672,love ,you ,7,love you ,1003
+673,love ,.,7,love .,1004
+674,lon,g ,7,long ,1005
+675,lo,ok,7,look,1006
+676,lle ,a ,7,lle a ,1007
+677,let ,me ,7,let me ,1008
+678,les ,choses ,7,les choses ,1009
+679,laiss,er ,7,laisser ,1010
+680,l' as jou,é ,7,l' as joué ,1011
+681,l,à ,7,là ,1012
+682,jam,ais ,7,jamais ,1013
+683,ho,ld ,7,hold ,1014
+684,hel,p ,7,help ,1015
+685,h,ow ,7,how ,1016
+686,go, .,7,go .,1017
+687,eux, .,7,eux .,1018
+688,eu,se ,7,euse ,1019
+689,et,te ,7,ette ,1020
+690,emp,s .,7,emps .,1021
+691,ed ,to ,7,ed to ,1022
+692,ea,s,7,eas,1023
+693,e,ll ,7,ell ,1024
