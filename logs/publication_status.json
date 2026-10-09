@@ -1,0 +1,43 @@
+{
+  "repository": "SakuraDanceMoo/full-chain-training-of-large-models",
+  "private": true,
+  "text_files_uploaded": 124,
+  "text_upload_commit": "7411bd62be35b8f2271a9bf8ec2c2f7396b677a6",
+  "sample_remote_blob_checks": [
+    {
+      "path": "README.md",
+      "sha_matches": true,
+      "sha": "69e0a21bef145e765cf7d08326b38b8a53dc5a40"
+    },
+    {
+      "path": "docs/experiments/2026-10-09_repository_and_tokenizer.md",
+      "sha_matches": true,
+      "sha": "86fca5e14be7ff3196c233595b644cdffcd553f7"
+    },
+    {
+      "path": "01_tokenizer/data/raw/eng_fra_songs.txt",
+      "sha_matches": true,
+      "sha": "7d178987dae80e76a74a75db3434102648311e50"
+    },
+    {
+      "path": "01_tokenizer/logs/evaluation_run.log",
+      "sha_matches": true,
+      "sha": "aeaa14bcf96ec9b0bcdb08b19ff5b74a755ee7ad"
+    }
+  ],
+  "native_binary_upload": "pending_device_authorization",
+  "pending_binary_files": [
+    "01_tokenizer/curves/tokenizer_compression_curve.png",
+    "01_tokenizer/models/unigram_1024.model",
+    "01_tokenizer/models/unigram_384.model",
+    "01_tokenizer/models/unigram_512.model",
+    "01_tokenizer/models/unigram_640.model",
+    "01_tokenizer/models/unigram_768.model",
+    "09_encoder_decoder/curves/attention_loss.png",
+    "09_encoder_decoder/curves/seq2seq_loss.png",
+    "09_encoder_decoder/curves/transformer_loss.png",
+    "docs/learning_roadmap.png"
+  ],
+  "binary_mcp_probe": "MCP treats content as UTF-8 text; roadmap probe failed blob hash check and needs replacement by native Git",
+  "local_source_commit": "f776236a9313e0e6bb7a96676511c28285ef9c51"
+}
