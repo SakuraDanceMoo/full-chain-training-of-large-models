@@ -1,0 +1,43 @@
+{
+  "device": "cpu",
+  "parameters": 818048,
+  "vocab_size": 65,
+  "metrics": [
+    {
+      "step": 0,
+      "train": 4.229196071624756,
+      "val": 4.2282627582550045
+    },
+    {
+      "step": 200,
+      "train": 2.500876808166504,
+      "val": 2.49334921836853
+    },
+    {
+      "step": 400,
+      "train": 2.3873916149139403,
+      "val": 2.387956643104553
+    },
+    {
+      "step": 600,
+      "train": 2.2593958616256713,
+      "val": 2.285995602607727
+    },
+    {
+      "step": 800,
+      "train": 2.142820715904236,
+      "val": 2.1764383554458617
+    },
+    {
+      "step": 1000,
+      "train": 2.0444353818893433,
+      "val": 2.0969675540924073
+    },
+    {
+      "step": 1200,
+      "train": 1.9754250168800354,
+      "val": 2.051140069961548
+    }
+  ],
+  "sample": "ROMEO:\nTo sore his I shall will not the steers.\n\nVORILALA:\nTir, what I the tat o the gits in there,\nBont main cant to to to encemme.\n\nDULIA:\nHand we now the I dome to so goork of thee his not.\n\nDUKE OLIZART:\nNon of Rome's but the yen the is that the theatale to bout theat,\nRegad houst pught hat some that thou smay\nAnd thave thy and he that thim have and thou it teat to a that he to thime and weas\nWo he s"
+}

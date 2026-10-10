@@ -1,0 +1,30 @@
+{
+  "data": "D:\\AgentProject2026\\Full-chain Training of Large Models\\02_gpt\\data\\raw\\tinyshakespeare.txt",
+  "steps": 1200,
+  "eval_interval": 200,
+  "eval_iters": 10,
+  "batch_size": 32,
+  "block_size": 128,
+  "layers": 4,
+  "heads": 4,
+  "embed_dim": 128,
+  "dropout": 0.1,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.1,
+  "seed": 1337,
+  "device": "cpu",
+  "sample_tokens": 400,
+  "temperature": 0.8,
+  "top_k": 20,
+  "output_logs": "D:\\AgentProject2026\\Full-chain Training of Large Models\\02_gpt\\logs",
+  "output_curves": "D:\\AgentProject2026\\Full-chain Training of Large Models\\02_gpt\\curves",
+  "output_models": "D:\\AgentProject2026\\Full-chain Training of Large Models\\02_gpt\\models",
+  "config": {
+    "vocab_size": 65,
+    "block_size": 128,
+    "n_layer": 4,
+    "n_head": 4,
+    "n_embd": 128,
+    "dropout": 0.1
+  }
+}

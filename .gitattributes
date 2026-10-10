@@ -1,6 +1,7 @@
 * text=auto eol=lf
 *.png binary
 *.model binary
+*.pt binary
 *.txt text eol=lf
 *.csv text eol=lf
 **/data/raw/** -text

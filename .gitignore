@@ -12,4 +12,5 @@ venv/
 *.pt
 *.pth
 *.ckpt
+!02_gpt/models/minigpt_tinyshakespeare.pt
 # SentencePiece .model and small experiment logs/curves are intentionally tracked.

@@ -1,0 +1,123 @@
+{
+  "structure_and_raw_hash_checks_passed": true,
+  "stage_count": 7,
+  "ready_to_publish": true,
+  "stages": [
+    {
+      "stage": "01_tokenizer",
+      "status": "implemented",
+      "missing_layout": [],
+      "missing_deliverables": []
+    },
+    {
+      "stage": "02_gpt",
+      "status": "implemented",
+      "missing_layout": [],
+      "missing_deliverables": []
+    },
+    {
+      "stage": "03_pretraining",
+      "status": "planned",
+      "missing_layout": [],
+      "missing_deliverables": [
+        "scripts/train.py",
+        "scripts/evaluate.py",
+        "logs/training_metrics.csv",
+        "curves/training_loss.png"
+      ]
+    },
+    {
+      "stage": "04_systems_scaling",
+      "status": "planned",
+      "missing_layout": [],
+      "missing_deliverables": [
+        "scripts/attention_kernel.py",
+        "scripts/benchmark.py",
+        "scripts/fit_scaling.py",
+        "logs/benchmark_metrics.csv",
+        "curves/scaling_law.png"
+      ]
+    },
+    {
+      "stage": "05_posttraining",
+      "status": "planned",
+      "missing_layout": [],
+      "missing_deliverables": [
+        "scripts/train_sft.py",
+        "scripts/train_dpo.py",
+        "scripts/train_rlvr.py",
+        "logs/evaluation_metrics.csv",
+        "curves/alignment_comparison.png"
+      ]
+    },
+    {
+      "stage": "06_agent",
+      "status": "planned",
+      "missing_layout": [],
+      "missing_deliverables": [
+        "scripts/agent.py",
+        "scripts/evaluate.py",
+        "logs/trajectories.jsonl",
+        "curves/success_rate.png"
+      ]
+    },
+    {
+      "stage": "09_encoder_decoder",
+      "status": "inherited",
+      "missing_layout": [],
+      "missing_deliverables": []
+    }
+  ],
+  "raw_checks": [
+    {
+      "path": "01_tokenizer/data/raw/eng_fra_songs.txt",
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
+      "matches": true
+    },
+    {
+      "path": "02_gpt/data/raw/tinyshakespeare.txt",
+      "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+      "matches": true
+    },
+    {
+      "path": "09_encoder_decoder/data/raw/eng_fra.txt",
+      "sha256": "f3c1b18e6109f52a2840bc4c48dbbb3c20ab35af77551e4a83987dc08678205f",
+      "matches": true
+    },
+    {
+      "path": "09_encoder_decoder/data/raw/eng_fra_songs.txt",
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
+      "matches": true
+    }
+  ],
+  "git": {
+    "committed_files": 145,
+    "head": "875c31d15637f124563680450142943a92ab4365",
+    "tree": "b8e0bc2e6f8101ca468632b587bdf762b600d52e",
+    "worktree_changes": false,
+    "credential_file_paths": [],
+    "committed_raw_checks": [
+      {
+        "path": "01_tokenizer/data/raw/eng_fra_songs.txt",
+        "committed_sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
+        "matches_working_raw_bytes": true
+      },
+      {
+        "path": "02_gpt/data/raw/tinyshakespeare.txt",
+        "committed_sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+        "matches_working_raw_bytes": true
+      },
+      {
+        "path": "09_encoder_decoder/data/raw/eng_fra.txt",
+        "committed_sha256": "f3c1b18e6109f52a2840bc4c48dbbb3c20ab35af77551e4a83987dc08678205f",
+        "matches_working_raw_bytes": true
+      },
+      {
+        "path": "09_encoder_decoder/data/raw/eng_fra_songs.txt",
+        "committed_sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
+        "matches_working_raw_bytes": true
+      }
+    ]
+  },
+  "note": "Directory readiness is separate from experiment completion; planned deliverables may be absent."
+}
