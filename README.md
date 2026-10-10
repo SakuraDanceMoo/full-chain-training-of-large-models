@@ -1,6 +1,6 @@
 # Full-chain Training of Large Models
 
-按阶段归档大模型全链路学习代码、数据、日志、曲线和实验记录。目前阶段一 Tokenizer 已实现并评估；阶段二至六建立目录与验收清单，尚未完成核心实验。
+按阶段归档大模型全链路学习代码、数据、日志、曲线和实验记录。目前阶段一 Tokenizer 与阶段二 Mini-GPT 已实现并完成小语料验证；阶段三至六保留规划目录与验收清单。
 
 ![学习路线](docs/learning_roadmap.png)
 
@@ -9,7 +9,7 @@
 | 目录 | 内容 | 当前状态 |
 | --- | --- | --- |
 | [01_tokenizer](01_tokenizer/README.md) | 手写 BPE、官方 SentencePiece Unigram、可逆编码、压缩率对照 | 已实现，见真实实验日志 |
-| [02_gpt](02_gpt/README.md) | Decoder-only、Mini-GPT | 待开展 |
+| [02_gpt](02_gpt/README.md) | Decoder-only、Mini-GPT | 已实现，见训练曲线与生成样例 |
 | [03_pretraining](03_pretraining/README.md) | 0.1B 端到端预训练 | 待开展 |
 | [04_systems_scaling](04_systems_scaling/README.md) | Triton、多卡、Scaling Law | 待开展 |
 | [05_posttraining](05_posttraining/README.md) | SFT/DPO/RLVR、PEFT | 待开展 |
@@ -36,6 +36,8 @@ $env:PYTHONUTF8 = '1'
 
 - [2026-10-09 实验记录](docs/experiments/2026-10-09_repository_and_tokenizer.md)：做了什么、结果是什么、下一步是什么。
 - [Tokenizer 结果表](01_tokenizer/logs/comparison_report.md)。
+- [Mini-GPT 阶段二实验记录](02_gpt/logs/2026-10-10_stage2_minigpt.md)：因果掩码、loss 下降与生成样例。
+- [Mini-GPT loss 曲线](02_gpt/curves/training_loss.png)。
 - [统一实验记录模板](docs/experiment_template.md)。
 - [AI 使用记录](docs/AI_USE_LOG.md)。
 - `stages.json`：阶段状态与预期产物；`logs/repository_verification.json`：结构与数据哈希检查。
