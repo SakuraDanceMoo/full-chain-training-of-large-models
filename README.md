@@ -32,9 +32,9 @@ $env:PYTHONUTF8 = '1'
 
 `run_stage1.py` 运行 Tokenizer 测试、demo 和五档词表对照，将模型、原始指标、终端日志与曲线保存到本仓库。Encoder-Decoder 训练按需单独运行；CUDA 环境请安装匹配本机的 PyTorch 构建。
 
-阶段三从唯一保留的单卡 CUDA 工程复现，训练语料不含英法歌曲：
+阶段三从 `03_pretraining/` 下的单卡 CUDA 工程复现，训练语料不含英法歌曲：
 
-- [阶段三：单卡 CUDA、AMP 与 activation checkpointing](03_pretraining/cuda_amp_checkpointing/README.md)
+- [阶段三：单卡 CUDA、AMP 与 activation checkpointing](03_pretraining/README.md)
 
 ## 实验记录与验收
 
@@ -42,7 +42,7 @@ $env:PYTHONUTF8 = '1'
 - [Tokenizer 结果表](01_tokenizer/logs/comparison_report.md)。
 - [Mini-GPT 阶段二实验记录](02_gpt/logs/2026-10-10_stage2_minigpt.md)：因果掩码、loss 下降与生成样例。
 - [Mini-GPT loss 曲线](02_gpt/curves/training_loss.png)。
-- [阶段三实验记录](03_pretraining/cuda_amp_checkpointing/logs/experiment.md)：非英法混合语料、AMP、activation checkpointing、50 steps。
+- [阶段三实验记录](03_pretraining/logs/experiment.md)：非英法混合语料、AMP、activation checkpointing、50 steps。
 - [统一实验记录模板](docs/experiment_template.md)。
 - `stages.json`：阶段状态与预期产物；`logs/repository_verification.json`：结构与数据哈希检查。
 

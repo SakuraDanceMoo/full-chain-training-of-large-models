@@ -1,7 +1,0 @@
-{
-  "checkpoint": "03_pretraining\\models\\best_checkpoint.json",
-  "validation_loss": 5.77005443572998,
-  "validation_ppl": 320.5551818277444,
-  "next_token_accuracy": 0.01953125,
-  "task": "held-out next-token proxy"
-}

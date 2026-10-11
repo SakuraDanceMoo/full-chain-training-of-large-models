@@ -1,2 +1,0 @@
-Language model
-A language model is a computational model that predicts sequences in natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation, optical character recognition, route optimization, handwriting recognition, grammar induction, information retrieval and disaster response.

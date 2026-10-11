@@ -1,6 +1,5 @@
 # 阶段三原始语料
 
-- 文件：`eng_fra_songs.txt`
-- 来源：阶段九已有的 `09_encoder_decoder/data/raw/eng_fra_songs.txt`，保留同一原始字节。
-- 用途：小规模端到端预训练 smoke run；每行的英文/法文句对均作为独立文本样本。
-- 编码与哈希见 `../manifest.json`。
+本目录包含四个 UTF-8 文件：`wiki_language_model.txt`、`wiki_transformer.txt`、`swahili_language.txt` 和 `code_python_subset.py`。文件大小与 SHA-256 见 `manifest.json`。
+
+`eng_fra_songs.txt` 不属于本阶段训练语料；它仅在清单的 `excluded` 字段中登记，确保数据边界可审计。

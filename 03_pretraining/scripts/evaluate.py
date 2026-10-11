@@ -10,6 +10,7 @@ from pathlib import Path
 
 import torch
 
+STAGE_ROOT = Path(__file__).resolve().parents[1]
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "02_gpt" / "scripts"))
 from minigpt import GPT, GPTConfig  # noqa: E402
@@ -19,10 +20,11 @@ from data_pipeline import build_token_stream, load_or_train_tokenizer, load_para
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--checkpoint", type=Path, required=True)
-    parser.add_argument("--corpus", type=Path, default=ROOT / "03_pretraining/data/raw/mixed")
+    parser.add_argument("--corpus", type=Path, default=STAGE_ROOT / "data/raw")
     parser.add_argument("--task", choices=("ppl", "translation"), default="ppl")
-    parser.add_argument("--translation-data", type=Path, default=ROOT / "03_pretraining/data/raw/eng_fra_songs.txt")
-    parser.add_argument("--tokenizer", type=Path, default=ROOT / "01_tokenizer/models/bpe_512.json")
+    parser.add_argument("--translation-data", type=Path, default=None,
+                        help="Optional translation file; this corpus intentionally has no English-French songs.")
+    parser.add_argument("--tokenizer", type=Path, default=STAGE_ROOT / "models/tokenizer_bpe_512.json")
     parser.add_argument("--iters", type=int, default=20)
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--device", default=None)
@@ -48,6 +50,8 @@ def main() -> None:
             logits, loss = model(x, y); losses.append(float(loss)); correct += int((logits.argmax(-1) == y).sum()); total += y.numel()
     result = {"checkpoint": str(args.checkpoint), "validation_loss": sum(losses) / len(losses), "validation_ppl": math.exp(min(sum(losses) / len(losses), 20)), "next_token_accuracy": correct / total, "task": "held-out next-token proxy"}
     if args.task == "translation":
+        if args.translation_data is None:
+            raise ValueError("stage three has no English-French translation corpus; use --task ppl")
         pairs = []
         for line in args.translation_data.read_text(encoding="utf-8").splitlines():
             fields = line.split("\t")

@@ -1,28 +1,15 @@
 {
-  "training": {
-    "device": "cuda",
-    "parameters": 85547520,
-    "token_count": 39557,
-    "steps": 50,
-    "amp_enabled": true,
-    "activation_checkpointing": true,
-    "best_val_ppl": 147.8484035543475
+  "final": {
+    "step": 50,
+    "train_loss": 5.039057970046997,
+    "val_loss": 4.8989787101745605,
+    "train_ppl": 154.32456816330225,
+    "val_ppl": 134.15270090977674,
+    "train_next_token_accuracy": 0.0546875,
+    "val_next_token_accuracy": 0.0859375
   },
-  "held_out_ppl": {
-    "checkpoint": "03_pretraining\\models\\best_checkpoint.json",
-    "validation_loss": 5.338525581359863,
-    "validation_ppl": 208.2055017949593,
-    "next_token_accuracy": 0.0107421875,
-    "task": "held-out next-token proxy"
-  },
-  "translation_task": {
-    "checkpoint": "03_pretraining\\models\\best_checkpoint.json",
-    "validation_loss": 5.076066732406616,
-    "validation_ppl": 160.14293055072136,
-    "next_token_accuracy": 0.0126953125,
-    "task": "English-to-French teacher-forced translation mini-task",
-    "translation_token_accuracy": 0.007425742574257425,
-    "translation_exact_match": 0.0,
-    "translation_examples": 20
-  }
+  "best_val_ppl": 134.15270090977674,
+  "best_checkpoint": "best_checkpoint.json",
+  "task": "held-out next-token proxy",
+  "note": "Translation evaluation is run separately with evaluate.py --task translation."
 }

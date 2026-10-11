@@ -1,7 +1,7 @@
 {
   "format": "sharded_model_v1",
-  "step": 30,
-  "val_ppl": 147.8484035543475,
+  "step": 50,
+  "val_ppl": 134.15270090977674,
   "model_config": {
     "vocab_size": 512,
     "block_size": 128,
@@ -37,6 +37,5 @@
     "best_checkpoint-07-of-09.pt",
     "best_checkpoint-08-of-09.pt",
     "best_checkpoint-09-of-09.pt"
-  ],
-  "shard_max_bytes": 41943040
+  ]
 }

@@ -16,9 +16,9 @@ train = json.loads((ROOT / "logs/training_config.json").read_text(encoding="utf-
 manifest = json.loads((ROOT / "data/raw/manifest.json").read_text(encoding="utf-8"))
 paths = {item["path"] for item in manifest["files"]}
 if "eng_fra_songs.txt" in paths or "multilingual_eng_fra_songs.txt" in paths:
-    raise SystemExit("cuda_amp_checkpointing corpus must exclude English-French songs")
+    raise SystemExit("stage three corpus must exclude English-French songs")
 if not (config["amp"] and config["activation_checkpointing"] and train["amp_enabled"] and train["activation_checkpointing"]):
-    raise SystemExit("cuda_amp_checkpointing must enable AMP and activation checkpointing")
+    raise SystemExit("stage three must enable AMP and activation checkpointing")
 if missing:
     raise SystemExit("missing: " + ", ".join(missing))
-print("cuda_amp_checkpointing reproducibility checks passed")
+print("stage three reproducibility checks passed")

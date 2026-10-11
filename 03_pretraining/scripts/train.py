@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 import torch
 from torch import Tensor
 
+STAGE_ROOT = Path(__file__).resolve().parents[1]
 ROOT = Path(__file__).resolve().parents[2]
 GPT_DIR = ROOT / "02_gpt" / "scripts"
 if str(GPT_DIR) not in sys.path:
@@ -59,8 +60,8 @@ PROFILES = {
 def get_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--profile", choices=sorted(PROFILES), default="smoke")
-    parser.add_argument("--corpus", type=Path, default=ROOT / "03_pretraining/data/raw/mixed")
-    parser.add_argument("--tokenizer", type=Path, default=ROOT / "01_tokenizer/models/bpe_512.json")
+    parser.add_argument("--corpus", type=Path, default=STAGE_ROOT / "data/raw")
+    parser.add_argument("--tokenizer", type=Path, default=STAGE_ROOT / "models/tokenizer_bpe_512.json")
     parser.add_argument("--steps", type=int, default=None)
     parser.add_argument("--max-tokens", type=int, default=None)
     parser.add_argument("--batch-size", type=int, default=None)
@@ -74,7 +75,7 @@ def get_args() -> argparse.Namespace:
     parser.add_argument("--device", default=None)
     parser.add_argument("--amp", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--activation-checkpointing", action=argparse.BooleanOptionalAction, default=False)
-    parser.add_argument("--output", type=Path, default=ROOT / "03_pretraining")
+    parser.add_argument("--output", type=Path, default=STAGE_ROOT)
     return parser.parse_args()
 
 

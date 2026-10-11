@@ -4,9 +4,9 @@
   "activation_checkpointing": true,
   "parameters": 85547520,
   "tokenizer_vocab_size": 512,
-  "token_count": 39557,
-  "train_tokens": 35601,
-  "validation_tokens": 3956,
+  "token_count": 8851,
+  "train_tokens": 7965,
+  "validation_tokens": 886,
   "model_config": {
     "vocab_size": 512,
     "block_size": 128,
@@ -32,6 +32,6 @@
     "activation_checkpointing": true,
     "seed": 1337
   },
-  "best_val_ppl": 147.8484035543475,
+  "best_val_ppl": 134.15270090977674,
   "best_checkpoint": "best_checkpoint.json"
 }

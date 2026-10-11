@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Iterator
 
 
+STAGE_ROOT = Path(__file__).resolve().parents[1]
 ROOT = Path(__file__).resolve().parents[2]
 TOKENIZER_DIR = ROOT / "01_tokenizer" / "scripts"
 if str(TOKENIZER_DIR) not in sys.path:

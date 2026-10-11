@@ -1,5 +1,5 @@
 {
-  "part": "cuda_amp_checkpointing",
+  "stage": "03_pretraining",
   "profile": "0.1b",
   "corpus": "Wikipedia + Swahili + Python code (no English-French songs)",
   "corpus_dir": "data/raw",
@@ -16,5 +16,5 @@
   "learning_rate": 0.0003,
   "weight_decay": 0.1,
   "seed": 1337,
-  "run_command": "python 03_pretraining/cuda_amp_checkpointing/scripts/train.py --profile 0.1b --steps 50 --eval-interval 10 --eval-iters 2 --device cuda --amp --activation-checkpointing --block-size 128 --batch-size 1 --grad-accum 4"
+  "run_command": "python 03_pretraining/scripts/train.py --profile 0.1b --steps 50 --eval-interval 10 --eval-iters 2 --device cuda --amp --activation-checkpointing --block-size 128 --batch-size 1 --grad-accum 4"
 }
