@@ -40,7 +40,6 @@ $env:PYTHONUTF8 = '1'
 - [Mini-GPT loss 曲线](02_gpt/curves/training_loss.png)。
 - [阶段三预训练记录](03_pretraining/logs/2026-10-11_stage3_pretraining.md)：BPE 数据管线、PPL、显存策略与架构图。
 - [统一实验记录模板](docs/experiment_template.md)。
-- [AI 使用记录](docs/AI_USE_LOG.md)。
 - `stages.json`：阶段状态与预期产物；`logs/repository_verification.json`：结构与数据哈希检查。
 
 每次实验提交包含脚本、数据说明/清单、日志、曲线和阶段 README，记录配置、seed、输入 SHA-256、实际指标与限制。大型 checkpoint 不纳入普通 Git，应登记外部存储与校验值；本次的小型 SentencePiece 模型、原始语料和曲线均归档。
