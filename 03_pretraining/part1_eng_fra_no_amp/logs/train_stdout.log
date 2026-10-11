@@ -1,4 +1,0 @@
-command: python 03_pretraining/part1_eng_fra_no_amp/scripts/train.py --profile 0.1b --steps 20 --eval-interval 10 --eval-iters 2 --device cuda --no-amp --no-activation-checkpointing --block-size 128 --batch-size 1 --grad-accum 4
-step 0: train_loss=6.4482955933 val_loss=6.4749040604 train_ppl=631.6248292400 val_ppl=648.6569927096
-step 10: train_loss=5.2439033985 val_loss=5.4718656540 train_ppl=189.4079962129 val_ppl=237.9036248345
-step 20: train_loss=5.1368763447 val_loss=5.4201316833 train_ppl=170.1833430929 val_ppl=225.9088689800
