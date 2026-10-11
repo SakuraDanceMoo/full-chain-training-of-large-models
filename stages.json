@@ -27,21 +27,17 @@
   },
   {
     "directory": "03_pretraining",
-    "title": "0.1B 端到端预训练（两部分隔离工程）",
+    "title": "0.1B 端到端预训练（单卡 CUDA）",
     "status": "implemented",
-    "goal": "第一部分以英法歌曲关闭 AMP 建立基线；第二部分以不含英法歌曲的维基/小语种/代码语料启用单卡 CUDA AMP 与 activation checkpointing。",
+    "goal": "使用不含英法歌曲的维基/小语种/代码语料，在单卡 CUDA 上启用 AMP、梯度累积与 activation checkpointing 完成可复现预训练。",
     "next_stage": "04_systems_scaling",
     "acceptance_files": [
-      "part1_eng_fra_no_amp/config.json",
-      "part1_eng_fra_no_amp/scripts/train.py",
-      "part1_eng_fra_no_amp/scripts/data_pipeline.py",
-      "part1_eng_fra_no_amp/logs/training_metrics.csv",
-      "part1_eng_fra_no_amp/curves/training_loss.png",
-      "part1_eng_fra_no_amp/models/best_checkpoint.json",
       "part2_mixed_amp_checkpointing/config.json",
       "part2_mixed_amp_checkpointing/scripts/train.py",
       "part2_mixed_amp_checkpointing/scripts/data_pipeline.py",
       "part2_mixed_amp_checkpointing/logs/training_metrics.csv",
+      "part2_mixed_amp_checkpointing/logs/training_config.json",
+      "part2_mixed_amp_checkpointing/logs/evaluation_ppl.json",
       "part2_mixed_amp_checkpointing/curves/training_loss.png",
       "part2_mixed_amp_checkpointing/models/best_checkpoint.json"
     ]

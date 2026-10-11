@@ -1,31 +1,34 @@
-# 阶段三：0.1B 端到端预训练（拆分为两部分）
+# 阶段三：0.1B 端到端预训练
 
-阶段三现在由两套相互隔离、可独立复现的预训练工程组成。每套工程都有自己的 `config.json`、`scripts/`、`data/raw/`、`data/processed/`、`logs/`、`curves/` 和 `models/`；两套原始语料、tokenizer、token cache 和 checkpoint 不共享。
+状态：**已实现并可复现**。当前仅保留阶段三第二部分：单卡 CUDA 训练，启用 `--amp --activation-checkpointing`，使用维基摘要、斯瓦希里语和 Python 代码语料。英法歌曲不在本部分训练数据中。
 
-| 部分 | 训练语料 | AMP | activation checkpointing | 状态 |
-| --- | --- | --- | --- | --- |
-| [第一部分：英法歌曲、关闭 AMP](part1_eng_fra_no_amp/README.md) | 仅 `eng_fra_songs.txt` | 关闭 | 关闭 | 已实现，20 steps |
-| [第二部分：单卡 CUDA](part2_mixed_amp_checkpointing/README.md) | 维基 + 斯瓦希里语 + Python 代码，不含英法歌曲 | 开启 | 开启 | 已实现，50 steps |
+## 工程内容
 
-## 复现入口
+目录 [`part2_mixed_amp_checkpointing/`](part2_mixed_amp_checkpointing/README.md) 是完整、独立的预训练工程，包含：
 
-从仓库根目录分别执行对应 README 中的命令。两部分不能通过复制或合并 `data/raw` 来复现；第二部分的 `check_repro.py` 会拒绝英法歌曲文件。
+- `config.json`：0.1B profile、AMP、activation checkpointing、梯度累积和 seed。
+- `scripts/train.py`：单卡预训练循环，支持 AMP、梯度累积、激活重计算和分片最佳 checkpoint。
+- `scripts/data_pipeline.py`：只扫描本目录 `data/raw/`，按文件名排序并写入 corpus fingerprint。
+- `data/raw/`：维基摘要、斯瓦希里语和 Python 代码四个文件，不含英法歌曲。
+- `logs/`：训练配置、CSV 指标、独立 PPL、终端日志和实验记录。
+- `curves/training_loss.png`：真实训练 loss 曲线。
+- `models/best_checkpoint.json` + 9 个分片：验证 PPL 最佳模型。
+
+## 一键复现
+
+从仓库根目录执行：
 
 ```powershell
-..\.venv\Scripts\python.exe 03_pretraining/part1_eng_fra_no_amp/scripts/check_repro.py
+. ..\Use-ProjectEnv.ps1
+..\.venv\Scripts\python.exe 03_pretraining/part2_mixed_amp_checkpointing/scripts/train.py --profile 0.1b --steps 50 --eval-interval 10 --eval-iters 2 --device cuda --amp --activation-checkpointing --block-size 128 --batch-size 1 --grad-accum 4
+..\.venv\Scripts\python.exe 03_pretraining/part2_mixed_amp_checkpointing/scripts/evaluate.py --checkpoint 03_pretraining/part2_mixed_amp_checkpointing/models/best_checkpoint.json --corpus 03_pretraining/part2_mixed_amp_checkpointing/data/raw --iters 4 --batch-size 1 --device cuda --output 03_pretraining/part2_mixed_amp_checkpointing/logs/evaluation_ppl.json
 ..\.venv\Scripts\python.exe 03_pretraining/part2_mixed_amp_checkpointing/scripts/check_repro.py
 ```
 
-## 共享实现与历史文件
+## 实际结果
 
-两个子工程各自复制了训练脚本和数据管线，模型结构复用 `02_gpt/scripts/minigpt.py`，BPE tokenizer 复用 `01_tokenizer/scripts/tokenizer.py`。阶段三根目录下的早期聚合脚本和日志保留作历史审计；新的复现实验以两个子目录为准，尤其不能使用早期把英法歌曲并入 mixed corpus 的命令。
+模型为 12 层、12 heads、768 hidden，参数量 85,547,520；共 8,851 tokens，50 个 optimizer steps，`amp_enabled=true`，`activation_checkpointing=true`。验证 PPL 从 594.85（step 0）降至 134.15（step 50）；独立评测 PPL 为 121.31。
 
-## 验收
+详见 [`part2_mixed_amp_checkpointing/logs/experiment.md`](part2_mixed_amp_checkpointing/logs/experiment.md)、[`training_metrics.csv`](part2_mixed_amp_checkpointing/logs/training_metrics.csv)、[`training_loss.png`](part2_mixed_amp_checkpointing/curves/training_loss.png) 和 [`best_checkpoint.json`](part2_mixed_amp_checkpointing/models/best_checkpoint.json)。
 
-根仓库审计：
-
-```powershell
-python C:/Users/Administrator/.codex/skills/push-to-github/scripts/audit_repository.py --root .
-```
-
-两部分的真实结果、seed、设备、PPL、曲线和分片 checkpoint 分别记录在各自的 `logs/experiment.md`、`logs/training_config.json`、`logs/training_metrics.csv`、`logs/evaluation_ppl.json`、`curves/training_loss.png` 和 `models/best_checkpoint.json`。
+阶段三根目录下早期聚合脚本和日志保留作历史审计；当前复现实验以 `part2_mixed_amp_checkpointing/` 为准。

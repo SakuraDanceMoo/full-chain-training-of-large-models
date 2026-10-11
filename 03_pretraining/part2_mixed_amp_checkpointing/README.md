@@ -1,6 +1,6 @@
 # 阶段三·第二部分：单卡 CUDA、AMP 与 activation checkpointing
 
-状态：**已实现并可复现**。这是阶段三的后半部：单卡 CUDA 使用 `--amp --activation-checkpointing`，语料只包含维基摘要、斯瓦希里语和 Python 代码，明确排除英法歌曲。它与第一部分的原始语料、tokenizer、输出目录和 checkpoint 完全隔离。
+状态：**已实现并可复现**。这是当前唯一保留的阶段三工程：单卡 CUDA 使用 `--amp --activation-checkpointing`，语料只包含维基摘要、斯瓦希里语和 Python 代码，明确排除英法歌曲。它拥有独立的原始语料、tokenizer、输出目录和 checkpoint。
 
 ## 工程内容
 
