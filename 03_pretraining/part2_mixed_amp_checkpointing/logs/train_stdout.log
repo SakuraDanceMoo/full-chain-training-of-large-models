@@ -1,7 +1,0 @@
-command: python 03_pretraining/part2_mixed_amp_checkpointing/scripts/train.py --profile 0.1b --steps 50 --eval-interval 10 --eval-iters 2 --device cuda --amp --activation-checkpointing --block-size 128 --batch-size 1 --grad-accum 4
-step 0: train_loss=6.3538777828 val_loss=6.3883051872 train_ppl=574.7170213189 val_ppl=594.8475696280
-step 10: train_loss=5.4620366096 val_loss=5.0024311543 train_ppl=235.5767139455 val_ppl=148.7744133397
-step 20: train_loss=5.1350133419 val_loss=4.9289710522 train_ppl=169.8665862032 val_ppl=138.2372002694
-step 30: train_loss=5.0705430508 val_loss=4.9616661072 train_ppl=159.2607905585 val_ppl=142.8315704678
-step 40: train_loss=5.0469183922 val_loss=4.9586100578 train_ppl=155.5424044982 val_ppl=142.3957364445
-step 50: train_loss=5.0390579700 val_loss=4.8989787102 train_ppl=154.3245681633 val_ppl=134.1527009098
