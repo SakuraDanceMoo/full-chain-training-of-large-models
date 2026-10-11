@@ -11,7 +11,7 @@
 - `scripts/data_pipeline.py`：只扫描本目录 `data/raw/`，按文件名排序并写入 corpus fingerprint。
 - `data/raw/`：维基摘要、斯瓦希里语和 Python 代码四个文件，不含英法歌曲。
 - `logs/`：训练配置、CSV 指标、独立 PPL、终端日志和实验记录。
-- `curves/training_loss.png`：真实训练 loss 曲线。
+- `cuda_amp_checkpointing/curves/training_loss.png`：真实训练 loss 曲线。
 - `models/best_checkpoint.json` + 9 个分片：验证 PPL 最佳模型。
 
 ## 一键复现
@@ -31,4 +31,4 @@
 
 详见 [`cuda_amp_checkpointing/logs/experiment.md`](cuda_amp_checkpointing/logs/experiment.md)、[`training_metrics.csv`](cuda_amp_checkpointing/logs/training_metrics.csv)、[`training_loss.png`](cuda_amp_checkpointing/curves/training_loss.png) 和 [`best_checkpoint.json`](cuda_amp_checkpointing/models/best_checkpoint.json)。
 
-阶段三根目录下早期聚合脚本和日志保留作历史审计；当前复现实验以 `cuda_amp_checkpointing/` 为准。
+阶段三根目录下早期聚合脚本和日志保留作历史审计；当前复现实验及唯一的阶段三曲线以 `cuda_amp_checkpointing/` 为准。

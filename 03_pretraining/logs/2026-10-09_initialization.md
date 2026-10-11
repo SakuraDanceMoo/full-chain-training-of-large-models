@@ -19,4 +19,4 @@
 - `scripts/train.py`
 - `scripts/evaluate.py`
 - `logs/training_metrics.csv`
-- `curves/training_loss.png`
+- `cuda_amp_checkpointing/curves/training_loss.png`

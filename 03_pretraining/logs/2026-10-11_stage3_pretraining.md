@@ -12,13 +12,13 @@
 
 ## 结果是什么
 
-实际 CUDA 增量运行命令：
+当前独立 CUDA 工程的实际运行命令：
 
 ```powershell
-python 03_pretraining/scripts/train.py --profile 0.1b --steps 50 --eval-interval 10 --eval-iters 2 --device cuda --amp --activation-checkpointing --block-size 128 --batch-size 1 --grad-accum 4 --corpus 03_pretraining/data/raw/mixed --output 03_pretraining
+python 03_pretraining/cuda_amp_checkpointing/scripts/train.py --profile 0.1b --steps 50 --eval-interval 10 --eval-iters 2 --device cuda --amp --activation-checkpointing --block-size 128 --batch-size 1 --grad-accum 4
 ```
 
-指标保存在 [`training_metrics.csv`](training_metrics.csv)，loss 曲线保存在 [`../curves/training_loss.png`](../curves/training_loss.png)：
+指标保存在 [`../cuda_amp_checkpointing/logs/training_metrics.csv`](../cuda_amp_checkpointing/logs/training_metrics.csv)，唯一的阶段三 loss 曲线保存在 [`../cuda_amp_checkpointing/curves/training_loss.png`](../cuda_amp_checkpointing/curves/training_loss.png)：
 
 | step | train loss | validation loss | validation PPL | validation next-token accuracy |
 |---:|---:|---:|---:|---:|
