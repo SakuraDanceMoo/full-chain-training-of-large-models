@@ -1,0 +1,18 @@
+{
+  "part": "part1_eng_fra_no_amp",
+  "corpus": "English-French songs only",
+  "files": [
+    {
+      "path": "eng_fra_songs.txt",
+      "bytes": 50450,
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3"
+    }
+  ],
+  "corpus_sha256": "e3d318a69518e05eeaba58c21e7e07b0f091f7628d826f093dd8738df6b608eb",
+  "excluded": [
+    "wiki_language_model.txt",
+    "wiki_transformer.txt",
+    "swahili_language.txt",
+    "code_python_subset.py"
+  ]
+}

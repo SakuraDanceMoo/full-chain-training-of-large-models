@@ -1,0 +1,20 @@
+{
+  "part": "part2_mixed_amp_checkpointing",
+  "profile": "0.1b",
+  "corpus": "Wikipedia + Swahili + Python code (no English-French songs)",
+  "corpus_dir": "data/raw",
+  "tokenizer": "models/tokenizer_bpe_512.json",
+  "amp": true,
+  "activation_checkpointing": true,
+  "device": "cuda",
+  "block_size": 128,
+  "batch_size": 1,
+  "grad_accum": 4,
+  "steps": 50,
+  "eval_interval": 10,
+  "eval_iters": 2,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.1,
+  "seed": 1337,
+  "run_command": "python 03_pretraining/part2_mixed_amp_checkpointing/scripts/train.py --profile 0.1b --steps 50 --eval-interval 10 --eval-iters 2 --device cuda --amp --activation-checkpointing --block-size 128 --batch-size 1 --grad-accum 4"
+}

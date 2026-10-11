@@ -1,0 +1,37 @@
+{
+  "device": "cuda",
+  "amp_enabled": false,
+  "activation_checkpointing": false,
+  "parameters": 85547520,
+  "tokenizer_vocab_size": 512,
+  "token_count": 23978,
+  "train_tokens": 21580,
+  "validation_tokens": 2398,
+  "model_config": {
+    "vocab_size": 512,
+    "block_size": 128,
+    "n_layer": 12,
+    "n_head": 12,
+    "n_embd": 768,
+    "dropout": 0.1
+  },
+  "train_config": {
+    "profile": "0.1b",
+    "block_size": 128,
+    "layers": 12,
+    "heads": 12,
+    "embed_dim": 768,
+    "batch_size": 1,
+    "grad_accum": 4,
+    "steps": 20,
+    "eval_interval": 10,
+    "eval_iters": 2,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.1,
+    "amp": false,
+    "activation_checkpointing": false,
+    "seed": 1337
+  },
+  "best_val_ppl": 225.90886898000613,
+  "best_checkpoint": "best_checkpoint.json"
+}
