@@ -1,7 +1,7 @@
 {
-  "checkpoint": "03_pretraining\\models\\checkpoint_step_000080.pt",
-  "validation_loss": 4.980564928054809,
-  "validation_ppl": 145.55658743105081,
-  "next_token_accuracy": 0.080859375,
+  "checkpoint": "03_pretraining\\models\\best_checkpoint.json",
+  "validation_loss": 5.77005443572998,
+  "validation_ppl": 320.5551818277444,
+  "next_token_accuracy": 0.01953125,
   "task": "held-out next-token proxy"
 }

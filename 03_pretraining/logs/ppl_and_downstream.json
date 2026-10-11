@@ -1,13 +1,28 @@
 {
-  "final": {
-    "step": 80,
-    "train_loss": 4.899922728538513,
-    "val_loss": 4.94107460975647,
-    "train_ppl": 134.27940331830015,
-    "val_ppl": 139.92052876513264,
-    "train_next_token_accuracy": 0.0830078125,
-    "val_next_token_accuracy": 0.08203125
+  "training": {
+    "device": "cuda",
+    "parameters": 85547520,
+    "token_count": 39557,
+    "steps": 50,
+    "amp_enabled": true,
+    "activation_checkpointing": true,
+    "best_val_ppl": 147.8484035543475
   },
-  "task": "held-out next-token proxy",
-  "note": "This is a lightweight downstream proxy, not a benchmark claim."
+  "held_out_ppl": {
+    "checkpoint": "03_pretraining\\models\\best_checkpoint.json",
+    "validation_loss": 5.338525581359863,
+    "validation_ppl": 208.2055017949593,
+    "next_token_accuracy": 0.0107421875,
+    "task": "held-out next-token proxy"
+  },
+  "translation_task": {
+    "checkpoint": "03_pretraining\\models\\best_checkpoint.json",
+    "validation_loss": 5.076066732406616,
+    "validation_ppl": 160.14293055072136,
+    "next_token_accuracy": 0.0126953125,
+    "task": "English-to-French teacher-forced translation mini-task",
+    "translation_token_accuracy": 0.007425742574257425,
+    "translation_exact_match": 0.0,
+    "translation_examples": 20
+  }
 }

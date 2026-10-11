@@ -10,6 +10,8 @@
     "scripts/data_pipeline.py",
     "logs/training_metrics.csv",
     "logs/ppl_and_downstream.json",
+    "logs/evaluation_ppl.json",
+    "logs/evaluation_translation.json",
     "logs/model_architecture.png",
     "curves/training_loss.png",
     "models/checkpoint_step_000080.pt"

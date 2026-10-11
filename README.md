@@ -10,7 +10,7 @@
 | --- | --- | --- |
 | [01_tokenizer](01_tokenizer/README.md) | 手写 BPE、官方 SentencePiece Unigram、可逆编码、压缩率对照 | 已实现，见真实实验日志 |
 | [02_gpt](02_gpt/README.md) | Decoder-only、Mini-GPT | 已实现，见训练曲线与生成样例 |
-| [03_pretraining](03_pretraining/README.md) | 0.1B 端到端预训练 | 已实现 smoke，提供 0.1B 扩展配置 |
+| [03_pretraining](03_pretraining/README.md) | 0.1B 端到端预训练 | 已实现单卡 CUDA 增量训练与混合语料评测 |
 | [04_systems_scaling](04_systems_scaling/README.md) | Triton、多卡、Scaling Law | 待开展 |
 | [05_posttraining](05_posttraining/README.md) | SFT/DPO/RLVR、PEFT | 待开展 |
 | [06_agent](06_agent/README.md) | 长程 Agent、自我评估 | 待开展 |
