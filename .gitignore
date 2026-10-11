@@ -16,7 +16,7 @@ venv/
 !03_pretraining/models/checkpoint_step_000080.pt
 !03_pretraining/models/best_checkpoint.json
 !03_pretraining/models/best_checkpoint-*.pt
-!03_pretraining/part2_mixed_amp_checkpointing/models/best_checkpoint.json
-!03_pretraining/part2_mixed_amp_checkpointing/models/best_checkpoint-*.pt
+!03_pretraining/cuda_amp_checkpointing/models/best_checkpoint.json
+!03_pretraining/cuda_amp_checkpointing/models/best_checkpoint-*.pt
 runs/
 # SentencePiece .model and small experiment logs/curves are intentionally tracked.

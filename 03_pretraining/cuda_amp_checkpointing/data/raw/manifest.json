@@ -1,0 +1,30 @@
+{
+  "part": "cuda_amp_checkpointing",
+  "corpus": "Wikipedia + Swahili + Python code (no English-French songs)",
+  "files": [
+    {
+      "path": "code_python_subset.py",
+      "bytes": 17239,
+      "sha256": "c631439413a87440839b864980dc70b129eb9944216ac8293ff1091c48079cce"
+    },
+    {
+      "path": "swahili_language.txt",
+      "bytes": 58,
+      "sha256": "b83907fa398ab8de72402bd89f0a1a199c15c5bf84fe81ad9af057c8f93ed24f"
+    },
+    {
+      "path": "wiki_language_model.txt",
+      "bytes": 373,
+      "sha256": "70018e95ac9addd00441e56981e73530eca198bcf15dd1f9ca71f86c354864be"
+    },
+    {
+      "path": "wiki_transformer.txt",
+      "bytes": 823,
+      "sha256": "7578384f7a4e7ec4ee0d63a7e8ee1c01b6245e554127c36a0d5c9ae548adc5b6"
+    }
+  ],
+  "corpus_sha256": "452b77c4f35ef72cc023221db9489e19219438374b055682836b4e0f49990fa0",
+  "excluded": [
+    "eng_fra_songs.txt"
+  ]
+}

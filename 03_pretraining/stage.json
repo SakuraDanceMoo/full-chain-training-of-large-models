@@ -5,13 +5,13 @@
   "goal": "使用不含英法歌曲的维基/小语种/代码语料，在单卡 CUDA 上启用 AMP、梯度累积与 activation checkpointing 完成可复现预训练。",
   "next_stage": "04_systems_scaling",
   "acceptance_files": [
-    "part2_mixed_amp_checkpointing/config.json",
-    "part2_mixed_amp_checkpointing/scripts/train.py",
-    "part2_mixed_amp_checkpointing/scripts/data_pipeline.py",
-    "part2_mixed_amp_checkpointing/logs/training_metrics.csv",
-    "part2_mixed_amp_checkpointing/logs/training_config.json",
-    "part2_mixed_amp_checkpointing/logs/evaluation_ppl.json",
-    "part2_mixed_amp_checkpointing/curves/training_loss.png",
-    "part2_mixed_amp_checkpointing/models/best_checkpoint.json"
+    "cuda_amp_checkpointing/config.json",
+    "cuda_amp_checkpointing/scripts/train.py",
+    "cuda_amp_checkpointing/scripts/data_pipeline.py",
+    "cuda_amp_checkpointing/logs/training_metrics.csv",
+    "cuda_amp_checkpointing/logs/training_config.json",
+    "cuda_amp_checkpointing/logs/evaluation_ppl.json",
+    "cuda_amp_checkpointing/curves/training_loss.png",
+    "cuda_amp_checkpointing/models/best_checkpoint.json"
   ]
 }
