@@ -1,0 +1,17 @@
+{
+  "published": true,
+  "repository": "SakuraDanceMoo/full-chain-training-of-large-models",
+  "url": "https://github.com/SakuraDanceMoo/full-chain-training-of-large-models",
+  "private": true,
+  "branch": "main",
+  "verified_commit": "842e80bfa76834817b8a902c05ca5106bf8000f0",
+  "remote_tree": "445287ab7b5cef24bfe25e594a865c7fb540972c",
+  "local_head": "19c2d76245cdcaeee3ef9bc1e41ce0e1d12d58e8",
+  "local_tree": "445287ab7b5cef24bfe25e594a865c7fb540972c",
+  "verified_snapshot_files": 163,
+  "all_snapshot_blobs_match": true,
+  "remote_additional_paths": [],
+  "local_head_equals_remote_head": false,
+  "local_refs_modified": false,
+  "note": "Committed HEAD snapshot verified; local Git ancestry was not rewritten or automatically synchronized."
+}
