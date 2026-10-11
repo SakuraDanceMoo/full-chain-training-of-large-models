@@ -1,0 +1,13 @@
+{
+  "final": {
+    "step": 80,
+    "train_loss": 4.899922728538513,
+    "val_loss": 4.94107460975647,
+    "train_ppl": 134.27940331830015,
+    "val_ppl": 139.92052876513264,
+    "train_next_token_accuracy": 0.0830078125,
+    "val_next_token_accuracy": 0.08203125
+  },
+  "task": "held-out next-token proxy",
+  "note": "This is a lightweight downstream proxy, not a benchmark claim."
+}

@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "path": "data/raw/eng_fra_songs.txt",
+      "source": "../09_encoder_decoder/data/raw/eng_fra_songs.txt",
+      "encoding": "UTF-8",
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3"
+    }
+  ]
+}

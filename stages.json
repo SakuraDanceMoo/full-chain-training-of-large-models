@@ -28,14 +28,18 @@
   {
     "directory": "03_pretraining",
     "title": "0.1B 端到端预训练",
-    "status": "planned",
+    "status": "implemented",
     "goal": "完成数据清洗、混合精度/梯度累积、checkpoint、PPL 与复现配置。",
     "next_stage": "04_systems_scaling",
     "acceptance_files": [
       "scripts/train.py",
       "scripts/evaluate.py",
+      "scripts/data_pipeline.py",
       "logs/training_metrics.csv",
-      "curves/training_loss.png"
+      "logs/ppl_and_downstream.json",
+      "logs/model_architecture.png",
+        "curves/training_loss.png",
+        "models/checkpoint_step_000080.pt"
     ]
   },
   {

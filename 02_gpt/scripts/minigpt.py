@@ -132,14 +132,19 @@ class GPT(nn.Module):
                 nn.init.zeros_(module.bias)
 
     def forward(self, idx: Tensor, targets: Tensor | None = None,
-                target_mask: Tensor | None = None) -> tuple[Tensor, Tensor | None]:
+                target_mask: Tensor | None = None,
+                activation_checkpointing: bool = False) -> tuple[Tensor, Tensor | None]:
         batch, steps = idx.shape
         if steps > self.config.block_size:
             raise ValueError(f"sequence length {steps} exceeds block_size {self.config.block_size}")
         positions = torch.arange(steps, device=idx.device)
         x = self.dropout(self.token_embedding(idx) + self.position_embedding(positions))
         for block in self.blocks:
-            x = block(x)
+            if activation_checkpointing and self.training:
+                from torch.utils.checkpoint import checkpoint
+                x = checkpoint(block, x, use_reentrant=False)
+            else:
+                x = block(x)
         logits = self.lm_head(self.ln_f(x))
         loss = next_token_loss(logits, targets, target_mask) if targets is not None else None
         return logits, loss

@@ -19,16 +19,11 @@
     },
     {
       "stage": "03_pretraining",
-      "declared_status": "planned",
+      "declared_status": "implemented",
       "layout_ok": true,
       "missing_layout": [],
-      "missing_acceptance_artifacts": [
-        "scripts/train.py",
-        "scripts/evaluate.py",
-        "logs/training_metrics.csv",
-        "curves/training_loss.png"
-      ],
-      "artifact_gate_passed": false
+      "missing_acceptance_artifacts": [],
+      "artifact_gate_passed": true
     },
     {
       "stage": "04_systems_scaling",
@@ -94,6 +89,10 @@
     "02_gpt/scripts/check_stage.py",
     "02_gpt/scripts/minigpt.py",
     "03_pretraining/scripts/check_stage.py",
+    "03_pretraining/scripts/data_pipeline.py",
+    "03_pretraining/scripts/evaluate.py",
+    "03_pretraining/scripts/plot_architecture.py",
+    "03_pretraining/scripts/train.py",
     "04_systems_scaling/scripts/check_stage.py",
     "05_posttraining/scripts/check_stage.py",
     "06_agent/scripts/check_stage.py",
@@ -118,6 +117,11 @@
     {
       "path": "02_gpt/data/raw/tinyshakespeare.txt",
       "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+      "matches_manifest": true
+    },
+    {
+      "path": "03_pretraining/data/raw/eng_fra_songs.txt",
+      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
       "matches_manifest": true
     },
     {
