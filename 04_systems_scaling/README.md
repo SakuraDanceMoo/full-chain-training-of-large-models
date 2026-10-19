@@ -90,5 +90,6 @@ N=0.1B、D=1,000,000 预测 loss≈1.608，仅为远距离外推假设，**未�
 | 速度报告 | [attention_speed_report.md](logs/attention_speed_report.md) |
 | 曲线及 QA | [curves/README.md](curves/README.md)、[figure_qa.md](logs/figure_qa.md) |
 | 复现验收 | [check_repro.py](scripts/check_repro.py)、[reproducibility_check.json](logs/reproducibility_check.json) |
+| GitHub 上传回执 | [github_publication_2026-10-19.json](logs/github_publication_2026-10-19.json)，核验前一内容提交 |
 
 75 组训练用于消融和拟合，保存指标而不保存所有权重；复现会重新训练。阶段三 checkpoint 保持原样。下一阶段 `05_posttraining` 本次未开展。

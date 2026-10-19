@@ -1,0 +1,52 @@
+{
+  "published": true,
+  "repository": "SakuraDanceMoo/full-chain-training-of-large-models",
+  "url": "https://github.com/SakuraDanceMoo/full-chain-training-of-large-models",
+  "private": false,
+  "branch": "main",
+  "verified_commit": "7421cdf6ae7d1583da317bf4b42831a9e011d919",
+  "remote_tree": "97167bb0061618aab03ce1c2034d8369bf216cd7",
+  "local_head": "207327b5a9be714b8034175e1cbda7419178834c",
+  "local_tree": "97167bb0061618aab03ce1c2034d8369bf216cd7",
+  "verified_snapshot_files": 270,
+  "all_snapshot_blobs_match": true,
+  "remote_additional_paths": [],
+  "local_head_equals_remote_head": false,
+  "local_refs_modified": false,
+  "note": "Committed HEAD snapshot verified; local Git ancestry was not rewritten or automatically synchronized.",
+  "remote_byte_checks": [
+    {
+      "path": "04_systems_scaling/data/raw/tinyshakespeare.txt",
+      "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+      "remote_bytes_match": true
+    },
+    {
+      "path": "04_systems_scaling/data/processed/tokens.npz",
+      "sha256": "b4b990fca2d65b0e82e28c3bd3ca5a1aa9327efd586560e7858e00288cbf26bb",
+      "remote_bytes_match": true
+    },
+    {
+      "path": "04_systems_scaling/logs/profiling_screenshot.png",
+      "sha256": "ba61966fc3ab86ed847575b95c87f90aacaf29305d1bab6ffaed323b78fd84d6",
+      "remote_bytes_match": true
+    },
+    {
+      "path": "04_systems_scaling/curves/attention_cuda_graph.png",
+      "sha256": "d0453175f46a497f56a8db40a44a8af5fae19b65003d90bee22de91abc64b581",
+      "remote_bytes_match": true
+    },
+    {
+      "path": "04_systems_scaling/notebooks/scaling_law.ipynb",
+      "sha256": "b7c5fbe0e59ea6a7245b795b9bf9db53bdea939e655072a09fe460b2b574cf1b",
+      "remote_bytes_match": true
+    },
+    {
+      "path": "04_systems_scaling/third_party/flash_attention_reference.py",
+      "sha256": "c331db87d357bf1a0a77e7faea66ada8429a7400ccc3054a52fa81443437433c",
+      "remote_bytes_match": true
+    }
+  ],
+  "transport": "GitHub Git Data API; verified TLS; base64 binary blobs; force=false; remote history preserved",
+  "receipt_scope": "Verifies the preceding content commit. This receipt is committed afterward; it does not recursively reference its own final commit.",
+  "preserved_user_work": "Pre-existing unstaged stage-one SVG deletion excluded from publication."
+}
