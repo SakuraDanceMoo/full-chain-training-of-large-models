@@ -1,0 +1,10 @@
+{
+  "pdf": "04_systems_scaling\\curves\\scaling_N.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 6.3,
+  "text_run_count": 22,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

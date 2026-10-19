@@ -1,0 +1,14 @@
+{
+  "fingerprint": {
+    "raw_sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+    "tokenizer_sha256": "88a5fbed8bdf98223fbf312d213025af3ec5ed241c36afabd9688e5c306f3e70"
+  },
+  "total_tokens": 841259,
+  "train_start": 0,
+  "maximum_training_tokens": 131072,
+  "validation_start": 833067,
+  "validation_tokens": 8192,
+  "context_gap_tokens": 701867,
+  "tokenizer": "03_pretraining/models/tokenizer_bpe_512.json",
+  "vocab_size": 512
+}

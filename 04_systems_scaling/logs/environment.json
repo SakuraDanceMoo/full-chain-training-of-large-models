@@ -1,0 +1,13 @@
+{
+  "torch": "2.8.0+cu128",
+  "triton": "3.4.0",
+  "cuda": "12.8",
+  "python": "3.11.16",
+  "os": "Windows-10-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 4070 Ti",
+  "gpu_count": 1,
+  "timing": "CUDA events, warmup=20; 25 samples x 10 calls; CUDA Graph captures 10 calls per replay",
+  "scope": "forward only; dropout=0; contiguous fp16 B=2 H=12 D=64; causal=True",
+  "flash_attention": "Official Triton v3.2.0 FlashAttention-v2 tutorial reference; SDPA FLASH also probed explicitly",
+  "pytorch_flash_compiled": false
+}

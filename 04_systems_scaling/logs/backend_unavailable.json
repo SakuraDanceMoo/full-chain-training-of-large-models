@@ -1,0 +1,37 @@
+[
+  {
+    "sequence": 64,
+    "method": "sdpa_flash",
+    "reason": "No available kernel. Aborting execution."
+  },
+  {
+    "sequence": 64,
+    "method": "flashattention2_ref",
+    "reason": "Official v3.2 tutorial requires N divisible by 128 for safe full-tile access"
+  },
+  {
+    "sequence": 128,
+    "method": "sdpa_flash",
+    "reason": "No available kernel. Aborting execution."
+  },
+  {
+    "sequence": 256,
+    "method": "sdpa_flash",
+    "reason": "No available kernel. Aborting execution."
+  },
+  {
+    "sequence": 512,
+    "method": "sdpa_flash",
+    "reason": "No available kernel. Aborting execution."
+  },
+  {
+    "sequence": 1024,
+    "method": "sdpa_flash",
+    "reason": "No available kernel. Aborting execution."
+  },
+  {
+    "sequence": 2048,
+    "method": "sdpa_flash",
+    "reason": "No available kernel. Aborting execution."
+  }
+]

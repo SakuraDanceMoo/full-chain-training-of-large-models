@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": {
+    "raw_hash": true,
+    "tokenizer_hash": true,
+    "train_validation_gap": true,
+    "all_75_runs_unique": true,
+    "finite_losses_and_real_work": true,
+    "loss_decreased_all_runs": true,
+    "attention_correctness": true,
+    "benchmark_samples": true,
+    "benchmark_backends": true,
+    "finite_benchmark_latency": true,
+    "real_profile_and_screenshot": true,
+    "whole_size_holdout": true,
+    "mean_error_gate": true,
+    "distant_prediction_labeled_unvalidated": true,
+    "multi_gpu_cancelled": true,
+    "notebook_executed_without_errors": true,
+    "attention_launch_exports": true,
+    "attention_cuda_graph_exports": true,
+    "scaling_N_exports": true,
+    "scaling_D_exports": true,
+    "scaling_holdout_exports": true,
+    "scaling_law_exports": true
+  },
+  "note": "Evidence checks; not a rerun of GPU correctness or training. Far extrapolation remains unvalidated."
+}

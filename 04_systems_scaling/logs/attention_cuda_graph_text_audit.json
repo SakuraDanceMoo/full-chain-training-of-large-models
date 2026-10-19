@@ -1,0 +1,10 @@
+{
+  "pdf": "04_systems_scaling\\curves\\attention_cuda_graph.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 6.3,
+  "text_run_count": 27,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

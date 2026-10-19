@@ -27,17 +27,11 @@
     },
     {
       "stage": "04_systems_scaling",
-      "declared_status": "planned",
+      "declared_status": "implemented",
       "layout_ok": true,
       "missing_layout": [],
-      "missing_acceptance_artifacts": [
-        "scripts/attention_kernel.py",
-        "scripts/benchmark.py",
-        "scripts/fit_scaling.py",
-        "logs/benchmark_metrics.csv",
-        "curves/scaling_law.png"
-      ],
-      "artifact_gate_passed": false
+      "missing_acceptance_artifacts": [],
+      "artifact_gate_passed": true
     },
     {
       "stage": "05_posttraining",
@@ -88,13 +82,25 @@
     "01_tokenizer/scripts/__init__.py",
     "02_gpt/scripts/check_stage.py",
     "02_gpt/scripts/minigpt.py",
-    "03_pretraining/data/raw/mixed/code_python_subset.py",
+    "03_pretraining/data/raw/code_python_subset.py",
+    "03_pretraining/scripts/check_repro.py",
     "03_pretraining/scripts/check_stage.py",
     "03_pretraining/scripts/data_pipeline.py",
     "03_pretraining/scripts/evaluate.py",
     "03_pretraining/scripts/plot_architecture.py",
     "03_pretraining/scripts/train.py",
+    "04_systems_scaling/scripts/attention_kernel.py",
+    "04_systems_scaling/scripts/benchmark.py",
+    "04_systems_scaling/scripts/build_notebook.py",
+    "04_systems_scaling/scripts/capture_profile.py",
+    "04_systems_scaling/scripts/check_repro.py",
     "04_systems_scaling/scripts/check_stage.py",
+    "04_systems_scaling/scripts/fit_scaling.py",
+    "04_systems_scaling/scripts/plot_results.py",
+    "04_systems_scaling/scripts/report_results.py",
+    "04_systems_scaling/scripts/run_scaling.py",
+    "04_systems_scaling/scripts/run_stage4.py",
+    "04_systems_scaling/third_party/flash_attention_reference.py",
     "05_posttraining/scripts/check_stage.py",
     "06_agent/scripts/check_stage.py",
     "09_encoder_decoder/scripts/attention_mechanism.py",
@@ -121,33 +127,8 @@
       "matches_manifest": true
     },
     {
-      "path": "03_pretraining/data/raw/eng_fra_songs.txt",
-      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
-      "matches_manifest": true
-    },
-    {
-      "path": "03_pretraining/data/raw/mixed/code_python_subset.py",
-      "sha256": "c631439413a87440839b864980dc70b129eb9944216ac8293ff1091c48079cce",
-      "matches_manifest": true
-    },
-    {
-      "path": "03_pretraining/data/raw/mixed/multilingual_eng_fra_songs.txt",
-      "sha256": "4d927cb4d2bb2ebbdba1b9914175c05a308a37c5bd0d9ea5b39a03aabafd6ea3",
-      "matches_manifest": true
-    },
-    {
-      "path": "03_pretraining/data/raw/mixed/swahili_language.txt",
-      "sha256": "b83907fa398ab8de72402bd89f0a1a199c15c5bf84fe81ad9af057c8f93ed24f",
-      "matches_manifest": true
-    },
-    {
-      "path": "03_pretraining/data/raw/mixed/wiki_language_model.txt",
-      "sha256": "70018e95ac9addd00441e56981e73530eca198bcf15dd1f9ca71f86c354864be",
-      "matches_manifest": true
-    },
-    {
-      "path": "03_pretraining/data/raw/mixed/wiki_transformer.txt",
-      "sha256": "7578384f7a4e7ec4ee0d63a7e8ee1c01b6245e554127c36a0d5c9ae548adc5b6",
+      "path": "04_systems_scaling/data/raw/tinyshakespeare.txt",
+      "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
       "matches_manifest": true
     },
     {

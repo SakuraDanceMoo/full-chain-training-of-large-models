@@ -11,7 +11,7 @@
 | [01_tokenizer](01_tokenizer/README.md) | 手写 BPE、官方 SentencePiece Unigram、可逆编码、压缩率对照 | 已实现，见真实实验日志 |
 | [02_gpt](02_gpt/README.md) | Decoder-only、Mini-GPT | 已实现，见训练曲线与生成样例 |
 | [03_pretraining](03_pretraining/README.md) | 0.1B 端到端预训练 | 已实现：非英法语料单卡 CUDA AMP + activation checkpointing |
-| [04_systems_scaling](04_systems_scaling/README.md) | Triton、多卡、Scaling Law | 待开展 |
+| [04_systems_scaling](04_systems_scaling/README.md) | Triton 内核、单卡吞吐 / profiling、Scaling Law | 已实测：108 项正确性、75 组消融、已执行 notebook；多卡取消 |
 | [05_posttraining](05_posttraining/README.md) | SFT/DPO/RLVR、PEFT | 待开展 |
 | [06_agent](06_agent/README.md) | 长程 Agent、自我评估 | 待开展 |
 | [09_encoder_decoder](09_encoder_decoder/README.md) | 已有 Seq2Seq、Transformer、BERT 基础代码 | 继承归档；历史训练待复现 |
@@ -36,6 +36,8 @@ $env:PYTHONUTF8 = '1'
 
 - [阶段三：单卡 CUDA、AMP 与 activation checkpointing](03_pretraining/README.md)
 
+阶段四提供单卡 Triton benchmark、实际 profiling 截图和 75 组 scaling 消融，可通过 [一键复现入口](04_systems_scaling/README.md) 重新运行；多卡任务已取消。
+
 ## 实验记录与验收
 
 - [2026-10-09 实验记录](docs/experiments/2026-10-09_repository_and_tokenizer.md)：做了什么、结果是什么、下一步是什么。
@@ -43,6 +45,8 @@ $env:PYTHONUTF8 = '1'
 - [Mini-GPT 阶段二实验记录](02_gpt/logs/2026-10-10_stage2_minigpt.md)：因果掩码、loss 下降与生成样例。
 - [Mini-GPT loss 曲线](02_gpt/curves/training_loss.png)。
 - [阶段三实验记录](03_pretraining/logs/experiment.md)：非英法混合语料、AMP、activation checkpointing、50 steps。
+- [阶段四实验记录](04_systems_scaling/logs/2026-10-19_stage4_systems_scaling.md)：注意力微基准、75 组训练、外推误差边界。
+- [Scaling Law notebook](04_systems_scaling/notebooks/scaling_law.ipynb)：已执行，含系数与留出验证曲线。
 - [统一实验记录模板](docs/experiment_template.md)。
 - `stages.json`：阶段状态与预期产物；`logs/repository_verification.json`：结构与数据哈希检查。
 

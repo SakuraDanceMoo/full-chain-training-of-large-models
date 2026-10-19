@@ -1,0 +1,22 @@
+{
+  "seed_list": [1337, 2026, 42],
+  "models": [
+    {"name": "n1", "n_layer": 2, "n_head": 2, "n_embd": 64},
+    {"name": "n2", "n_layer": 2, "n_head": 3, "n_embd": 96},
+    {"name": "n3", "n_layer": 3, "n_head": 4, "n_embd": 128},
+    {"name": "n4", "n_layer": 3, "n_head": 6, "n_embd": 192},
+    {"name": "n5", "n_layer": 4, "n_head": 8, "n_embd": 256}
+  ],
+  "data_tokens": [8192, 16384, 32768, 65536, 131072],
+  "epochs": 2,
+  "block_size": 128,
+  "batch_size": 8,
+  "learning_rate": 0.001,
+  "weight_decay": 0.1,
+  "validation_tokens": 8192,
+  "held_out_model": "n5",
+  "held_out_data_tokens": 131072,
+  "local_extrapolation_mape_limit": 0.10,
+  "large_model_parameters": 100000000,
+  "multi_gpu": "cancelled_by_user"
+}

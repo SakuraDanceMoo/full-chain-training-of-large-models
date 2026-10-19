@@ -5,3 +5,8 @@
 *.txt text eol=lf
 *.csv text eol=lf
 **/data/raw/** -text
+# Preserve upstream text and generator formatting in stage-four evidence.
+04_systems_scaling/data/raw/** -whitespace
+04_systems_scaling/curves/*.svg -whitespace
+04_systems_scaling/logs/profiler_table.txt -whitespace
+04_systems_scaling/logs/profiling.html -whitespace

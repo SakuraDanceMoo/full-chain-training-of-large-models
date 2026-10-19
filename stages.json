@@ -45,16 +45,32 @@
   {
     "directory": "04_systems_scaling",
     "title": "系统优化与 Scaling Law",
-    "status": "planned",
-    "goal": "实现 Triton 注意力正确性/性能对照，多卡训练与 L(N)/L(D) 拟合。",
+    "status": "implemented",
+    "goal": "单卡 Triton attention 正确性、吞吐与 profiling；75 组 N×D×seed 消融及 L(N)/L(D) 拟合、留出验证；多卡任务按用户要求取消。",
     "next_stage": "05_posttraining",
     "acceptance_files": [
+      "config.json",
+      "requirements.txt",
       "scripts/attention_kernel.py",
       "scripts/benchmark.py",
+      "scripts/run_scaling.py",
       "scripts/fit_scaling.py",
+      "scripts/run_stage4.py",
+      "scripts/check_repro.py",
+      "logs/attention_correctness.json",
       "logs/benchmark_metrics.csv",
-      "curves/scaling_law.png"
-    ]
+      "logs/attention_speed_report.md",
+      "logs/profiling_screenshot.png",
+      "logs/attention_trace.json",
+      "logs/scaling_runs.csv",
+      "logs/scaling_training.jsonl",
+      "logs/scaling_fit.json",
+      "logs/reproducibility_check.json",
+      "curves/scaling_law.png",
+      "notebooks/scaling_law.ipynb",
+      "logs/2026-10-19_stage4_systems_scaling.md"
+    ],
+    "multi_gpu": "cancelled_by_user"
   },
   {
     "directory": "05_posttraining",

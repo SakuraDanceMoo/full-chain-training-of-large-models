@@ -1,0 +1,16 @@
+{
+  "python": "3.11.16",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "triton-windows": "3.4.0.post21",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2",
+    "scipy": "1.17.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0",
+    "pytest": "9.1.1"
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "note": "Measured environment; Linux path not tested. Reproduced numeric values may vary across GPU/runtime builds."
+}
