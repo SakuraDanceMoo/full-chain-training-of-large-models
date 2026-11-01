@@ -1,0 +1,24 @@
+{
+  "run_id": "warmup",
+  "method": "sft",
+  "peft": "lora",
+  "seed": 1337,
+  "steps": 240,
+  "learning_rate": 0.001,
+  "trainable_parameters": 442368,
+  "train_seconds": 16.222910900025454,
+  "setup_seconds": 2.129805500000657,
+  "peak_allocated_mib": 254.27294921875,
+  "peak_reserved_mib": 286.0,
+  "delta_l2": 13.542552531194886,
+  "quantization": {
+    "linear4bit_modules": 0,
+    "packed_uint8_modules": 0,
+    "nested_quant_modules": 0,
+    "quant_types": []
+  },
+  "initial_val_accuracy": 0.0,
+  "val_accuracy": 0.8125,
+  "val_response_nll": 0.23103394359350204,
+  "checkpoint": "models/common_sft_anchor.pt"
+}

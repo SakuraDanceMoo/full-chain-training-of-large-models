@@ -1,0 +1,4 @@
+sft_lora_s1337 24/96 loss=0.2626 val=0.836 sec=1.7
+sft_lora_s1337 48/96 loss=0.1365 val=0.852 sec=3.5
+sft_lora_s1337 72/96 loss=0.1412 val=0.859 sec=5.3
+sft_lora_s1337 96/96 loss=0.0636 val=0.844 sec=6.9

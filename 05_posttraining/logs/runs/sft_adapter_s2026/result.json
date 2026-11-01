@@ -1,0 +1,29 @@
+{
+  "run_id": "sft_adapter_s2026",
+  "method": "sft",
+  "peft": "adapter",
+  "seed": 2026,
+  "steps": 96,
+  "learning_rate": 0.0003,
+  "trainable_parameters": 442368,
+  "train_seconds": 4.553203299990855,
+  "setup_seconds": 1.6541750000033062,
+  "peak_allocated_mib": 254.25537109375,
+  "peak_reserved_mib": 266.0,
+  "delta_l2": 2.615207952603798,
+  "quantization": {
+    "linear4bit_modules": 0,
+    "packed_uint8_modules": 0,
+    "nested_quant_modules": 0,
+    "quant_types": []
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.859375,
+  "val_response_nll": 0.1382980104535818,
+  "test_accuracy": 0.859375,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.1619773618876934,
+  "test_response_ppl": 1.1758336223661023,
+  "test_n": 128,
+  "checkpoint": "models/sft_adapter_s2026.pt"
+}

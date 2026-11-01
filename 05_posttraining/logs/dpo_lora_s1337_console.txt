@@ -1,0 +1,4 @@
+dpo_lora_s1337 24/96 loss=0.6981 val=0.766 sec=3.1
+dpo_lora_s1337 48/96 loss=0.6548 val=0.750 sec=6.5
+dpo_lora_s1337 72/96 loss=0.5733 val=0.766 sec=9.9
+dpo_lora_s1337 96/96 loss=0.4122 val=0.805 sec=13.3

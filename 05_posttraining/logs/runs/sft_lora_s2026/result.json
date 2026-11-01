@@ -1,0 +1,29 @@
+{
+  "run_id": "sft_lora_s2026",
+  "method": "sft",
+  "peft": "lora",
+  "seed": 2026,
+  "steps": 96,
+  "learning_rate": 0.0003,
+  "trainable_parameters": 442368,
+  "train_seconds": 6.267717500006256,
+  "setup_seconds": 2.2550181000042357,
+  "peak_allocated_mib": 254.27294921875,
+  "peak_reserved_mib": 286.0,
+  "delta_l2": 3.797237067830886,
+  "quantization": {
+    "linear4bit_modules": 0,
+    "packed_uint8_modules": 0,
+    "nested_quant_modules": 0,
+    "quant_types": []
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.84375,
+  "val_response_nll": 0.13810427300632,
+  "test_accuracy": 0.890625,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.12156257033348083,
+  "test_response_ppl": 1.129260021890807,
+  "test_n": 128,
+  "checkpoint": "models/sft_lora_s2026.pt"
+}

@@ -35,17 +35,11 @@
     },
     {
       "stage": "05_posttraining",
-      "declared_status": "planned",
+      "declared_status": "implemented",
       "layout_ok": true,
       "missing_layout": [],
-      "missing_acceptance_artifacts": [
-        "scripts/train_sft.py",
-        "scripts/train_dpo.py",
-        "scripts/train_rlvr.py",
-        "logs/evaluation_metrics.csv",
-        "curves/alignment_comparison.png"
-      ],
-      "artifact_gate_passed": false
+      "missing_acceptance_artifacts": [],
+      "artifact_gate_passed": true
     },
     {
       "stage": "06_agent",
@@ -101,7 +95,19 @@
     "04_systems_scaling/scripts/run_scaling.py",
     "04_systems_scaling/scripts/run_stage4.py",
     "04_systems_scaling/third_party/flash_attention_reference.py",
+    "05_posttraining/scripts/check_repro.py",
     "05_posttraining/scripts/check_stage.py",
+    "05_posttraining/scripts/compare_peft.py",
+    "05_posttraining/scripts/data_pipeline.py",
+    "05_posttraining/scripts/engine.py",
+    "05_posttraining/scripts/evaluate.py",
+    "05_posttraining/scripts/peft.py",
+    "05_posttraining/scripts/plot_results.py",
+    "05_posttraining/scripts/run_stage5.py",
+    "05_posttraining/scripts/test_methods.py",
+    "05_posttraining/scripts/train_dpo.py",
+    "05_posttraining/scripts/train_rlvr.py",
+    "05_posttraining/scripts/train_sft.py",
     "06_agent/scripts/check_stage.py",
     "09_encoder_decoder/scripts/attention_mechanism.py",
     "09_encoder_decoder/scripts/bert.py",
@@ -129,6 +135,11 @@
     {
       "path": "04_systems_scaling/data/raw/tinyshakespeare.txt",
       "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+      "matches_manifest": true
+    },
+    {
+      "path": "05_posttraining/data/raw/comparisons.jsonl",
+      "sha256": "22f582c469b4d2082ff4a1625e109c5e5e3fe33de0849c635bbbd2cc7dfdcaca",
       "matches_manifest": true
     },
     {

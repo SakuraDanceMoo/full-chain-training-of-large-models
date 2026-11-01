@@ -1,0 +1,4 @@
+sft_lora_s42 24/96 loss=0.2196 val=0.828 sec=1.7
+sft_lora_s42 48/96 loss=0.1839 val=0.844 sec=3.3
+sft_lora_s42 72/96 loss=0.1862 val=0.875 sec=5.2
+sft_lora_s42 96/96 loss=0.1221 val=0.875 sec=7.0

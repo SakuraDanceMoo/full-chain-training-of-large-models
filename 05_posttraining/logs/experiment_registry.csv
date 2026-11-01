@@ -1,0 +1,19 @@
+id,role,status,evidence
+warmup,shared preparation,completed,logs/runs/warmup/result.json
+anchor_test,fixed baseline evaluation,completed,logs/anchor_test_predictions.json
+rlvr_lora_s42_attempt1,on-policy run before decoder fix,failed at update 71; 70 updates logged,logs/debug/rlvr_unknown_token_console.txt
+dpo_lora_s1337,registered comparison,completed,logs/runs/dpo_lora_s1337/result.json
+dpo_lora_s2026,registered comparison,completed,logs/runs/dpo_lora_s2026/result.json
+dpo_lora_s42,registered comparison,completed,logs/runs/dpo_lora_s42/result.json
+rlvr_lora_s1337,registered comparison,completed,logs/runs/rlvr_lora_s1337/result.json
+rlvr_lora_s2026,registered comparison,completed,logs/runs/rlvr_lora_s2026/result.json
+rlvr_lora_s42,registered comparison,completed,logs/runs/rlvr_lora_s42/result.json
+sft_adapter_s1337,registered comparison,completed,logs/runs/sft_adapter_s1337/result.json
+sft_adapter_s2026,registered comparison,completed,logs/runs/sft_adapter_s2026/result.json
+sft_adapter_s42,registered comparison,completed,logs/runs/sft_adapter_s42/result.json
+sft_lora_s1337,registered comparison,completed,logs/runs/sft_lora_s1337/result.json
+sft_lora_s2026,registered comparison,completed,logs/runs/sft_lora_s2026/result.json
+sft_lora_s42,registered comparison,completed,logs/runs/sft_lora_s42/result.json
+sft_qlora_s1337,registered comparison,completed,logs/runs/sft_qlora_s1337/result.json
+sft_qlora_s2026,registered comparison,completed,logs/runs/sft_qlora_s2026/result.json
+sft_qlora_s42,registered comparison,completed,logs/runs/sft_qlora_s42/result.json

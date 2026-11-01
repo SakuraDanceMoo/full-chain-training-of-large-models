@@ -1,0 +1,31 @@
+{
+  "run_id": "sft_qlora_s42",
+  "method": "sft",
+  "peft": "qlora",
+  "seed": 42,
+  "steps": 96,
+  "learning_rate": 0.0003,
+  "trainable_parameters": 442368,
+  "train_seconds": 9.125966499988863,
+  "setup_seconds": 3.4322876000005635,
+  "peak_allocated_mib": 142.15869140625,
+  "peak_reserved_mib": 168.0,
+  "delta_l2": 3.59382301494812,
+  "quantization": {
+    "linear4bit_modules": 48,
+    "packed_uint8_modules": 48,
+    "nested_quant_modules": 48,
+    "quant_types": [
+      "nf4"
+    ]
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.8515625,
+  "val_response_nll": 0.14751353859901428,
+  "test_accuracy": 0.859375,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.12971174158155918,
+  "test_response_ppl": 1.1385001537657087,
+  "test_n": 128,
+  "checkpoint": "models/sft_qlora_s42.pt"
+}

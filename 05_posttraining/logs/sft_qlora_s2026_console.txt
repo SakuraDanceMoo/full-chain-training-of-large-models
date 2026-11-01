@@ -1,0 +1,4 @@
+sft_qlora_s2026 24/96 loss=0.1898 val=0.844 sec=2.4
+sft_qlora_s2026 48/96 loss=0.1627 val=0.836 sec=4.7
+sft_qlora_s2026 72/96 loss=0.1225 val=0.852 sec=6.9
+sft_qlora_s2026 96/96 loss=0.0938 val=0.867 sec=8.9

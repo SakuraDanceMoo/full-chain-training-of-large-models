@@ -1,0 +1,10 @@
+warmup 24/240 loss=1.2745 val=0.000 sec=1.7
+warmup 48/240 loss=1.3749 val=0.000 sec=3.3
+warmup 72/240 loss=0.3535 val=0.516 sec=5.0
+warmup 96/240 loss=0.2795 val=0.703 sec=6.7
+warmup 120/240 loss=0.3011 val=0.703 sec=8.3
+warmup 144/240 loss=0.3052 val=0.766 sec=9.8
+warmup 168/240 loss=0.2109 val=0.656 sec=11.3
+warmup 192/240 loss=0.2441 val=0.797 sec=12.9
+warmup 216/240 loss=0.2761 val=0.672 sec=14.5
+warmup 240/240 loss=0.3750 val=0.812 sec=16.2

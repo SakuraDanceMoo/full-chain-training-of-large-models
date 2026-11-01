@@ -1,14 +1,28 @@
 {
   "directory": "05_posttraining",
   "title": "后训练与对齐",
-  "status": "planned",
-  "goal": "固定同一基座与评测，对照 SFT/DPO/RLVR、LoRA/QLoRA/Adapter。",
+  "status": "implemented",
+  "goal": "固定阶段三+共享 SFT 预热基座，整数比较任务上完成 5 实验臂×3 seeds 的 SFT/DPO/RLVR 与真实 NF4 PEFT 对照，统一生成评测、资源与掉点报告。",
   "next_stage": "06_agent",
   "acceptance_files": [
+    "config.json",
+    "requirements.txt",
     "scripts/train_sft.py",
     "scripts/train_dpo.py",
     "scripts/train_rlvr.py",
+    "scripts/peft.py",
+    "scripts/compare_peft.py",
+    "scripts/run_stage5.py",
+    "scripts/check_repro.py",
+    "logs/protocol.json",
     "logs/evaluation_metrics.csv",
-    "curves/alignment_comparison.png"
+    "logs/summary_metrics.csv",
+    "logs/posttraining_report.md",
+    "logs/reproducibility_check.json",
+    "curves/alignment_comparison.png",
+    "curves/peft_resources.png",
+    "curves/training_loss.png",
+    "models/manifest.json",
+    "logs/2026-11-01_stage5_posttraining.md"
   ]
 }

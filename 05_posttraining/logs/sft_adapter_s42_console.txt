@@ -1,0 +1,4 @@
+sft_adapter_s42 24/96 loss=0.2167 val=0.789 sec=1.2
+sft_adapter_s42 48/96 loss=0.1526 val=0.891 sec=2.3
+sft_adapter_s42 72/96 loss=0.2758 val=0.844 sec=3.5
+sft_adapter_s42 96/96 loss=0.1105 val=0.844 sec=4.7

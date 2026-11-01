@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-11-01T15:16:34.355083+08:00",
+  "timezone": "Asia/Hong_Kong",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2",
+    "bitsandbytes": "0.48.2"
+  },
+  "device": "NVIDIA GeForce RTX 4070 Ti",
+  "cuda_runtime": "12.8",
+  "total_vram_bytes": 12878086144,
+  "config": {
+    "base_checkpoint": "03_pretraining/models/best_checkpoint.json",
+    "tokenizer": "03_pretraining/models/tokenizer_bpe_512.json",
+    "seeds": [
+      1337,
+      2026,
+      42
+    ],
+    "data_seed": 7331,
+    "warmup_seed": 1337,
+    "warmup_steps": 240,
+    "steps": 96,
+    "eval_interval": 24,
+    "batch_size": 16,
+    "rank": 8,
+    "adapter_width": 24,
+    "warmup_lr": 0.001,
+    "sft_lr": 0.0003,
+    "dpo_lr": 0.0001,
+    "rlvr_lr": 5e-05,
+    "dpo_beta": 0.1,
+    "rlvr_kl_beta": 0.02,
+    "rlvr_group_size": 4,
+    "rlvr_prompt_batch": 4,
+    "rlvr_clip": 0.2,
+    "rollout_tokens": 2,
+    "drop_threshold_pp": 2.5,
+    "precision": "bfloat16",
+    "checkpoint_selection": "final fixed budget; validation monitoring only; test evaluated once per run",
+    "task": "greater-than binary instruction task, integers 00..31, exact verifier",
+    "eval": "unconstrained greedy generation, at most 2 tokens; exact decoded 0/1; no answer-token restriction"
+  },
+  "config_sha256": "357a5db91b1352c5d3b9fda91c9e5deba5633b3dd4df0dc97c0aa721a11fb6e5",
+  "tokenizer_sha256": "b687cdb40d7ea9ff0a87d5f1c17b58dac068dcd18358de60f6a9dfccdbe7624a",
+  "base_parts": {
+    "best_checkpoint-01-of-09.pt": "e33907c9db72ca1f9b0cd88b0dcf0699a790c572480c204eb8905777f88f9adc",
+    "best_checkpoint-02-of-09.pt": "bace31464968e65216b859004f45110caaa294959951dafd65cf19e15b2ee1c4",
+    "best_checkpoint-03-of-09.pt": "7ea3f19205b363ccad74487f0a9b9400c2afc2e28a654db40bde13b624b55fab",
+    "best_checkpoint-04-of-09.pt": "407d16020a54be14435378b79a927a49f7fb3af0bc34a545a322cf1fcb66e5a2",
+    "best_checkpoint-05-of-09.pt": "7fe5f91130940a7cf2605f5b5076a6793925ba52f68a013d39e60f615cdb3382",
+    "best_checkpoint-06-of-09.pt": "e7dfddf75375a752602fb8231468828b2ced87e0c4ab358d1a20a2f581ff5e62",
+    "best_checkpoint-07-of-09.pt": "3bf560e04eb3c4d1774d6b1b1b759afdb32fbd1383ba996448d8704bcfdd2191",
+    "best_checkpoint-08-of-09.pt": "83cde88030695852f92872699faa57725a55674a36dea9d498e5c385c52bb20b",
+    "best_checkpoint-09-of-09.pt": "f6c88456d0f8307bacfc949c78e31e589321b6908750590a8c93673e88f16832",
+    "best_checkpoint.json": "20ed4d1aaba3db12a2be7b741287a47d28a4db0a50699db671380e9345e59dec"
+  },
+  "note": "Single fixed warmup shared by all seeds and methods. BF16 base, FP32 PEFT parameters/AdamW; no multi-GPU.",
+  "original_runtime_source_hashes": {
+    "tokenizer": "88a5fbed8bdf98223fbf312d213025af3ec5ed241c36afabd9688e5c306f3e70",
+    "base_parts": {
+      "best_checkpoint-01-of-09.pt": "e33907c9db72ca1f9b0cd88b0dcf0699a790c572480c204eb8905777f88f9adc",
+      "best_checkpoint-02-of-09.pt": "bace31464968e65216b859004f45110caaa294959951dafd65cf19e15b2ee1c4",
+      "best_checkpoint-03-of-09.pt": "7ea3f19205b363ccad74487f0a9b9400c2afc2e28a654db40bde13b624b55fab",
+      "best_checkpoint-04-of-09.pt": "407d16020a54be14435378b79a927a49f7fb3af0bc34a545a322cf1fcb66e5a2",
+      "best_checkpoint-05-of-09.pt": "7fe5f91130940a7cf2605f5b5076a6793925ba52f68a013d39e60f615cdb3382",
+      "best_checkpoint-06-of-09.pt": "e7dfddf75375a752602fb8231468828b2ced87e0c4ab358d1a20a2f581ff5e62",
+      "best_checkpoint-07-of-09.pt": "3bf560e04eb3c4d1774d6b1b1b759afdb32fbd1383ba996448d8704bcfdd2191",
+      "best_checkpoint-08-of-09.pt": "83cde88030695852f92872699faa57725a55674a36dea9d498e5c385c52bb20b",
+      "best_checkpoint-09-of-09.pt": "f6c88456d0f8307bacfc949c78e31e589321b6908750590a8c93673e88f16832",
+      "best_checkpoint.json": "c612b1eb72b9cdaf2076d6b1a29e84e86a10e7ea9405f91bbdc05a48dba7dbc4"
+    }
+  },
+  "text_hash_policy": "Source JSON normalized to LF; raw, generated LF JSON and binary checkpoint hashes are exact bytes"
+}

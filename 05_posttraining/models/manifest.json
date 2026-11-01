@@ -1,0 +1,73 @@
+{
+  "format": "PEFT deltas only; base is repository stage three; shared anchor merged in BF16",
+  "base_checkpoint": "03_pretraining/models/best_checkpoint.json",
+  "base_manifest_sha256": "20ed4d1aaba3db12a2be7b741287a47d28a4db0a50699db671380e9345e59dec",
+  "checkpoint_metadata_note": "Checkpoints without source_hash_mode retain original runtime source bytes; portable source JSON hashes are in logs/protocol.json",
+  "tokenizer": "03_pretraining/models/tokenizer_bpe_512.json",
+  "checkpoints": {
+    "sft_lora_s1337.pt": {
+      "bytes": 1786061,
+      "sha256": "f28b640730dfaedb56ff084c563655bece5971f6a64465daa5062e17fa1efb68"
+    },
+    "sft_lora_s2026.pt": {
+      "bytes": 1786061,
+      "sha256": "62846c2e7a2b07f8bc224b471698a58cd1d1285c424da57955e926d42d0afe66"
+    },
+    "sft_lora_s42.pt": {
+      "bytes": 1785953,
+      "sha256": "ab9c4936ac660d7957984cfb18c97442e770e472584cbb5d0238260023870c9b"
+    },
+    "dpo_lora_s1337.pt": {
+      "bytes": 1786061,
+      "sha256": "4987912d6577a45b02d7d121b8b3ea71b9736ba35fe6c4ae0f24d099372cc7b0"
+    },
+    "dpo_lora_s2026.pt": {
+      "bytes": 1786061,
+      "sha256": "007b672687b003e10b7cd908b4e4b1b71e5b25e3c667d54384e0c1e7a0245c6d"
+    },
+    "dpo_lora_s42.pt": {
+      "bytes": 1785953,
+      "sha256": "0f487515c72c1c9a90cc0c16ea241c3f48b2383ff6d9bf86e663e0448d6abe6d"
+    },
+    "rlvr_lora_s1337.pt": {
+      "bytes": 1786115,
+      "sha256": "1381a5c475600bd7720b14e03c4acd62499605c6fbda7234ff9c492098437227"
+    },
+    "rlvr_lora_s2026.pt": {
+      "bytes": 1786115,
+      "sha256": "94778f5d134fadb49cb068f4070329f9f4c66f717c2753a4443466ee1dcd3c5c"
+    },
+    "rlvr_lora_s42.pt": {
+      "bytes": 1786007,
+      "sha256": "884f26d38a8642072e2ca5d4385e8d6c71d93fae48bd83eb41ce674b0c4fe5c3"
+    },
+    "sft_qlora_s1337.pt": {
+      "bytes": 1786115,
+      "sha256": "44d30473831e708d2b030c9c771fe629ee9f765f5e2df36d263ffa59f663f728"
+    },
+    "sft_qlora_s2026.pt": {
+      "bytes": 1786115,
+      "sha256": "86926bfa95c832090ef7cd5b90beaf976452245cecf2f2731f9b7022a5c25e55"
+    },
+    "sft_qlora_s42.pt": {
+      "bytes": 1786007,
+      "sha256": "16fed2a78f8e0a862e83245dec28851b0140b4f3c7748bee5c7cb431792cc656"
+    },
+    "sft_adapter_s1337.pt": {
+      "bytes": 1778887,
+      "sha256": "0522c9bf8417fceeddbf01abacdf62e58571fe413e5aa674fb6d4311d1a5fbc2"
+    },
+    "sft_adapter_s2026.pt": {
+      "bytes": 1778887,
+      "sha256": "676f6a3f590dabb4e7a883a57d2df9b737ae55a33dac18fa51049e33543f7851"
+    },
+    "sft_adapter_s42.pt": {
+      "bytes": 1778827,
+      "sha256": "516a9e7fde99732472d524bb213ab38f3290d0d0400060c4075d6d072d73c5c1"
+    },
+    "common_sft_anchor.pt": {
+      "bytes": 1786223,
+      "sha256": "74377d83786629d6a38965025dff232cb92837f075b2120442359c4d83877ba0"
+    }
+  }
+}

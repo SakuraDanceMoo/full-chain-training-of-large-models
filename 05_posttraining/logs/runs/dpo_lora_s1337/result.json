@@ -1,0 +1,29 @@
+{
+  "run_id": "dpo_lora_s1337",
+  "method": "dpo",
+  "peft": "lora",
+  "seed": 1337,
+  "steps": 96,
+  "learning_rate": 0.0001,
+  "trainable_parameters": 442368,
+  "train_seconds": 13.342912599968258,
+  "setup_seconds": 4.247957400002633,
+  "peak_allocated_mib": 261.47265625,
+  "peak_reserved_mib": 294.0,
+  "delta_l2": 3.8985915774703637,
+  "quantization": {
+    "linear4bit_modules": 0,
+    "packed_uint8_modules": 0,
+    "nested_quant_modules": 0,
+    "quant_types": []
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.8046875,
+  "val_response_nll": 0.43270935863256454,
+  "test_accuracy": 0.8203125,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.41971978545188904,
+  "test_response_ppl": 1.5215351395958605,
+  "test_n": 128,
+  "checkpoint": "models/dpo_lora_s1337.pt"
+}

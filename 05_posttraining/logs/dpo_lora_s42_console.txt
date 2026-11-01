@@ -1,0 +1,4 @@
+dpo_lora_s42 24/96 loss=0.6803 val=0.820 sec=3.3
+dpo_lora_s42 48/96 loss=0.7336 val=0.695 sec=6.8
+dpo_lora_s42 72/96 loss=0.6624 val=0.766 sec=10.3
+dpo_lora_s42 96/96 loss=0.5514 val=0.750 sec=13.5

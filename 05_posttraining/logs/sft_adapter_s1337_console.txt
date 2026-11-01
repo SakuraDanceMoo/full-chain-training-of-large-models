@@ -1,0 +1,4 @@
+sft_adapter_s1337 24/96 loss=0.2344 val=0.836 sec=1.3
+sft_adapter_s1337 48/96 loss=0.1381 val=0.875 sec=2.4
+sft_adapter_s1337 72/96 loss=0.1194 val=0.875 sec=3.6
+sft_adapter_s1337 96/96 loss=0.0998 val=0.844 sec=4.7

@@ -1,0 +1,29 @@
+{
+  "run_id": "dpo_lora_s2026",
+  "method": "dpo",
+  "peft": "lora",
+  "seed": 2026,
+  "steps": 96,
+  "learning_rate": 0.0001,
+  "trainable_parameters": 442368,
+  "train_seconds": 13.258294300008856,
+  "setup_seconds": 4.1411842000015895,
+  "peak_allocated_mib": 261.47265625,
+  "peak_reserved_mib": 294.0,
+  "delta_l2": 3.8876611295575696,
+  "quantization": {
+    "linear4bit_modules": 0,
+    "packed_uint8_modules": 0,
+    "nested_quant_modules": 0,
+    "quant_types": []
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.7734375,
+  "val_response_nll": 0.5533864721655846,
+  "test_accuracy": 0.8046875,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.5271822512149811,
+  "test_response_ppl": 1.694151882353194,
+  "test_n": 128,
+  "checkpoint": "models/dpo_lora_s2026.pt"
+}

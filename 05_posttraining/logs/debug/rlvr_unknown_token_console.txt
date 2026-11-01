@@ -1,0 +1,19 @@
+rlvr_lora_s42 24/96 loss=0.0000 val=0.828 sec=4.1
+rlvr_lora_s42 48/96 loss=0.0000 val=0.812 sec=8.1
+Traceback (most recent call last):
+  File "D:\AgentProject2026\Full-chain Training of Large Models\05_posttraining\scripts\run_stage5.py", line 85, in <module>
+    main()
+  File "D:\AgentProject2026\Full-chain Training of Large Models\05_posttraining\scripts\run_stage5.py", line 50, in main
+    train(config,args.method,args.peft,args.seed,warmup=args.warmup)
+  File "D:\AgentProject2026\Full-chain Training of Large Models\05_posttraining\scripts\engine.py", line 178, in train
+    rewards=torch.tensor([float(text_response(tok,r['completion'])==r['chosen']) for r in rollout],device='cuda')
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AgentProject2026\Full-chain Training of Large Models\05_posttraining\scripts\engine.py", line 178, in <listcomp>
+    rewards=torch.tensor([float(text_response(tok,r['completion'])==r['chosen']) for r in rollout],device='cuda')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AgentProject2026\Full-chain Training of Large Models\05_posttraining\scripts\engine.py", line 69, in text_response
+    return tok.decode(ids).strip()
+           ^^^^^^^^^^^^^^^
+  File "D:\AgentProject2026\Full-chain Training of Large Models\01_tokenizer\scripts\tokenizer.py", line 152, in decode
+    raise ValueError("<unk> has no original text; encode uses byte fallback instead")
+ValueError: <unk> has no original text; encode uses byte fallback instead

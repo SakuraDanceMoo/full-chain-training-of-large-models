@@ -1,6 +1,6 @@
 # Full-chain Training of Large Models
 
-按阶段归档大模型全链路学习代码、数据、日志、曲线和实验记录。目前阶段一 Tokenizer、阶段二 Mini-GPT 与阶段三单卡 CUDA 预训练工程已实现；阶段四至六保留规划目录与验收清单。
+按阶段归档大模型全链路学习代码、数据、日志、曲线和实验记录。阶段一至四已实现并归档实测结果，阶段五增加同基座后训练与 PEFT 小规模对照；阶段六保留规划目录与验收清单。
 
 ![学习路线](docs/learning_roadmap.png)
 
@@ -12,7 +12,7 @@
 | [02_gpt](02_gpt/README.md) | Decoder-only、Mini-GPT | 已实现，见训练曲线与生成样例 |
 | [03_pretraining](03_pretraining/README.md) | 0.1B 端到端预训练 | 已实现：非英法语料单卡 CUDA AMP + activation checkpointing |
 | [04_systems_scaling](04_systems_scaling/README.md) | Triton 内核、单卡吞吐 / profiling、Scaling Law | 已实测：108 项正确性、75 组消融、已执行 notebook；多卡取消 |
-| [05_posttraining](05_posttraining/README.md) | SFT/DPO/RLVR、PEFT | 待开展 |
+| [05_posttraining](05_posttraining/README.md) | SFT/DPO/RLVR、LoRA/QLoRA/Adapter | 单卡实测：同基座、5 实验臂 × 3 seeds，含真实 NF4、统一 eval 与资源表 |
 | [06_agent](06_agent/README.md) | 长程 Agent、自我评估 | 待开展 |
 | [09_encoder_decoder](09_encoder_decoder/README.md) | 已有 Seq2Seq、Transformer、BERT 基础代码 | 继承归档；历史训练待复现 |
 
@@ -38,6 +38,8 @@ $env:PYTHONUTF8 = '1'
 
 阶段四提供单卡 Triton benchmark、实际 profiling 截图和 75 组 scaling 消融，可通过 [一键复现入口](04_systems_scaling/README.md) 重新运行；多卡任务已取消。
 
+阶段五复用阶段三权重，在可精确验分的整数比较任务上，统一共享 SFT 预热基座后比较后训练方法与 PEFT。见 [一键复现](05_posttraining/README.md) 与 [统一结果报告](05_posttraining/logs/posttraining_report.md)；结论限于本次小规模任务。
+
 ## 实验记录与验收
 
 - [2026-10-09 实验记录](docs/experiments/2026-10-09_repository_and_tokenizer.md)：做了什么、结果是什么、下一步是什么。
@@ -47,6 +49,9 @@ $env:PYTHONUTF8 = '1'
 - [阶段三实验记录](03_pretraining/logs/experiment.md)：非英法混合语料、AMP、activation checkpointing、50 steps。
 - [阶段四实验记录](04_systems_scaling/logs/2026-10-19_stage4_systems_scaling.md)：注意力微基准、75 组训练、外推误差边界。
 - [Scaling Law notebook](04_systems_scaling/notebooks/scaling_law.ipynb)：已执行，含系数与留出验证曲线。
+- [阶段五实验记录](05_posttraining/logs/2026-11-01_stage5_posttraining.md)：统一协议、15 次训练、显存与掉点比较。
+- [阶段五统一指标表](05_posttraining/logs/evaluation_metrics.csv)：每次运行的训练、评测和资源结果。
+- [阶段五学习总结与阶段一至五体会](docs/reports/阶段五学习总结_含阶段一至五体会.md)。
 - [统一实验记录模板](docs/experiment_template.md)。
 - `stages.json`：阶段状态与预期产物；`logs/repository_verification.json`：结构与数据哈希检查。
 

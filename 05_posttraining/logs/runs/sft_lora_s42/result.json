@@ -1,0 +1,29 @@
+{
+  "run_id": "sft_lora_s42",
+  "method": "sft",
+  "peft": "lora",
+  "seed": 42,
+  "steps": 96,
+  "learning_rate": 0.0003,
+  "trainable_parameters": 442368,
+  "train_seconds": 6.974137600016547,
+  "setup_seconds": 2.377440000003844,
+  "peak_allocated_mib": 254.27294921875,
+  "peak_reserved_mib": 286.0,
+  "delta_l2": 3.7821490944439766,
+  "quantization": {
+    "linear4bit_modules": 0,
+    "packed_uint8_modules": 0,
+    "nested_quant_modules": 0,
+    "quant_types": []
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.875,
+  "val_response_nll": 0.14515507966279984,
+  "test_accuracy": 0.8984375,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.12037643045186996,
+  "test_response_ppl": 1.1279213556218093,
+  "test_n": 128,
+  "checkpoint": "models/sft_lora_s42.pt"
+}

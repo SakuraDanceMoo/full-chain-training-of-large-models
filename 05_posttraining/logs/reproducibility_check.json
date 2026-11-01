@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "checked_runs": [
+    "sft_lora_s1337",
+    "sft_lora_s2026",
+    "sft_lora_s42",
+    "dpo_lora_s1337",
+    "dpo_lora_s2026",
+    "dpo_lora_s42",
+    "rlvr_lora_s1337",
+    "rlvr_lora_s2026",
+    "rlvr_lora_s42",
+    "sft_qlora_s1337",
+    "sft_qlora_s2026",
+    "sft_qlora_s42",
+    "sft_adapter_s1337",
+    "sft_adapter_s2026",
+    "sft_adapter_s42"
+  ],
+  "reload_predictions_identical": [
+    "sft_lora_s1337",
+    "dpo_lora_s1337",
+    "rlvr_lora_s1337",
+    "sft_qlora_s1337",
+    "sft_adapter_s1337"
+  ],
+  "run_count": 15,
+  "splits": {
+    "train": 768,
+    "validation": 128,
+    "test": 128
+  },
+  "base_and_raw_hashes_verified": true,
+  "quantized_storage_verified": true,
+  "scope": "single CUDA, 3 seeds, fixed common warmup, synthetic comparison task"
+}

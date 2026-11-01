@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "19_21",
+    "a": 19,
+    "b": 21,
+    "prompt": "Compare: 19>21\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "12_26",
+    "a": 12,
+    "b": 26,
+    "prompt": "Compare: 12>26\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "11_14",
+    "a": 11,
+    "b": 14,
+    "prompt": "Compare: 11>14\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "06_17",
+    "a": 6,
+    "b": 17,
+    "prompt": "Compare: 06>17\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "19_11",
+    "a": 19,
+    "b": 11,
+    "prompt": "Compare: 19>11\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "19_19",
+    "a": 19,
+    "b": 19,
+    "prompt": "Compare: 19>19\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "19_26",
+    "a": 19,
+    "b": 26,
+    "prompt": "Compare: 19>26\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "19_13",
+    "a": 19,
+    "b": 13,
+    "prompt": "Compare: 19>13\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "26_12",
+    "a": 26,
+    "b": 12,
+    "prompt": "Compare: 26>12\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "23_15",
+    "a": 23,
+    "b": 15,
+    "prompt": "Compare: 23>15\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "24_27",
+    "a": 24,
+    "b": 27,
+    "prompt": "Compare: 24>27\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "06_13",
+    "a": 6,
+    "b": 13,
+    "prompt": "Compare: 06>13\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "22_19",
+    "a": 22,
+    "b": 19,
+    "prompt": "Compare: 22>19\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "08_17",
+    "a": 8,
+    "b": 17,
+    "prompt": "Compare: 08>17\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "16_31",
+    "a": 16,
+    "b": 31,
+    "prompt": "Compare: 16>31\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "17_14",
+    "a": 17,
+    "b": 14,
+    "prompt": "Compare: 17>14\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "28_09",
+    "a": 28,
+    "b": 9,
+    "prompt": "Compare: 28>09\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "18_07",
+    "a": 18,
+    "b": 7,
+    "prompt": "Compare: 18>07\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "05_06",
+    "a": 5,
+    "b": 6,
+    "prompt": "Compare: 05>06\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "18_13",
+    "a": 18,
+    "b": 13,
+    "prompt": "Compare: 18>13\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "23_14",
+    "a": 23,
+    "b": 14,
+    "prompt": "Compare: 23>14\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "10_03",
+    "a": 10,
+    "b": 3,
+    "prompt": "Compare: 10>03\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "29_19",
+    "a": 29,
+    "b": 19,
+    "prompt": "Compare: 29>19\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "30_26",
+    "a": 30,
+    "b": 26,
+    "prompt": "Compare: 30>26\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "15_03",
+    "a": 15,
+    "b": 3,
+    "prompt": "Compare: 15>03\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "24_12",
+    "a": 24,
+    "b": 12,
+    "prompt": "Compare: 24>12\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "27_17",
+    "a": 27,
+    "b": 17,
+    "prompt": "Compare: 27>17\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "15_05",
+    "a": 15,
+    "b": 5,
+    "prompt": "Compare: 15>05\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "22_01",
+    "a": 22,
+    "b": 1,
+    "prompt": "Compare: 22>01\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "23_18",
+    "a": 23,
+    "b": 18,
+    "prompt": "Compare: 23>18\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "23_16",
+    "a": 23,
+    "b": 16,
+    "prompt": "Compare: 23>16\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "22_30",
+    "a": 22,
+    "b": 30,
+    "prompt": "Compare: 22>30\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "03_12",
+    "a": 3,
+    "b": 12,
+    "prompt": "Compare: 03>12\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "05_25",
+    "a": 5,
+    "b": 25,
+    "prompt": "Compare: 05>25\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "27_27",
+    "a": 27,
+    "b": 27,
+    "prompt": "Compare: 27>27\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "10_18",
+    "a": 10,
+    "b": 18,
+    "prompt": "Compare: 10>18\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "07_06",
+    "a": 7,
+    "b": 6,
+    "prompt": "Compare: 07>06\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "20_19",
+    "a": 20,
+    "b": 19,
+    "prompt": "Compare: 20>19\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "09_16",
+    "a": 9,
+    "b": 16,
+    "prompt": "Compare: 09>16\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "00_09",
+    "a": 0,
+    "b": 9,
+    "prompt": "Compare: 00>09\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "00_22",
+    "a": 0,
+    "b": 22,
+    "prompt": "Compare: 00>22\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "19_20",
+    "a": 19,
+    "b": 20,
+    "prompt": "Compare: 19>20\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "22_03",
+    "a": 22,
+    "b": 3,
+    "prompt": "Compare: 22>03\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "02_22",
+    "a": 2,
+    "b": 22,
+    "prompt": "Compare: 02>22\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "03_29",
+    "a": 3,
+    "b": 29,
+    "prompt": "Compare: 03>29\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "12_00",
+    "a": 12,
+    "b": 0,
+    "prompt": "Compare: 12>00\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "04_31",
+    "a": 4,
+    "b": 31,
+    "prompt": "Compare: 04>31\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "08_08",
+    "a": 8,
+    "b": 8,
+    "prompt": "Compare: 08>08\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "18_17",
+    "a": 18,
+    "b": 17,
+    "prompt": "Compare: 18>17\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "00_15",
+    "a": 0,
+    "b": 15,
+    "prompt": "Compare: 00>15\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "01_26",
+    "a": 1,
+    "b": 26,
+    "prompt": "Compare: 01>26\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "09_09",
+    "a": 9,
+    "b": 9,
+    "prompt": "Compare: 09>09\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "04_09",
+    "a": 4,
+    "b": 9,
+    "prompt": "Compare: 04>09\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "12_22",
+    "a": 12,
+    "b": 22,
+    "prompt": "Compare: 12>22\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "04_15",
+    "a": 4,
+    "b": 15,
+    "prompt": "Compare: 04>15\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "21_16",
+    "a": 21,
+    "b": 16,
+    "prompt": "Compare: 21>16\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "02_23",
+    "a": 2,
+    "b": 23,
+    "prompt": "Compare: 02>23\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "09_10",
+    "a": 9,
+    "b": 10,
+    "prompt": "Compare: 09>10\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "10_07",
+    "a": 10,
+    "b": 7,
+    "prompt": "Compare: 10>07\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "26_24",
+    "a": 26,
+    "b": 24,
+    "prompt": "Compare: 26>24\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "31_25",
+    "a": 31,
+    "b": 25,
+    "prompt": "Compare: 31>25\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "17_19",
+    "a": 17,
+    "b": 19,
+    "prompt": "Compare: 17>19\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "02_27",
+    "a": 2,
+    "b": 27,
+    "prompt": "Compare: 02>27\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "08_28",
+    "a": 8,
+    "b": 28,
+    "prompt": "Compare: 08>28\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "05_21",
+    "a": 5,
+    "b": 21,
+    "prompt": "Compare: 05>21\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "24_16",
+    "a": 24,
+    "b": 16,
+    "prompt": "Compare: 24>16\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "13_22",
+    "a": 13,
+    "b": 22,
+    "prompt": "Compare: 13>22\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "21_14",
+    "a": 21,
+    "b": 14,
+    "prompt": "Compare: 21>14\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "29_09",
+    "a": 29,
+    "b": 9,
+    "prompt": "Compare: 29>09\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "17_13",
+    "a": 17,
+    "b": 13,
+    "prompt": "Compare: 17>13\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "08_01",
+    "a": 8,
+    "b": 1,
+    "prompt": "Compare: 08>01\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "26_07",
+    "a": 26,
+    "b": 7,
+    "prompt": "Compare: 26>07\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "07_18",
+    "a": 7,
+    "b": 18,
+    "prompt": "Compare: 07>18\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "01_27",
+    "a": 1,
+    "b": 27,
+    "prompt": "Compare: 01>27\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "12_24",
+    "a": 12,
+    "b": 24,
+    "prompt": "Compare: 12>24\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "31_01",
+    "a": 31,
+    "b": 1,
+    "prompt": "Compare: 31>01\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "13_18",
+    "a": 13,
+    "b": 18,
+    "prompt": "Compare: 13>18\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "11_17",
+    "a": 11,
+    "b": 17,
+    "prompt": "Compare: 11>17\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "18_16",
+    "a": 18,
+    "b": 16,
+    "prompt": "Compare: 18>16\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "07_05",
+    "a": 7,
+    "b": 5,
+    "prompt": "Compare: 07>05\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "20_02",
+    "a": 20,
+    "b": 2,
+    "prompt": "Compare: 20>02\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "24_15",
+    "a": 24,
+    "b": 15,
+    "prompt": "Compare: 24>15\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "30_15",
+    "a": 30,
+    "b": 15,
+    "prompt": "Compare: 30>15\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "22_02",
+    "a": 22,
+    "b": 2,
+    "prompt": "Compare: 22>02\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "21_27",
+    "a": 21,
+    "b": 27,
+    "prompt": "Compare: 21>27\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "17_22",
+    "a": 17,
+    "b": 22,
+    "prompt": "Compare: 17>22\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "20_11",
+    "a": 20,
+    "b": 11,
+    "prompt": "Compare: 20>11\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "15_02",
+    "a": 15,
+    "b": 2,
+    "prompt": "Compare: 15>02\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "30_28",
+    "a": 30,
+    "b": 28,
+    "prompt": "Compare: 30>28\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "18_27",
+    "a": 18,
+    "b": 27,
+    "prompt": "Compare: 18>27\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "02_04",
+    "a": 2,
+    "b": 4,
+    "prompt": "Compare: 02>04\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "09_19",
+    "a": 9,
+    "b": 19,
+    "prompt": "Compare: 09>19\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "06_01",
+    "a": 6,
+    "b": 1,
+    "prompt": "Compare: 06>01\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "22_16",
+    "a": 22,
+    "b": 16,
+    "prompt": "Compare: 22>16\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "11_27",
+    "a": 11,
+    "b": 27,
+    "prompt": "Compare: 11>27\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "31_12",
+    "a": 31,
+    "b": 12,
+    "prompt": "Compare: 31>12\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "20_09",
+    "a": 20,
+    "b": 9,
+    "prompt": "Compare: 20>09\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "28_12",
+    "a": 28,
+    "b": 12,
+    "prompt": "Compare: 28>12\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "07_16",
+    "a": 7,
+    "b": 16,
+    "prompt": "Compare: 07>16\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "31_13",
+    "a": 31,
+    "b": 13,
+    "prompt": "Compare: 31>13\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "16_07",
+    "a": 16,
+    "b": 7,
+    "prompt": "Compare: 16>07\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "04_25",
+    "a": 4,
+    "b": 25,
+    "prompt": "Compare: 04>25\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "14_01",
+    "a": 14,
+    "b": 1,
+    "prompt": "Compare: 14>01\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "27_31",
+    "a": 27,
+    "b": 31,
+    "prompt": "Compare: 27>31\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "03_13",
+    "a": 3,
+    "b": 13,
+    "prompt": "Compare: 03>13\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "27_30",
+    "a": 27,
+    "b": 30,
+    "prompt": "Compare: 27>30\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "26_15",
+    "a": 26,
+    "b": 15,
+    "prompt": "Compare: 26>15\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "05_04",
+    "a": 5,
+    "b": 4,
+    "prompt": "Compare: 05>04\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "20_17",
+    "a": 20,
+    "b": 17,
+    "prompt": "Compare: 20>17\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "07_03",
+    "a": 7,
+    "b": 3,
+    "prompt": "Compare: 07>03\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "25_00",
+    "a": 25,
+    "b": 0,
+    "prompt": "Compare: 25>00\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "23_28",
+    "a": 23,
+    "b": 28,
+    "prompt": "Compare: 23>28\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "03_21",
+    "a": 3,
+    "b": 21,
+    "prompt": "Compare: 03>21\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "13_27",
+    "a": 13,
+    "b": 27,
+    "prompt": "Compare: 13>27\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "10_15",
+    "a": 10,
+    "b": 15,
+    "prompt": "Compare: 10>15\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "16_25",
+    "a": 16,
+    "b": 25,
+    "prompt": "Compare: 16>25\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "07_20",
+    "a": 7,
+    "b": 20,
+    "prompt": "Compare: 07>20\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "21_22",
+    "a": 21,
+    "b": 22,
+    "prompt": "Compare: 21>22\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "00_13",
+    "a": 0,
+    "b": 13,
+    "prompt": "Compare: 00>13\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "00_19",
+    "a": 0,
+    "b": 19,
+    "prompt": "Compare: 00>19\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "26_08",
+    "a": 26,
+    "b": 8,
+    "prompt": "Compare: 26>08\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "14_08",
+    "a": 14,
+    "b": 8,
+    "prompt": "Compare: 14>08\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "24_29",
+    "a": 24,
+    "b": 29,
+    "prompt": "Compare: 24>29\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "22_12",
+    "a": 22,
+    "b": 12,
+    "prompt": "Compare: 22>12\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "15_21",
+    "a": 15,
+    "b": 21,
+    "prompt": "Compare: 15>21\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "23_25",
+    "a": 23,
+    "b": 25,
+    "prompt": "Compare: 23>25\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  },
+  {
+    "id": "26_23",
+    "a": 26,
+    "b": 23,
+    "prompt": "Compare: 26>23\nAnswer:",
+    "chosen": "1",
+    "rejected": "0"
+  },
+  {
+    "id": "08_19",
+    "a": 8,
+    "b": 19,
+    "prompt": "Compare: 08>19\nAnswer:",
+    "chosen": "0",
+    "rejected": "1"
+  }
+]

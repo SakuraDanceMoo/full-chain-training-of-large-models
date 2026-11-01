@@ -15,5 +15,8 @@ venv/
 !02_gpt/models/minigpt_tinyshakespeare.pt
 !03_pretraining/models/best_checkpoint.json
 !03_pretraining/models/best_checkpoint-*.pt
+!05_posttraining/models/*.pt
 runs/
+!05_posttraining/logs/runs/
+!05_posttraining/logs/runs/**
 # SentencePiece .model and small experiment logs/curves are intentionally tracked.

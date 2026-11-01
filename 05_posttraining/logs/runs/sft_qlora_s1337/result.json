@@ -1,0 +1,31 @@
+{
+  "run_id": "sft_qlora_s1337",
+  "method": "sft",
+  "peft": "qlora",
+  "seed": 1337,
+  "steps": 96,
+  "learning_rate": 0.0003,
+  "trainable_parameters": 442368,
+  "train_seconds": 9.95644340000581,
+  "setup_seconds": 3.645056699999259,
+  "peak_allocated_mib": 142.15869140625,
+  "peak_reserved_mib": 168.0,
+  "delta_l2": 3.9067740744462593,
+  "quantization": {
+    "linear4bit_modules": 48,
+    "packed_uint8_modules": 48,
+    "nested_quant_modules": 48,
+    "quant_types": [
+      "nf4"
+    ]
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.8671875,
+  "val_response_nll": 0.16437525674700737,
+  "test_accuracy": 0.875,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.13367217406630516,
+  "test_response_ppl": 1.143018047259377,
+  "test_n": 128,
+  "checkpoint": "models/sft_qlora_s1337.pt"
+}

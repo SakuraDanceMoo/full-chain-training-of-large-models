@@ -1,0 +1,4 @@
+rlvr_lora_s2026 24/96 loss=0.0000 val=0.820 sec=3.8
+rlvr_lora_s2026 48/96 loss=0.0001 val=0.820 sec=7.6
+rlvr_lora_s2026 72/96 loss=0.0002 val=0.758 sec=11.1
+rlvr_lora_s2026 96/96 loss=0.0003 val=0.766 sec=14.9

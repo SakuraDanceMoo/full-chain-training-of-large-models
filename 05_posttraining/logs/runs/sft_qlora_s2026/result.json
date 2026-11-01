@@ -1,0 +1,31 @@
+{
+  "run_id": "sft_qlora_s2026",
+  "method": "sft",
+  "peft": "qlora",
+  "seed": 2026,
+  "steps": 96,
+  "learning_rate": 0.0003,
+  "trainable_parameters": 442368,
+  "train_seconds": 8.885060200002044,
+  "setup_seconds": 3.6188818000009633,
+  "peak_allocated_mib": 142.15869140625,
+  "peak_reserved_mib": 168.0,
+  "delta_l2": 3.7855565712701953,
+  "quantization": {
+    "linear4bit_modules": 48,
+    "packed_uint8_modules": 48,
+    "nested_quant_modules": 48,
+    "quant_types": [
+      "nf4"
+    ]
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.8671875,
+  "val_response_nll": 0.1353271584957838,
+  "test_accuracy": 0.9140625,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.1140952855348587,
+  "test_response_ppl": 1.1208589214378193,
+  "test_n": 128,
+  "checkpoint": "models/sft_qlora_s2026.pt"
+}

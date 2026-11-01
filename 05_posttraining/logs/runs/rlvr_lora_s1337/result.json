@@ -1,0 +1,29 @@
+{
+  "run_id": "rlvr_lora_s1337",
+  "method": "rlvr",
+  "peft": "lora",
+  "seed": 1337,
+  "steps": 96,
+  "learning_rate": 5e-05,
+  "trainable_parameters": 442368,
+  "train_seconds": 15.19693869999901,
+  "setup_seconds": 3.0705779999989318,
+  "peak_allocated_mib": 428.07373046875,
+  "peak_reserved_mib": 450.0,
+  "delta_l2": 1.385143130380686,
+  "quantization": {
+    "linear4bit_modules": 0,
+    "packed_uint8_modules": 0,
+    "nested_quant_modules": 0,
+    "quant_types": []
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.7890625,
+  "val_response_nll": 0.21883218362927437,
+  "test_accuracy": 0.84375,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.21765819564461708,
+  "test_response_ppl": 1.2431620767790497,
+  "test_n": 128,
+  "checkpoint": "models/rlvr_lora_s1337.pt"
+}

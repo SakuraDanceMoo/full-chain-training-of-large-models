@@ -1,0 +1,4 @@
+dpo_lora_s2026 24/96 loss=0.6868 val=0.773 sec=3.4
+dpo_lora_s2026 48/96 loss=0.6046 val=0.695 sec=7.0
+dpo_lora_s2026 72/96 loss=0.5681 val=0.758 sec=10.2
+dpo_lora_s2026 96/96 loss=0.5843 val=0.773 sec=13.3

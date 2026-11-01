@@ -1,0 +1,1545 @@
+{
+  "accuracy": 0.8125,
+  "format_rate": 1.0,
+  "response_nll": 0.23164669796824455,
+  "response_ppl": 1.260674251364528,
+  "n": 128,
+  "predictions": [
+    {
+      "id": "30_13",
+      "prompt": "Compare: 30>13\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "18_03",
+      "prompt": "Compare: 18>03\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "13_07",
+      "prompt": "Compare: 13>07\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "16_05",
+      "prompt": "Compare: 16>05\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "04_06",
+      "prompt": "Compare: 04>06\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "22_26",
+      "prompt": "Compare: 22>26\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "15_08",
+      "prompt": "Compare: 15>08\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "08_31",
+      "prompt": "Compare: 08>31\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "20_18",
+      "prompt": "Compare: 20>18\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "22_11",
+      "prompt": "Compare: 22>11\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "27_16",
+      "prompt": "Compare: 27>16\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "15_23",
+      "prompt": "Compare: 15>23\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "16_00",
+      "prompt": "Compare: 16>00\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "12_14",
+      "prompt": "Compare: 12>14\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "30_25",
+      "prompt": "Compare: 30>25\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "03_17",
+      "prompt": "Compare: 03>17\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "12_09",
+      "prompt": "Compare: 12>09\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "06_08",
+      "prompt": "Compare: 06>08\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "19_17",
+      "prompt": "Compare: 19>17\nAnswer:",
+      "gold": "1",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "14_24",
+      "prompt": "Compare: 14>24\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "14_18",
+      "prompt": "Compare: 14>18\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "19_00",
+      "prompt": "Compare: 19>00\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "30_20",
+      "prompt": "Compare: 30>20\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "28_15",
+      "prompt": "Compare: 28>15\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "06_11",
+      "prompt": "Compare: 06>11\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "23_20",
+      "prompt": "Compare: 23>20\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "30_06",
+      "prompt": "Compare: 30>06\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "29_23",
+      "prompt": "Compare: 29>23\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "25_05",
+      "prompt": "Compare: 25>05\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "01_03",
+      "prompt": "Compare: 01>03\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "17_18",
+      "prompt": "Compare: 17>18\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "04_27",
+      "prompt": "Compare: 04>27\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "13_13",
+      "prompt": "Compare: 13>13\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "05_10",
+      "prompt": "Compare: 05>10\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "27_01",
+      "prompt": "Compare: 27>01\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "02_14",
+      "prompt": "Compare: 02>14\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "05_20",
+      "prompt": "Compare: 05>20\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "23_24",
+      "prompt": "Compare: 23>24\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "04_21",
+      "prompt": "Compare: 04>21\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "17_07",
+      "prompt": "Compare: 17>07\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "04_05",
+      "prompt": "Compare: 04>05\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "05_24",
+      "prompt": "Compare: 05>24\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "01_25",
+      "prompt": "Compare: 01>25\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "22_13",
+      "prompt": "Compare: 22>13\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "27_06",
+      "prompt": "Compare: 27>06\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "23_08",
+      "prompt": "Compare: 23>08\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "31_15",
+      "prompt": "Compare: 31>15\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "15_20",
+      "prompt": "Compare: 15>20\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "13_05",
+      "prompt": "Compare: 13>05\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "05_00",
+      "prompt": "Compare: 05>00\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "25_14",
+      "prompt": "Compare: 25>14\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "07_25",
+      "prompt": "Compare: 07>25\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "31_30",
+      "prompt": "Compare: 31>30\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "18_18",
+      "prompt": "Compare: 18>18\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "02_25",
+      "prompt": "Compare: 02>25\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "16_16",
+      "prompt": "Compare: 16>16\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "07_21",
+      "prompt": "Compare: 07>21\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "11_05",
+      "prompt": "Compare: 11>05\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "17_02",
+      "prompt": "Compare: 17>02\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "07_23",
+      "prompt": "Compare: 07>23\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "24_25",
+      "prompt": "Compare: 24>25\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "09_02",
+      "prompt": "Compare: 09>02\nAnswer:",
+      "gold": "1",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "17_30",
+      "prompt": "Compare: 17>30\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "03_14",
+      "prompt": "Compare: 03>14\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "25_20",
+      "prompt": "Compare: 25>20\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "05_23",
+      "prompt": "Compare: 05>23\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "19_08",
+      "prompt": "Compare: 19>08\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "11_15",
+      "prompt": "Compare: 11>15\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "09_18",
+      "prompt": "Compare: 09>18\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "16_02",
+      "prompt": "Compare: 16>02\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "10_23",
+      "prompt": "Compare: 10>23\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "03_28",
+      "prompt": "Compare: 03>28\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "26_11",
+      "prompt": "Compare: 26>11\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "13_25",
+      "prompt": "Compare: 13>25\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "05_09",
+      "prompt": "Compare: 05>09\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "09_29",
+      "prompt": "Compare: 09>29\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "22_17",
+      "prompt": "Compare: 22>17\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "31_07",
+      "prompt": "Compare: 31>07\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "17_21",
+      "prompt": "Compare: 17>21\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "31_26",
+      "prompt": "Compare: 31>26\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "14_02",
+      "prompt": "Compare: 14>02\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "08_06",
+      "prompt": "Compare: 08>06\nAnswer:",
+      "gold": "1",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "19_24",
+      "prompt": "Compare: 19>24\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "07_07",
+      "prompt": "Compare: 07>07\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "25_15",
+      "prompt": "Compare: 25>15\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "30_29",
+      "prompt": "Compare: 30>29\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "21_17",
+      "prompt": "Compare: 21>17\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "26_16",
+      "prompt": "Compare: 26>16\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "01_18",
+      "prompt": "Compare: 01>18\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "09_13",
+      "prompt": "Compare: 09>13\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "21_26",
+      "prompt": "Compare: 21>26\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "28_31",
+      "prompt": "Compare: 28>31\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "25_29",
+      "prompt": "Compare: 25>29\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "23_07",
+      "prompt": "Compare: 23>07\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "19_15",
+      "prompt": "Compare: 19>15\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "12_27",
+      "prompt": "Compare: 12>27\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "17_23",
+      "prompt": "Compare: 17>23\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "14_28",
+      "prompt": "Compare: 14>28\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "14_00",
+      "prompt": "Compare: 14>00\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "28_18",
+      "prompt": "Compare: 28>18\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "16_14",
+      "prompt": "Compare: 16>14\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "09_12",
+      "prompt": "Compare: 09>12\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "13_06",
+      "prompt": "Compare: 13>06\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "10_30",
+      "prompt": "Compare: 10>30\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "23_29",
+      "prompt": "Compare: 23>29\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "06_00",
+      "prompt": "Compare: 06>00\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "28_08",
+      "prompt": "Compare: 28>08\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "07_22",
+      "prompt": "Compare: 07>22\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "11_01",
+      "prompt": "Compare: 11>01\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "27_23",
+      "prompt": "Compare: 27>23\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "04_26",
+      "prompt": "Compare: 04>26\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "30_05",
+      "prompt": "Compare: 30>05\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "09_17",
+      "prompt": "Compare: 09>17\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "11_30",
+      "prompt": "Compare: 11>30\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "09_06",
+      "prompt": "Compare: 09>06\nAnswer:",
+      "gold": "1",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "21_24",
+      "prompt": "Compare: 21>24\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "18_26",
+      "prompt": "Compare: 18>26\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "14_07",
+      "prompt": "Compare: 14>07\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "29_10",
+      "prompt": "Compare: 29>10\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "06_10",
+      "prompt": "Compare: 06>10\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "14_30",
+      "prompt": "Compare: 14>30\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "15_16",
+      "prompt": "Compare: 15>16\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "17_04",
+      "prompt": "Compare: 17>04\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "16_01",
+      "prompt": "Compare: 16>01\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "14_15",
+      "prompt": "Compare: 14>15\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "01_00",
+      "prompt": "Compare: 01>00\nAnswer:",
+      "gold": "1",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    },
+    {
+      "id": "22_22",
+      "prompt": "Compare: 22>22\nAnswer:",
+      "gold": "0",
+      "prediction": "1",
+      "token_ids": [
+        276,
+        3
+      ],
+      "correct": false,
+      "valid": true
+    },
+    {
+      "id": "09_30",
+      "prompt": "Compare: 09>30\nAnswer:",
+      "gold": "0",
+      "prediction": "0",
+      "token_ids": [
+        275,
+        3
+      ],
+      "correct": true,
+      "valid": true
+    }
+  ]
+}

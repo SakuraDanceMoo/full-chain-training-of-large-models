@@ -1,0 +1,40 @@
+{
+  "source": "Exhaustive locally generated integer comparisons 00..31; CC0-1.0",
+  "generator": "scripts/data_pipeline.py",
+  "encoding": "UTF-8",
+  "files": [
+    {
+      "path": "data/raw/comparisons.jsonl",
+      "sha256": "22f582c469b4d2082ff4a1625e109c5e5e3fe33de0849c635bbbd2cc7dfdcaca"
+    }
+  ],
+  "split_seed": 7331,
+  "splits": {
+    "train": {
+      "count": 768,
+      "sha256": "db81146616f643f5eda838d0e3bd73da96d5534c6641c137a3586e2af416e936",
+      "labels": {
+        "0": 396,
+        "1": 372
+      }
+    },
+    "validation": {
+      "count": 128,
+      "sha256": "994a9c6ff36724ab430dfcda22e71bb14b869fa7c71efe8c9ba53f8eed6dcf7f",
+      "labels": {
+        "0": 66,
+        "1": 62
+      }
+    },
+    "test": {
+      "count": 128,
+      "sha256": "28c23a08743e35fd482ae776f6d2d4076c3d2f5099f0e42636c15daa3aa43896",
+      "labels": {
+        "0": 66,
+        "1": 62
+      }
+    }
+  },
+  "deduplication": "unique ordered (a,b) across splits; prompts shared across methods, never across splits",
+  "protocol": "train only for optimization and preference/reward construction; no validation/test feedback in updates"
+}

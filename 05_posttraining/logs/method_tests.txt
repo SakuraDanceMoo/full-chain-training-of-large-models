@@ -1,0 +1,12 @@
+test_disjoint_splits_and_reward (__main__.MethodsTest.test_disjoint_splits_and_reward) ... ok
+test_dpo_reference_offset_and_gradient (__main__.MethodsTest.test_dpo_reference_offset_and_gradient) ... ok
+test_genuine_nf4_storage_and_input_gradient (__main__.MethodsTest.test_genuine_nf4_storage_and_input_gradient) ... ok
+test_group_relative_credit (__main__.MethodsTest.test_group_relative_credit) ... ok
+test_lora_starts_identity_and_receives_gradient (__main__.MethodsTest.test_lora_starts_identity_and_receives_gradient) ... ok
+test_response_mask_excludes_prompt_and_padding (__main__.MethodsTest.test_response_mask_excludes_prompt_and_padding) ... ok
+test_unknown_sample_is_zero_reward_not_crash (__main__.MethodsTest.test_unknown_sample_is_zero_reward_not_crash) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.581s
+
+OK

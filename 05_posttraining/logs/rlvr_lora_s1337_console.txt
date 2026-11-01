@@ -1,0 +1,4 @@
+rlvr_lora_s1337 24/96 loss=0.0000 val=0.828 sec=3.9
+rlvr_lora_s1337 48/96 loss=0.0000 val=0.828 sec=7.8
+rlvr_lora_s1337 72/96 loss=0.0000 val=0.789 sec=11.6
+rlvr_lora_s1337 96/96 loss=0.0008 val=0.789 sec=15.2
