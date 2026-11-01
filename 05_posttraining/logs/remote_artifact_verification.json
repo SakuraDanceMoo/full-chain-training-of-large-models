@@ -1,0 +1,31 @@
+{
+  "verified_commit": "f9a9e99aaecf3ebaa98a699893d216f90a0f04ce",
+  "method": "Git blob raw content negotiation; exact SHA-256",
+  "files": [
+    {
+      "path": "05_posttraining/models/sft_qlora_s1337.pt",
+      "sha256": "44d30473831e708d2b030c9c771fe629ee9f765f5e2df36d263ffa59f663f728",
+      "bytes": 1786115,
+      "matches": true,
+      "request_id": "0CA4:A1DCF:A2AB09:1043ADB:6AE6EBC2"
+    },
+    {
+      "path": "05_posttraining/data/raw/comparisons.jsonl",
+      "sha256": "22f582c469b4d2082ff4a1625e109c5e5e3fe33de0849c635bbbd2cc7dfdcaca",
+      "bytes": 104832,
+      "matches": true,
+      "request_id": "0D2A:13F1C6:9F8FF3:10197C6:6AE6EC3D"
+    },
+    {
+      "path": "05_posttraining/curves/alignment_comparison.png",
+      "sha256": "52dfe7a3f78f7e7704fd90c850f4553b45893c29be26df492bbba2301d59daa4",
+      "bytes": 48423,
+      "matches": true,
+      "request_id": "0D2A:13F1C6:9F90AC:10198EC:6AE6EC3D"
+    }
+  ],
+  "all_match": true,
+  "transport_note": "An earlier optional JSON-base64 byte-read attempt failed JSON parsing (Invalid escape). Snapshot blob-ID verification already passed; raw media negotiation avoids that JSON transport.",
+  "checked_artifacts": 3,
+  "scope": "Representative raw dataset, PNG and genuine QLoRA delta checkpoint. General publication receipt verifies all 408 Git blob IDs."
+}

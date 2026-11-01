@@ -42,6 +42,7 @@ $env:CUBLAS_WORKSPACE_CONFIG = ':4096:8'
 - [逐题生成与完整训练轨迹](logs/runs/)
 - [Checkpoint 清单与哈希](models/manifest.json)，16 份小型 PEFT 增量；加载时按顺序重建阶段三权重、共享预热与最终增量。
 - [复现检查](logs/reproducibility_check.json)
+- [GitHub 快照发布回执](logs/github_publication.json)，记录已验证内容提交和全部文件 blob 校验。
 
 ![同评测后训练对照](curves/alignment_comparison.png)
 
