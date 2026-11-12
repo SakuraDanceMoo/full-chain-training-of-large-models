@@ -1,0 +1,11 @@
+{
+  "tasks": 24,
+  "first_pass_success_rate": 0.7083333333333334,
+  "end_to_end_success_rate": 1.0,
+  "subtask_failure_rate": 0.1388888888888889,
+  "comparison_tool_accuracy": 0.8611111111111112,
+  "tool_switch_accuracy": 1.0,
+  "mean_tool_calls": 4,
+  "reflections": 7,
+  "trajectory_sha256": "6f07e03a9994bfefebfc6fb762172bcd4168706396bef6e4a926474a50d0424f"
+}

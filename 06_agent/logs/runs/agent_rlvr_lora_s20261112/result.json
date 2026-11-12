@@ -1,0 +1,29 @@
+{
+  "run_id": "agent_rlvr_lora_s20261112",
+  "method": "rlvr",
+  "peft": "lora",
+  "seed": 20261112,
+  "steps": 24,
+  "learning_rate": 5e-05,
+  "trainable_parameters": 442368,
+  "train_seconds": 3.1564547002781183,
+  "setup_seconds": 2.426659299992025,
+  "peak_allocated_mib": 428.07373046875,
+  "peak_reserved_mib": 450.0,
+  "delta_l2": 0.36101129211540745,
+  "quantization": {
+    "linear4bit_modules": 0,
+    "packed_uint8_modules": 0,
+    "nested_quant_modules": 0,
+    "quant_types": []
+  },
+  "initial_val_accuracy": 0.8125,
+  "val_accuracy": 0.8203125,
+  "val_response_nll": 0.22624871134757996,
+  "test_accuracy": 0.8203125,
+  "test_format_rate": 1.0,
+  "test_response_nll": 0.22533169016242027,
+  "test_response_ppl": 1.252738168213866,
+  "test_n": 128,
+  "checkpoint": "models/agent_rlvr_lora_s20261112.pt"
+}

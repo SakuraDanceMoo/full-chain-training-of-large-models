@@ -1,0 +1,14 @@
+{
+  "base_checkpoint": "03_pretraining/models/best_checkpoint.json",
+  "tokenizer": "03_pretraining/models/tokenizer_bpe_512.json",
+  "policy_checkpoint": "06_agent/models/agent_rlvr_lora_s20261112.pt",
+  "device": "cuda",
+  "precision": "bfloat16",
+  "seed": 20261112,
+  "benchmark_tasks": 24,
+  "rlvr_steps": 24,
+  "eval_interval": 12,
+  "task": "select the two largest of three integers using pairwise comparison, then sum them",
+  "planner": "deterministic task template",
+  "reward": "exact match against generated expected result; per-tool comparison reward is exact verifier accuracy"
+}

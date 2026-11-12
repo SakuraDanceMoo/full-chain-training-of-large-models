@@ -16,7 +16,10 @@ venv/
 !03_pretraining/models/best_checkpoint.json
 !03_pretraining/models/best_checkpoint-*.pt
 !05_posttraining/models/*.pt
+!06_agent/models/*.pt
 runs/
 !05_posttraining/logs/runs/
 !05_posttraining/logs/runs/**
+!06_agent/logs/runs/
+!06_agent/logs/runs/**
 # SentencePiece .model and small experiment logs/curves are intentionally tracked.

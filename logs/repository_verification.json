@@ -43,16 +43,11 @@
     },
     {
       "stage": "06_agent",
-      "declared_status": "planned",
+      "declared_status": "implemented_limited_scope",
       "layout_ok": true,
       "missing_layout": [],
-      "missing_acceptance_artifacts": [
-        "scripts/agent.py",
-        "scripts/evaluate.py",
-        "logs/trajectories.jsonl",
-        "curves/success_rate.png"
-      ],
-      "artifact_gate_passed": false
+      "missing_acceptance_artifacts": [],
+      "artifact_gate_passed": true
     },
     {
       "stage": "09_encoder_decoder",
@@ -108,7 +103,12 @@
     "05_posttraining/scripts/train_dpo.py",
     "05_posttraining/scripts/train_rlvr.py",
     "05_posttraining/scripts/train_sft.py",
+    "06_agent/scripts/agent.py",
     "06_agent/scripts/check_stage.py",
+    "06_agent/scripts/evaluate.py",
+    "06_agent/scripts/plot_success.py",
+    "06_agent/scripts/plot_training.py",
+    "06_agent/scripts/train_policy.py",
     "09_encoder_decoder/scripts/attention_mechanism.py",
     "09_encoder_decoder/scripts/bert.py",
     "09_encoder_decoder/scripts/check_stage.py",

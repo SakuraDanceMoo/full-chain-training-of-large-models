@@ -13,7 +13,7 @@
 | [03_pretraining](03_pretraining/README.md) | 0.1B 端到端预训练 | 已实现：非英法语料单卡 CUDA AMP + activation checkpointing |
 | [04_systems_scaling](04_systems_scaling/README.md) | Triton 内核、单卡吞吐 / profiling、Scaling Law | 已实测：108 项正确性、75 组消融、已执行 notebook；多卡取消 |
 | [05_posttraining](05_posttraining/README.md) | SFT/DPO/RLVR、LoRA/QLoRA/Adapter | 单卡实测：同基座、5 实验臂 × 3 seeds，含真实 NF4、统一 eval 与资源表 |
-| [06_agent](06_agent/README.md) | 长程 Agent、自我评估 | 待开展 |
+| [06_agent](06_agent/README.md) | 可验证任务 Agent、自我评估 | 已实测：固定模板 + 阶段五 RLVR 策略，分别报告首答与反思纠错成功率；通用规划待扩展 |
 | [09_encoder_decoder](09_encoder_decoder/README.md) | 已有 Seq2Seq、Transformer、BERT 基础代码 | 继承归档；历史训练待复现 |
 
 各阶段统一采用 `scripts/`、`data/raw/`、`data/processed/`、`logs/`、`curves/`、`README.md`；有模型产物的阶段另设 `models/`。原始数据不可覆盖，派生数据单独保存。空白阶段使用说明文件记录缺项，不生成虚构训练曲线。
@@ -51,6 +51,7 @@ $env:PYTHONUTF8 = '1'
 - [Scaling Law notebook](04_systems_scaling/notebooks/scaling_law.ipynb)：已执行，含系数与留出验证曲线。
 - [阶段五实验记录](05_posttraining/logs/2026-11-01_stage5_posttraining.md)：统一协议、15 次训练、显存与掉点比较。
 - [阶段五统一指标表](05_posttraining/logs/evaluation_metrics.csv)：每次运行的训练、评测和资源结果。
+- [阶段六实验记录](06_agent/logs/2026-11-12_stage6_agent.md)：RLVR 微调、工具轨迹、自我反思与成功率。
 - [阶段五学习总结与阶段一至五体会](docs/reports/阶段五学习总结_含阶段一至五体会.md)。
 - [统一实验记录模板](docs/experiment_template.md)。
 - `stages.json`：阶段状态与预期产物；`logs/repository_verification.json`：结构与数据哈希检查。

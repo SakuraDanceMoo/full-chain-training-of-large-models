@@ -1,3 +1,5 @@
 # 长程 Agent 与自我评估 曲线
 
-待开展：本阶段尚未训练或评测，没有实验曲线。后续图像须由 logs 中真实指标生成，并标明坐标、数据划分与配置。
+- `success_rate.png`：24 个固定种子任务的累计首答成功率与反思纠错后完成率。
+- `rlvr_reward.png`：24 步 RLVR 训练中每一步的组内平均精确奖励。
+- 两图分别由 `scripts/plot_success.py` 和 `scripts/plot_training.py` 从日志生成。

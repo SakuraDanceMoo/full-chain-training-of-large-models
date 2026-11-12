@@ -1,0 +1,10 @@
+{
+  "checkpoint": "agent_rlvr_lora_s20261112.pt",
+  "sha256": "17ee6f239ee995b8f09653b3c55a05234f0d9b69da2e9df89c36e2acb55262b8",
+  "bytes": 1787167,
+  "base_manifest_sha256": "c612b1eb72b9cdaf2076d6b1a29e84e86a10e7ea9405f91bbdc05a48dba7dbc4",
+  "tokenizer_sha256": "88a5fbed8bdf98223fbf312d213025af3ec5ed241c36afabd9688e5c306f3e70",
+  "run_id": "agent_rlvr_lora_s20261112",
+  "method": "stage-five GRPO-style RLVR objective with exact comparison verifier",
+  "limitations": "reward/task family is binary integer comparison; task decomposition and tool routing remain deterministic"
+}
