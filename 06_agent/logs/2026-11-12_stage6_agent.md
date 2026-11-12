@@ -29,6 +29,8 @@ RLVR 训练日志显示验证准确率从初始 81.25% 到 24 步后的 82.03%�
 
 逐题动作与反思见 [`trajectories.jsonl`](trajectories.jsonl)，配置见 [`../config.json`](../config.json)，聚合指标见 [`metrics.json`](metrics.json)，RLVR 训练控制台与逐步日志分别见 [`training_console.txt`](training_console.txt) 和 [`runs/agent_rlvr_lora_s20261112/training.jsonl`](runs/agent_rlvr_lora_s20261112/training.jsonl)。策略和 tokenizer 哈希在 [`../models/manifest.json`](../models/manifest.json)。
 
+首次上传的远端文件树和 blob 核验结果见 [`github_publication_2026-11-12.json`](github_publication_2026-11-12.json)。该回执指向它加入仓库之前的内容快照。
+
 ## 下一步是什么
 
 当前任务是短程、封闭式的整数排序求和，规划器与工具路由没有学习；24 题也不足以支持宽泛的成功率结论。下一步可扩展到多类算术、检索和代码验证任务，给规划和选工具加入模型动作与独立奖励，再用更大测试集和多个 seed 报告首答率、反思收益及工具选择准确率。

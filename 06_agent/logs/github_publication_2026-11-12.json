@@ -1,0 +1,15 @@
+{
+  "repository": "SakuraDanceMoo/full-chain-training-of-large-models",
+  "url": "https://github.com/SakuraDanceMoo/full-chain-training-of-large-models",
+  "visibility": "public",
+  "branch": "main",
+  "verified_snapshot_commit": "342ca81731a3f0fb733984184ee339ff4960a675",
+  "local_content_commit": "57f24d86858bd6384471d43ea441868af47ce69a",
+  "tree_sha": "bb74f4781bdb4c06ff516fe2faa18d4d5568918e",
+  "snapshot_files": 430,
+  "all_snapshot_blobs_match": true,
+  "remote_additional_paths": [],
+  "local_head_equals_remote_head": false,
+  "local_refs_modified": false,
+  "note": "This receipt records verification of the content snapshot immediately before this receipt was added. The API snapshot preserved remote history and did not synchronize local Git ancestry."
+}

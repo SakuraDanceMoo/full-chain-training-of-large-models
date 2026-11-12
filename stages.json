@@ -116,6 +116,7 @@
       "logs/trajectories.jsonl",
       "logs/metrics.json",
       "logs/2026-11-12_stage6_agent.md",
+      "logs/github_publication_2026-11-12.json",
       "logs/runs/agent_rlvr_lora_s20261112/training.jsonl",
       "curves/success_rate.png",
       "curves/rlvr_reward.png"
